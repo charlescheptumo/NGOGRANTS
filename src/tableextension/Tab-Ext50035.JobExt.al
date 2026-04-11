@@ -724,11 +724,11 @@ TableExtension 50035 "tableextension50035" extends Job
             DataClassification = ToBeClassified;
             Editable = false;
         }
-        // field(85011; "Examination Sitting Cycle"; Code[30])
-        // {
-        //     DataClassification = ToBeClassified;
-        //     TableRelation = "Exam Sitting Cycle";
-        // }
+        field(85011; "Unbudgeted Amount"; Decimal)
+        {
+            DataClassification = ToBeClassified;
+
+        }
     }
     keys
     {

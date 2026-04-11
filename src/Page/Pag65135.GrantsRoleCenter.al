@@ -773,6 +773,53 @@ Page 65135 "Grants  Role Center"
                         //ToolTip = 'Completed Sub Award Contracts';
                     }
                 }
+                group("Project Budgeting")
+                {
+                    caption = 'Project Budgeting';
+                    action("Job Budget Summaries")
+                    {
+                        ApplicationArea = Basic;
+                        RunObject = Page "Job Budget Summaries";
+                        //ToolTip = 'Completed Sub Award Contracts';
+                    }
+                      action("Job Detailed Budget Enties")
+                    {
+                        ApplicationArea = Basic;
+                        RunObject = Page "Job Detailed Budget Enties";
+                        //ToolTip = 'Completed Sub Award Contracts';
+                    }
+                      action("Job Procurement Plans")
+                    {
+                        ApplicationArea = Basic;
+                        RunObject = Page "Procurement Plans List";
+                        //ToolTip = 'Completed Sub Award Contracts';
+                    }
+                      action("Posted Usage Costs")
+                    {
+                        ApplicationArea = Basic;
+                        RunObject = Page "Posted Usage Costs";
+                        //ToolTip = 'Completed Sub Award Contracts';
+                    }
+                      action("Projects Budget Plans-Original")
+                    {
+                        ApplicationArea = Basic;
+                        RunObject = Page "Projects Budget Plans-Original";
+                        //ToolTip = 'Completed Sub Award Contracts';
+                    }
+                      action("Supplementary Project Budget Plans")
+                    {
+                        ApplicationArea = Basic;
+                        RunObject = Page "Projects Budget Plans-Sup";
+                        //ToolTip = 'Completed Sub Award Contracts';
+                    }
+                      action("Project Budget Re-allocation")
+                    {
+                        ApplicationArea = Basic;
+                        RunObject = Page "Projects Budget Plans-Revised";
+                        //ToolTip = 'Completed Sub Award Contracts';
+                    }
+              
+                }
 
             }
             group("Group")

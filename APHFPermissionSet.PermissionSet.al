@@ -4314,5 +4314,19 @@ permissionset 50000 APHFPermissionSet
         page "Cost Reimbursement Lines"=X,
         page "Fixed Price Billing  List"=X,
         page "Fixed Price Billing Card"=X,
-        page "Fixed Price Billing Lines"=X;
+        page "Fixed Price Billing Lines"=X,
+        tabledata "Grant Implementation Requests"=RIMD,
+        tabledata "Project Budget Header"=RIMD,
+        tabledata "Project Budget Planning Line"=RIMD,
+        table "Grant Implementation Requests"=X,
+        table "Project Budget Header"=X,
+        table "Project Budget Planning Line"=X,
+        page "Budget Plan Card-Original"=X,
+        page "Budget Plan Card-Revised"=X,
+        page "Budget Plan Card-Sup"=X,
+        page "Budget Planning Lines"=X,
+        page "Projects Budget Plans-Original"=X,
+        page "Projects Budget Plans-Revised"=X,
+        page "Projects Budget Plans-Sup"=X,
+        page "Revision Planning Lines"=X;
 }
