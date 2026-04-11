@@ -376,8 +376,8 @@ TableExtension 50035 "tableextension50035" extends Job
         field(65022; "Project Type"; Option)
         {
             DataClassification = ToBeClassified;
-            OptionCaption = 'Milestone Based,Fixed-Price';
-            OptionMembers = "Milestone Based","Fixed-Price";
+            OptionCaption = 'Milestone Based,Fixed-Price,Milestone-based,Cost reimbursement';
+            OptionMembers = "Milestone Based","Fixed-Price","Milestone-based","Cost reimbursement";
         }
         field(65024; "Total Billed Amount"; Decimal)
         {
@@ -891,9 +891,9 @@ TableExtension 50035 "tableextension50035" extends Job
         UserNotFound: label 'User Setup %1 not found.';
         PemissionDeniedd: label 'User Account is not Setup for Project Modification. Contact System Administrator.';
         Usersetup: Record "User Setup";
-        // RMSetup: Record "Roads Management Setup";
-        // Courses: Record Courses;
-        // ExamMaterialPlannerHeader: Record "Exam Material Planner Header";
-        // BoqTemplateHeader: Record "Boq Template  Header";
+    // RMSetup: Record "Roads Management Setup";
+    // Courses: Record Courses;
+    // ExamMaterialPlannerHeader: Record "Exam Material Planner Header";
+    // BoqTemplateHeader: Record "Boq Template  Header";
 }
 

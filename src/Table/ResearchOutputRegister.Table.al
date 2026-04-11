@@ -114,7 +114,8 @@ Table 65009 "Research Output Register"
         if No = '' then begin
             GrantsSetup.Get;
             GrantsSetup.TestField("Research Output Nos");
-            NoSeriesMgt.InitSeries(GrantsSetup."Research Output Nos", xRec."No. Series", 0D, No, "No. Series");
+           // NoSeriesMgt.InitSeries(GrantsSetup."Research Output Nos", xRec."No. Series", 0D, No, "No. Series");
+           No:=NoSeriesMgt.GetNextNo(GrantsSetup."Research Output Nos",WorkDate(),true);
         end;
 
         "Document Date" := Today;
@@ -123,7 +124,7 @@ Table 65009 "Research Output Register"
 
     var
         GrantsSetup: Record "Grants Setup";
-        NoSeriesMgt: Codeunit NoSeriesManagement;
+        NoSeriesMgt: Codeunit "No. Series";
         Jobs: Record Job;
         ROCategory: Record "Research Output Categories";
 

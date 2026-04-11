@@ -4304,5 +4304,15 @@ permissionset 50000 APHFPermissionSet
         page "Research Authorship List"=X,
         page "Research Collaboration List"=X,
         page "Research Output Register Card"=X,
-        page "Research Output Register List"=X;
+        page "Research Output Register List"=X,
+        tabledata "Billable Project Lines"=RIMD,
+        tabledata "Project Billable Header"=RIMD,
+        table "Billable Project Lines"=X,
+        table "Project Billable Header"=X,
+        page "Cost Reimbursement Billings"=X,
+        page "Cost Reimbursement Card"=X,
+        page "Cost Reimbursement Lines"=X,
+        page "Fixed Price Billing  List"=X,
+        page "Fixed Price Billing Card"=X,
+        page "Fixed Price Billing Lines"=X;
 }
