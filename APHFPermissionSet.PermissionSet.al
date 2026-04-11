@@ -4287,5 +4287,22 @@ permissionset 50000 APHFPermissionSet
         page "Grant Team Card"=X,
         page "Grant Teams"=X,
         page "Lost Grants Opportunities"=X,
-        page "Won Grants Opportunities"=X;
+        page "Won Grants Opportunities"=X,
+        tabledata "Research Output Activities"=RIMD,
+        tabledata "Research Output Affiliations"=RIMD,
+        tabledata "Research Output Authorship"=RIMD,
+        tabledata "Research Output Register"=RIMD,
+        table "Research Output Activities"=X,
+        table "Research Output Affiliations"=X,
+        table "Research Output Authorship"=X,
+        table "Research Output Register"=X,
+        page "Grant Activities"=X,
+        page "Research Activities Card"=X,
+        page "Research Activities List"=X,
+        page "Research Affiliation Card"=X,
+        page "Research Authorship Card"=X,
+        page "Research Authorship List"=X,
+        page "Research Collaboration List"=X,
+        page "Research Output Register Card"=X,
+        page "Research Output Register List"=X;
 }

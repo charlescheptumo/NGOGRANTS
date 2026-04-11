@@ -180,11 +180,10 @@ Page 65135 "Grants  Role Center"
             }
             group(Reports)
             {
-                Caption = 'Reports';
                 group("Grants Reports")
                 {
                     Caption = 'Grants Reports';
-                    Image = ReferenceData;
+
                     action("Research Centers List")
                     {
                         ApplicationArea = Basic;
@@ -333,7 +332,7 @@ Page 65135 "Grants  Role Center"
             action(PortalUser)
             {
                 ApplicationArea = Basic;
-                Caption = 'APHF Implementing Partners Portal';
+                Caption = 'Implementing Partners Portal';
                 RunObject = Page "Dynasoft Portal User";
             }
 
@@ -350,65 +349,59 @@ Page 65135 "Grants  Role Center"
                     ToolTip = 'Set up Grants Management Module';
                     Caption = 'Grants Setup';
                 }
-                group(Research)
+                action("Research Centers")
                 {
-                    action("Research Centers")
-                    {
-                        ApplicationArea = Basic;
-                        RunObject = Page "Research Center List";
-
-                    }
-                    action("Research Program")
-                    {
-                        ApplicationArea = Basic;
-                        RunObject = Page "Research Program List";
-
-                    }
-                    action("Research Output Categories")
-                    {
-                        ApplicationArea = Basic;
-                        RunObject = Page "Research Output Categories";
-
-                    }
-                    action("Research Approval Committee")
-                    {
-                        ApplicationArea = Basic;
-                        RunObject = Page "Research Approval Comm List";
-
-                    }
-                    action("Research Team Roles")
-                    {
-                        ApplicationArea = Basic;
-                        RunObject = Page "Research Team Roles List";
-
-                    }
-                    group("Grants Management Setup")
-                    {
-                        action("Grants Management No.")
-                        {
-                            ApplicationArea = Basic;
-                            RunObject = Page "Grants Setup Card";
-
-                        }
-                    }
+                    ApplicationArea = Basic;
+                    RunObject = Page "Research Center List";
 
                 }
-                group("Stakeholders")
+                action("Research Program")
                 {
-                    action("Research Investigators")
-                    {
-                        ApplicationArea = Basic;
-                        RunObject = Page "Research Investigators";
+                    ApplicationArea = Basic;
+                    RunObject = Page "Research Program List";
 
-                    }
-                    action("Collaborators")
-                    {
-                        ApplicationArea = Basic;
-                        RunObject = Page "Contact List";
-
-
-                    }
                 }
+                action("Research Output Categories")
+                {
+                    ApplicationArea = Basic;
+                    RunObject = Page "Research Output Categories";
+
+                }
+                action("Research Approval Committee")
+                {
+                    ApplicationArea = Basic;
+                    RunObject = Page "Research Approval Comm List";
+
+                }
+                action("Research Team Roles")
+                {
+                    ApplicationArea = Basic;
+                    RunObject = Page "Research Team Roles List";
+
+                }
+
+                action("Grants Management No.")
+                {
+                    ApplicationArea = Basic;
+                    RunObject = Page "Grants Setup Card";
+
+                }
+
+
+
+
+                action("Research Investigators")
+                {
+                    ApplicationArea = Basic;
+                    RunObject = Page "Research Investigators";
+
+                }
+                action("Collaborators")
+                {
+                    ApplicationArea = Basic;
+                    RunObject = Page "Contact List";
+                }
+
             }
             group("Pre-Award Phase Planning")
             {
@@ -571,20 +564,20 @@ Page 65135 "Grants  Role Center"
                         Caption = 'Closed Internal Calls';
                         ToolTip = 'Posted Addendum Project Contracts';
                     }
-           
+
                     action("Unsuccessful Proposals")
                     {
                         ApplicationArea = Basic;
                         RunObject = Page "Lost Grants Opportunities";
                         Caption = 'Unsuccessful Proposals';
-                      
+
                     }
                     action("Successful Proposals")
                     {
                         ApplicationArea = Basic;
                         RunObject = Page "Won Grants Opportunities";
                         Caption = 'Successful Proposals';
-             
+
                     }
                 }
 
@@ -679,6 +672,30 @@ Page 65135 "Grants  Role Center"
                     RunObject = Page "Completed Sub Award Contracts";
                     ToolTip = 'Completed Sub Award Contracts';
                 }
+            }
+            group("Post-Award Phase")
+            {
+
+                group("Fund & Project Accounting")
+                {
+                    action("Pro")
+                    {
+                        ApplicationArea = Basic;
+                        RunObject = Page "Projects";
+                        Caption = 'Projects';
+                        //ToolTip = 'Completed Sub Award Contracts';
+                    }
+                }
+                group("Project Close Out")
+                {
+                    action("Research Output Registers")
+                    {
+                        ApplicationArea = Basic;
+                        RunObject = Page "Research Output Register List";
+                        //ToolTip = 'Completed Sub Award Contracts';
+                    }
+                }
+
             }
             group("Self Service")
             {

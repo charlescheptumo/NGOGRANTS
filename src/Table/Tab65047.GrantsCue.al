@@ -20,30 +20,30 @@ Table 65047 "Grants Cue"
             Caption = 'User ID Filter';
             FieldClass = FlowFilter;
         }
-        // field(4; "Grant Proposal-Approved"; Integer)
-        // {
-        //     CalcFormula = count("Opportunity" where("Approval Status" = const(Released),
-        //                                                            "Document Date" = field("Date Filter")));
-        //     FieldClass = FlowField;
-        // }
-        // field(5; "Grant Proposal-InProgress"; Integer)
-        // {
-        //     CalcFormula = count("Grant Funding Application" where("Approval Status" = filter(Open | "Pending Approval"),
-        //                                                            "Document Date" = field("Date Filter")));
-        //     FieldClass = FlowField;
-        // }
-        // field(6; "Grant Proposal-Succesful"; Integer)
-        // {
-        //     CalcFormula = count("Grant Funding Application" where("Application Status" = const(Won),
-        //                                                            "Document Date" = field("Date Filter")));
-        //     FieldClass = FlowField;
-        // }
-        // field(7; "Grant Proposal-NotSuccesful"; Integer)
-        // {
-        //     CalcFormula = count("Grant Funding Application" where("Application Status" = const(Lost),
-        //                                                            "Document Date" = field("Date Filter")));
-        //     FieldClass = FlowField;
-        // }
+        field(4; "Grant Proposal-Approved"; Integer)
+        {
+            CalcFormula = count("Opportunity" where("Approval Status" = const(Released)));//,
+                                                                                          // "Document Date" = field("Date Filter")));
+            FieldClass = FlowField;
+        }
+        field(5; "Grant Proposal-InProgress"; Integer)
+        {
+            CalcFormula = count("Grant Funding Application" where("Approval Status" = filter(Open | "Pending Approval"),
+                                                                   "Document Date" = field("Date Filter")));
+            FieldClass = FlowField;
+        }
+        field(6; "Grant Proposal-Succesful"; Integer)
+        {
+            CalcFormula = count("Grant Funding Application" where("Application Status" = const(Won),
+                                                                   "Document Date" = field("Date Filter")));
+            FieldClass = FlowField;
+        }
+        field(7; "Grant Proposal-NotSuccesful"; Integer)
+        {
+            CalcFormula = count("Grant Funding Application" where("Application Status" = const(Lost),
+                                                                   "Document Date" = field("Date Filter")));
+            FieldClass = FlowField;
+        }
         field(8; "Project: Fixed-Price"; Integer)
         {
             CalcFormula = count(Job where("Project Type" = const("Fixed-Price")));
@@ -52,6 +52,17 @@ Table 65047 "Grants Cue"
             begin
                 Modify(true);
             end;
+        }
+        field(97; "Project Closed"; Integer)
+        {
+            CalcFormula = count(Job where("Document Type" = const(Project),
+                                           Status = const(Completed)));
+            FieldClass = FlowField;
+        }
+        field(98; "Project-Ongoing"; Integer)
+        {
+            CalcFormula = count(Job where(Status = const(Open)));
+            FieldClass = FlowField;
         }
         field(9; "Project: Milestone-Based"; Integer)
         {
@@ -63,51 +74,51 @@ Table 65047 "Grants Cue"
                 Modify(true);
             end;
         }
-        // field(10; "Funding Accouncement-Open"; Integer)
-        // {
-        //     CalcFormula = count("Funding Opportunity" where(Status = const(Open),
-        //                                                      "Application date" = field("Date Filter")));
-        //     FieldClass = FlowField;
-        // }
-        // field(11; "Funding Accouncement-Closed"; Integer)
-        // {
-        //     CalcFormula = count("Funding Opportunity" where(Status = const(Closed),
-        //                                                      "Application date" = field("Date Filter")));
-        //     FieldClass = FlowField;
-        // }
-        // field(12; "Anouncement Amount(LCY)"; Decimal)
-        // {
-        //     CalcFormula = sum("Funding Opportunity"."Opportunity Amount(LCY)" where("Application date" = field("Date Filter"),
-        //                                                                              Status = const(Open)));
-        //     FieldClass = FlowField;
-        // }
-        // field(13; "Successfull Proposals(LCY)"; Decimal)
-        // {
-        //     CalcFormula = sum("Grant Funding Application"."Awarded Grant Amount (LCY)" where("Application Status" = const(Won),
-        //                                                                                       "Document Date" = field("Date Filter")));
-        //     FieldClass = FlowField;
-        // }
-        // field(14; "UnSuccessful Proposals(LCY)"; Decimal)
-        // {
-        //     CalcFormula = sum("Grant Funding Application"."Requested Grant Amount(LCY)" where("Application Status" = const(Lost),
-        //                                                                                        "Document Date" = field("Date Filter")));
-        //     FieldClass = FlowField;
-        // }
-        // field(15; "Requests to Approve"; Integer)
-        // {
-        //     CalcFormula = count("Approval Entry" where("Approver ID" = field("User ID Filter"),
-        //                                                 Status = filter(Open)));
-        //     Caption = 'Requests to Approve';
-        //     FieldClass = FlowField;
-        // }
-        // field(16; "Banked Imprest requisition"; Integer)
-        // {
-        //     CalcFormula = count(Payments where("Payment Type" = const(Imprest),
-        //                                         Status = const(Released),
-        //                                         Posted = const(false),
-        //                                         banked = const(true)));
-        //     FieldClass = FlowField;
-        // }
+        field(10; "Funding Accouncement-Open"; Integer)
+        {
+            CalcFormula = count("Funding Opportunity" where(Status = const(Open),
+                                                             "Application date" = field("Date Filter")));
+            FieldClass = FlowField;
+        }
+        field(11; "Funding Accouncement-Closed"; Integer)
+        {
+            CalcFormula = count("Funding Opportunity" where(Status = const(Closed),
+                                                             "Application date" = field("Date Filter")));
+            FieldClass = FlowField;
+        }
+        field(12; "Anouncement Amount(LCY)"; Decimal)
+        {
+            CalcFormula = sum("Funding Opportunity"."Opportunity Amount(LCY)" where("Application date" = field("Date Filter"),
+                                                                                     Status = const(Open)));
+            FieldClass = FlowField;
+        }
+        field(13; "Successfull Proposals(LCY)"; Decimal)
+        {
+            CalcFormula = sum("Grant Funding Application"."Awarded Grant Amount (LCY)" where("Application Status" = const(Won),
+                                                                                              "Document Date" = field("Date Filter")));
+            FieldClass = FlowField;
+        }
+        field(14; "UnSuccessful Proposals(LCY)"; Decimal)
+        {
+            CalcFormula = sum("Grant Funding Application"."Requested Grant Amount(LCY)" where("Application Status" = const(Lost),
+                                                                                               "Document Date" = field("Date Filter")));
+            FieldClass = FlowField;
+        }
+        field(15; "Requests to Approve"; Integer)
+        {
+            CalcFormula = count("Approval Entry" where("Approver ID" = field("User ID Filter"),
+                                                        Status = filter(Open)));
+            Caption = 'Requests to Approve';
+            FieldClass = FlowField;
+        }
+        field(16; "Banked Imprest requisition"; Integer)
+        {
+            CalcFormula = count(Payments where("Payment Type" = const(Imprest),
+                                                Status = const(Released),
+                                                Posted = const(false),
+                                                banked = const(true)));
+            FieldClass = FlowField;
+        }
         field(17; "Open SubAwards"; Integer)
         {
             CalcFormula = count("Sub Award" where("Document Status" = filter(Open)));

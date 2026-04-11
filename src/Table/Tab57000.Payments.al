@@ -201,8 +201,8 @@ Table 57000 "Payments"
         field(19; Status; Option)
         {
             Editable = true;
-            OptionCaption = 'Open,Pending Approval,Pending Prepayment,Approved,Rejected,,Closed';
-            OptionMembers = Open,"Pending Approval","Pending Prepayment",Approved,Rejected,,Closed;
+            OptionCaption = 'Open,Pending Approval,Pending Prepayment,Approved,Rejected,,Closed,Released';
+            OptionMembers = Open,"Pending Approval","Pending Prepayment",Approved,Rejected,,Closed,Released;
 
             trigger OnValidate()
             begin
@@ -2993,13 +2993,13 @@ Table 57000 "Payments"
             CashMgt.TestField("Petty Cash Reversal Nos");
             if "No." = '' then
                 "No." := NoSeriesMgt.GetNextNo(CashMgt."Petty Cash Reversal Nos", WorkDate(), true);
-               // NoSeriesMgt.InitSeries(CashMgt."Petty Cash Reversal Nos", xRec."No. Series", 0D, "No.", "No. Series");
+            // NoSeriesMgt.InitSeries(CashMgt."Petty Cash Reversal Nos", xRec."No. Series", 0D, "No.", "No. Series");
         end;
         if "Payment Type" = "payment type"::"Staff Claim Reversal" then begin
             CashMgt.TestField(CashMgt."Staff Claim Reversal Nos.");
             if "No." = '' then
                 "No." := NoSeriesMgt.GetNextNo(CashMgt."Staff Claim Reversal Nos.", WorkDate(), true);
-                //NoSeriesMgt.InitSeries(CashMgt."Staff Claim Reversal Nos.", xRec."No. Series", 0D, "No.", "No. Series");
+            //NoSeriesMgt.InitSeries(CashMgt."Staff Claim Reversal Nos.", xRec."No. Series", 0D, "No.", "No. Series");
         end;
 
 
@@ -3008,14 +3008,14 @@ Table 57000 "Payments"
             CashMgt.TestField(CashMgt."Imprest Surrender Reversal Nos");
             if "No." = '' then
                 "No." := NoSeriesMgt.GetNextNo(CashMgt."Imprest Surrender Reversal Nos", WorkDate(), true);
-               // NoSeriesMgt.InitSeries(CashMgt."Imprest Surrender Reversal Nos", xRec."No. Series", 0D, "No.", "No. Series");
+            // NoSeriesMgt.InitSeries(CashMgt."Imprest Surrender Reversal Nos", xRec."No. Series", 0D, "No.", "No. Series");
         end;
 
         if "Payment Type" = "payment type"::"Bank Transfer Reversal" then begin
             CashMgt.TestField(CashMgt."Bank Transfer Reversal Nos");
             if "No." = '' then
-                "No." := NoSeriesMgt.GetNextNo(CashMgt."Bank Transfer Reversal Nos", WorkDate(), true); 
-                //NoSeriesMgt.InitSeries(CashMgt."Bank Transfer Reversal Nos", xRec."No. Series", 0D, "No.", "No. Series");
+                "No." := NoSeriesMgt.GetNextNo(CashMgt."Bank Transfer Reversal Nos", WorkDate(), true);
+            //NoSeriesMgt.InitSeries(CashMgt."Bank Transfer Reversal Nos", xRec."No. Series", 0D, "No.", "No. Series");
         end;
 
 
@@ -3023,14 +3023,14 @@ Table 57000 "Payments"
             CashMgt.TestField(CashMgt."Standing Imprest Reversal Nos");
             if "No." = '' then
                 "No." := NoSeriesMgt.GetNextNo(CashMgt."Standing Imprest Reversal Nos", WorkDate(), true);
-               // NoSeriesMgt.InitSeries(CashMgt."Standing Imprest Reversal Nos", xRec."No. Series", 0D, "No.", "No. Series");
+            // NoSeriesMgt.InitSeries(CashMgt."Standing Imprest Reversal Nos", xRec."No. Series", 0D, "No.", "No. Series");
         end;
 
         if "Payment Type" = "payment type"::"Salary Advance Reversal" then begin
             CashMgt.TestField(CashMgt."Salary Advance Reversal Nos");
             if "No." = '' then
                 "No." := NoSeriesMgt.GetNextNo(CashMgt."Salary Advance Reversal Nos", WorkDate(), true);
-                //NoSeriesMgt.InitSeries(CashMgt."Salary Advance Reversal Nos", xRec."No. Series", 0D, "No.", "No. Series");
+            //NoSeriesMgt.InitSeries(CashMgt."Salary Advance Reversal Nos", xRec."No. Series", 0D, "No.", "No. Series");
         end;
     end;
 
