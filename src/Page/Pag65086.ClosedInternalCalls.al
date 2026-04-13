@@ -4,7 +4,7 @@ Page 65086 "Closed Internal Calls"
 {
     ApplicationArea = Basic;
     Caption = 'Closed Internal Calls';
-    //CardPageID = "Funding Opportunity Card";
+    CardPageID = "Funding Opportunity Card";
     Editable = false;
     PageType = List;
     SourceTable = "Funding Opportunity";

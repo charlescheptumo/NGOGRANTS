@@ -4,10 +4,10 @@
 // {
 //     PageType = List;
 //     SourceTable = "Colaborators & Partners";
-//     ApplicationArea = Basic;
+//     ApplicationArea = Basic;//
 
-//     layout
-//     {
+//layout
+//     {//
 //         area(content)
 //         {
 //             repeater(Group)

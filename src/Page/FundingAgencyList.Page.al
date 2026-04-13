@@ -3,7 +3,7 @@ Page 65041 "Funding Agency List"
 {
     ApplicationArea = Basic,Suite,Service;
     Caption = 'Funding Agencies';
-    //CardPageID = "Funding Agency Card";
+  CardPageID = "Funding Agency Card";
     DeleteAllowed = false;
     Editable = false;
     PageType = List;

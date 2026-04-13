@@ -803,16 +803,16 @@ Page 65060 "Project Card"
                         Message('Nofity Team');
                     end;
                 }
-                // action("Project Research Team List")
-                // {
-                //     ApplicationArea = Basic;
-                //     Caption = 'Budget Research Team';
-                //     Image = Group;
-                //     Promoted = true;
-                //     PromotedCategory = Process;
-                //     RunObject = Page "Project Research Team List";
-                //     RunPageLink = "Job No" = field("No.");
-                // }
+                action("Project Research Team List")
+                {
+                    ApplicationArea = Basic;
+                    Caption = 'Budget Research Team';
+                    Image = Group;
+                    Promoted = true;
+                    PromotedCategory = Process;
+                    RunObject = Page "Project Research Team List";
+                    RunPageLink = "Job No" = field("No.");
+                }
                 // action("Project Research Objectives")
                 // {
                 //     ApplicationArea = Basic;
@@ -961,8 +961,8 @@ Page 65060 "Project Card"
                 Image = "Report";
                 Promoted = true;
                 PromotedCategory = "Report";
-                // RunObject = Report "Project Actual To Budget";
-                RunObject = Report "Job Actual To Budget";
+                RunObject = Report "Project Actual To Budget";
+                //  RunObject = Report "Job Actual To Budget";
                 ToolTip = 'Compare budgeted and usage amounts for selected budgets. All lines of the selected job show quantity, total cost, and line amount.';
             }
             action("Job Analysis")
@@ -987,18 +987,18 @@ Page 65060 "Project Card"
                 // RunObject = Report "Job - Planning Lines Cust";
                 ToolTip = 'View all planning lines for the project. You use this window to plan what items, resources, and general ledger expenses that you expect to use on a job (budget) or you can specify what you actually agreed with your customer that he should pay for the job (billable).';
             }
-            // action("Job Actual to Budget2")
-            // {
-            //     ApplicationArea = Basic;
-            //     Caption = 'Budget Actual to Budget2';
-            //     Image = "Report";
-            //     Promoted = true;
-            //     PromotedCategory = "Report";
-            //     Visible = false;
-            //     // RunObject = Report "Project Actual To Budget 2";
-            //     // RunObject = Report "Job Actual To Budget";
-            //     ToolTip = 'Compare budgeted and usage amounts for selected budgets. All lines of the selected job show quantity, total cost, and line amount.';
-            // }
+            action("Job Actual to Budget2")
+            {
+                ApplicationArea = Basic;
+                Caption = 'Budget Actual to Budget2';
+                Image = "Report";
+                Promoted = true;
+                PromotedCategory = "Report";
+                Visible = false;
+                // RunObject = Report "Project Actual To Budget 2";
+                RunObject = Report "Job Actual To Budget";
+                ToolTip = 'Compare budgeted and usage amounts for selected budgets. All lines of the selected job show quantity, total cost, and line amount.';
+            }
             // action("Job Analysis2")
             // {
             //     ApplicationArea = Basic;
@@ -1019,8 +1019,8 @@ Page 65060 "Project Card"
             //     Promoted = true;
             //     PromotedCategory = "Report";
             //     Visible = false;
-            //     // RunObject = Report "Job - Planning Lines";
-            //     // RunObject = Report "Job - Planning Lines Cust";
+            // RunObject = Report "Job - Planning Lines";
+            // RunObject = Report "Job - Planning Lines Cust";
             //     ToolTip = 'View all planning lines for the project. You use this window to plan what items, resources, and general ledger expenses that you expect to use on a job (budget) or you can specify what you actually agreed with your customer that he should pay for the job (billable).';
             // }
             action("Job - Suggested Billing")

@@ -311,22 +311,24 @@ Page 95046 "Grant Funding Proposal Card"
                 ApplicationArea = Basic;
                 Image = Task;
                 Promoted = false;
-                //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                //PromotedCategory = Category4;
-                // RunObject = Page "Grant Research Team list";
-                // RunPageLink = "Grant Opportunity ID" = field("Application No");
+                // The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
+                // PromotedCategory = Category4;
+                RunObject = Page "Grant Research Team list";
+                RunPageLink = "Grant Opportunity ID" = field("Application No");
                 Visible = true;
             }
             action("Grant Admin Teams")
             {
                 ApplicationArea = Basic;
                 Image = Employee;
-                Promoted = false;
+
+                Promoted = true;
+                PromotedCategory = Category4;
                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                //PromotedCategory = Category4;
-                // RunObject = Page "Application Grant Teams";
-                // RunPageLink = "Application Code" = field("Application No");
-                // Visible = true;
+                // PromotedCategory = Category4;
+                RunObject = Page "Application Grant Teams";
+                RunPageLink = "Application Code" = field("Application No");
+                Visible = true;
             }
             action("Administrative Tasks")
             {
@@ -335,20 +337,20 @@ Page 95046 "Grant Funding Proposal Card"
                 Image = Task;
                 Promoted = true;
                 PromotedCategory = Category4;
-                // RunObject = Page "Grant Admin Tasks List";
-                // RunPageLink = "Source Document No." = field("Application No");
-                // Visible = true;
+                RunObject = Page "Grant Admin Tasks List";
+                RunPageLink = "Source Document No." = field("Application No");
+                Visible = true;
             }
-            action("Secondary  Programs")
-            {
-                ApplicationArea = Basic;
-                Image = TeamSales;
-                Promoted = true;
-                PromotedCategory = Category5;
-                // RunObject = Page "Secondary Research Programs";
-                // RunPageLink = "GFA No" = field("Application No"),
-                //               "Research Center" = field("Research Center");
-            }
+            // action("Secondary  Programs")
+            // {
+            //     ApplicationArea = Basic;
+            //     Image = TeamSales;
+            //     Promoted = true;
+            //     PromotedCategory = Category5;
+            //     // RunObject = Page "Secondary Research Programs";
+            //     // RunPageLink = "GFA No" = field("Application No"),
+            //     //               "Research Center" = field("Research Center");
+            // }
             separator(Action61)
             {
             }
@@ -404,8 +406,8 @@ Page 95046 "Grant Funding Proposal Card"
                 Promoted = true;
                 PromotedCategory = Category5;
                 PromotedIsBig = true;
-                // RunObject = Page "GFO Approval Comm Entry List";
-                // RunPageLink = "Grant Funding Application Id" = field("Application No");
+                RunObject = Page "GFO Approval Comm Entry List";
+                RunPageLink = "Grant Funding Application Id" = field("Application No");
             }
             action(Attachments)
             {

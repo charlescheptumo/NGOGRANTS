@@ -4,7 +4,7 @@ Page 65085 "Closed External Calls"
 {
     ApplicationArea = Basic;
     Caption = 'Closed External Calls';
-    //CardPageID = "Funding Opportunity Card";
+    CardPageID = "Funding Opportunity Card";
     Editable = false;
     PageType = List;
     SourceTable = "Funding Opportunity";
