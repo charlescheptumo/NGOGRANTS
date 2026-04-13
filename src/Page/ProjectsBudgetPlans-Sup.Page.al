@@ -4,7 +4,7 @@ Page 65117 "Projects Budget Plans-Sup"
     ApplicationArea = Jobs;
     Caption = 'Projects Budget Plans-Sup';
     CardPageID = "Budget Plan Card-Sup";
-    Editable = false;
+  
     PageType = List;
     SourceTable = "Project Budget Header";
     SourceTableView = where("Budget Type"=const(Suplementary));

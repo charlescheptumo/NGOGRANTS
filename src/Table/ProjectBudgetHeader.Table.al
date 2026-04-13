@@ -6,7 +6,7 @@ Table 65038 "Project Budget Header"
 
     fields
     {
-        field(1;"Project Budget ID";Code[30])
+        field(1; "Project Budget ID"; Code[30])
         {
             DataClassification = ToBeClassified;
 
@@ -14,19 +14,19 @@ Table 65038 "Project Budget Header"
             begin
 
                 if "Project Budget ID" <> xRec."Project Budget ID" then begin
-                  JobsSetup.Get;
-                  NoSeriesMgt.TestManual(JobsSetup."Budget Plan Nos");
-                  "No. Series" := '';
+                    JobsSetup.Get;
+                    NoSeriesMgt.TestManual(JobsSetup."Budget Plan Nos");
+                    "No. Series" := '';
                 end;
             end;
         }
-        field(2;"Budget Type";Option)
+        field(2; "Budget Type"; Option)
         {
             DataClassification = ToBeClassified;
             OptionCaption = 'Original,Revision,Suplementary';
             OptionMembers = Original,Revision,Suplementary;
         }
-        field(3;"Project ID";Code[30])
+        field(3; "Project ID"; Code[30])
         {
             DataClassification = ToBeClassified;
             TableRelation = Job."No.";
@@ -34,136 +34,136 @@ Table 65038 "Project Budget Header"
             trigger OnValidate()
             begin
                 if Jobs.Get("Project ID") then begin
-                  "Currency Code":=Jobs."Currency Code";
-                  Description:=Jobs.Description;
-                  Jobs.CalcFields("Unbudgeted Amount");
-                  "Total Unbudgeted Amount":=Jobs."Unbudgeted Amount";
+                    "Currency Code" := Jobs."Currency Code";
+                    Description := Jobs.Description;
+                    Jobs.CalcFields("Unbudgeted Amount");
+                    "Total Unbudgeted Amount" := Jobs."Unbudgeted Amount";
                 end;
             end;
         }
-        field(4;"Financial Year Code";Code[30])
+        field(4; "Financial Year Code"; Code[30])
         {
             DataClassification = ToBeClassified;
             TableRelation = "Financial Year Code";
         }
-        field(5;"Approval Status";Option)
+        field(5; "Approval Status"; Option)
         {
             DataClassification = ToBeClassified;
             OptionCaption = 'Open,Pending Approval,Released,Rejected';
             OptionMembers = Open,"Pending Approval",Released,Rejected;
         }
-        field(6;"No. Series";Code[20])
+        field(6; "No. Series"; Code[20])
         {
             Caption = 'No. Series';
             DataClassification = ToBeClassified;
             Editable = false;
             TableRelation = "No. Series";
         }
-        field(7;"Currency Code";Code[50])
+        field(7; "Currency Code"; Code[50])
         {
             DataClassification = ToBeClassified;
             TableRelation = Currency;
         }
-        field(8;"External Document No.";Code[50])
+        field(8; "External Document No."; Code[50])
         {
             DataClassification = ToBeClassified;
         }
-        field(9;Description;Text[100])
+        field(9; Description; Text[100])
         {
             DataClassification = ToBeClassified;
         }
-        field(10;"Original Budget Cost";Decimal)
+        field(10; "Original Budget Cost"; Decimal)
         {
-            CalcFormula = sum("Project Budget Planning Line"."Total Cost" where ("Project Budget ID"=field("Project Budget ID")));
+            CalcFormula = sum("Project Budget Planning Line"."Total Cost" where("Project Budget ID" = field("Project Budget ID")));
             FieldClass = FlowField;
 
             trigger OnValidate()
             begin
                 TestField("Budget Category");
-                if "Budget Category"="budget category"::"Receipt Budget" then begin
-                   TestField("Receipt To Bugdet");
-                   CalcFields("Original Budget Cost (LCY)");
-                   if ("Original Budget Cost (LCY)"<>"Receipt Amount To Budget") then
-                      Error('Amount Budgeted must be equal to receipt amount');
+                if "Budget Category" = "budget category"::"Receipt Budget" then begin
+                    TestField("Receipt To Bugdet");
+                    CalcFields("Original Budget Cost (LCY)");
+                    if ("Original Budget Cost (LCY)" <> "Receipt Amount To Budget") then
+                        Error('Amount Budgeted must be equal to receipt amount');
                 end;
             end;
         }
-        field(11;"Original Budget Cost (LCY)";Decimal)
+        field(11; "Original Budget Cost (LCY)"; Decimal)
         {
-            CalcFormula = sum("Project Budget Planning Line"."Total Cost (LCY)" where ("Project Budget ID"=field("Project Budget ID")));
+            CalcFormula = sum("Project Budget Planning Line"."Total Cost (LCY)" where("Project Budget ID" = field("Project Budget ID")));
             FieldClass = FlowField;
         }
-        field(12;"Revision Budget Cost";Decimal)
+        field(12; "Revision Budget Cost"; Decimal)
         {
             DataClassification = ToBeClassified;
         }
-        field(13;"Revision Budget Cost(LCY)";Decimal)
+        field(13; "Revision Budget Cost(LCY)"; Decimal)
         {
             DataClassification = ToBeClassified;
         }
-        field(14;"Supplementary Budget Cost";Decimal)
+        field(14; "Supplementary Budget Cost"; Decimal)
         {
             DataClassification = ToBeClassified;
         }
-        field(15;"Supplementary Budget Cost(LCY)";Decimal)
+        field(15; "Supplementary Budget Cost(LCY)"; Decimal)
         {
             DataClassification = ToBeClassified;
         }
-        field(16;"Created By";Code[50])
+        field(16; "Created By"; Code[50])
         {
             DataClassification = ToBeClassified;
         }
-        field(17;"Created On";Date)
+        field(17; "Created On"; Date)
         {
             DataClassification = ToBeClassified;
         }
-        field(18;"Funding Source";Code[100])
+        field(18; "Funding Source"; Code[100])
         {
             DataClassification = ToBeClassified;
             TableRelation = "Funding Source";
         }
-        field(19;"Procurement Plan";Boolean)
+        field(19; "Procurement Plan"; Boolean)
         {
             DataClassification = ToBeClassified;
         }
-        field(20;"Update Procurement Plan";Boolean)
+        field(20; "Update Procurement Plan"; Boolean)
         {
             DataClassification = ToBeClassified;
         }
-        field(21;Posted;Boolean)
+        field(21; Posted; Boolean)
         {
             DataClassification = ToBeClassified;
         }
-        field(22;"Total Unbudgeted Amount";Decimal)
+        field(22; "Total Unbudgeted Amount"; Decimal)
         {
             DataClassification = ToBeClassified;
         }
-        field(23;"Budget Category";Option)
+        field(23; "Budget Category"; Option)
         {
             DataClassification = ToBeClassified;
             OptionCaption = ' ,Receipt Budget,Special Budget';
             OptionMembers = " ","Receipt Budget","Special Budget";
         }
-        field(24;"Receipt To Bugdet";Code[30])
+        field(24; "Receipt To Bugdet"; Code[30])
         {
             //DataClassification = ToBeClassified;
-           // TableRelation = if ("Budget Category"=const("Receipt Budget")) "Receipts Header1"."No." where ("Project No"=field("Project ID"),
-                                                                                                        //    Posted=const(true),
-                                                                                                        //    Budgeted=const(false));
+            // TableRelation = if ("Budget Category"=const("Receipt Budget")) "Receipts Header1"."No." where ("Project No"=field("Project ID"),
+            //    Posted=const(true),
+            //    Budgeted=const(false));
 
-           // trigger OnValidate()
+            // trigger OnValidate()
             //begin
-               // ReceiptJobLedgerentry.Reset;
-                //ReceiptJobLedgerentry.SetRange("Document No","Receipt To Bugdet");
-                // ReceiptJobLedgerentry.SetRange(Type,ReceiptJobLedgerentry.Type::Receipt);
-                // ReceiptJobLedgerentry.SetRange(Allocated,false);
-              //  if ReceiptJobLedgerentry.FindFirst then begin
+            // ReceiptJobLedgerentry.Reset;
+            //ReceiptJobLedgerentry.SetRange("Document No","Receipt To Bugdet");
+            // ReceiptJobLedgerentry.SetRange(Type,ReceiptJobLedgerentry.Type::Receipt);
+            // ReceiptJobLedgerentry.SetRange(Allocated,false);
+            //  if ReceiptJobLedgerentry.FindFirst then begin
             //       "Receipt Amount To Budget":=ReceiptJobLedgerentry.Amount;
             //       end else
             //        Error('This Receipt does not contain any unbudgeted Entries for Project %1',"Project ID");
-          //  end;
-    }
-        field(25;"Receipt Amount To Budget";Decimal)
+            //  end;
+        }
+        field(25; "Receipt Amount To Budget"; Decimal)
         {
             DataClassification = ToBeClassified;
         }
@@ -171,7 +171,7 @@ Table 65038 "Project Budget Header"
 
     keys
     {
-        key(Key1;"Project Budget ID")
+        key(Key1; "Project Budget ID")
         {
             Clustered = true;
         }
@@ -185,18 +185,19 @@ Table 65038 "Project Budget Header"
     begin
         JobsSetup.Get();
         if "Project Budget ID" = '' then begin
-          JobsSetup.TestField("Budget Plan Nos");
-          NoSeriesMgt.InitSeries(JobsSetup."Budget Plan Nos",xRec."No. Series",0D,"Project Budget ID","No. Series");
+            JobsSetup.TestField("Budget Plan Nos");
+            //NoSeriesMgt.InitSeries(JobsSetup."Budget Plan Nos",xRec."No. Series",0D,"Project Budget ID","No. Series");
+            "Project Budget ID" := NoSeriesMgt.GetNextNo(JobsSetup."Budget Plan Nos", WorkDate(), true);
         end;
 
-        "Created By":=UserId;
+        "Created By" := UserId;
         //"Created On":=TODAY;
         //"External Document No.":="Project Budget ID";
     end;
 
     var
         JobsSetup: Record "Jobs Setup";
-        NoSeriesMgt: Codeunit NoSeriesManagement;
+        NoSeriesMgt: Codeunit "No. Series";
         Jobs: Record Job;
-        //ReceiptJobLedgerentry: Record "Packing Records";
+    //ReceiptJobLedgerentry: Record "Packing Records";
 }

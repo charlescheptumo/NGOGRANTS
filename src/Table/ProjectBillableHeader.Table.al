@@ -106,7 +106,8 @@ Table 65042 "Project Billable Header"
         JobsSetup.Get();
         if "Project Billable ID" = '' then begin
           JobsSetup.TestField("Billable Nos");
-          NoSeriesMgt.InitSeries(JobsSetup."Billable Nos",xRec."No. Series",0D,"Project Billable ID","No. Series");
+         // NoSeriesMgt.InitSeries(JobsSetup."Billable Nos",xRec."No. Series",0D,"Project Billable ID","No. Series");
+          "Project Billable ID":= NoSeriesMgt.GetNextNo(JobsSetup."Billable Nos",WorkDate(),true)
         end;
 
         "Created By":=UserId;
@@ -116,6 +117,6 @@ Table 65042 "Project Billable Header"
 
     var
         JobsSetup: Record "Jobs Setup";
-        NoSeriesMgt: Codeunit NoSeriesManagement;
+        NoSeriesMgt: Codeunit "No. Series";
         Jobs: Record Job;
 }
