@@ -8,7 +8,7 @@ report 69007 "Import payroll details"
         dataitem(Employee; Employee)
         {
             RequestFilterFields = "Pay Period Filter", "Posting Group", "No.";
-            
+
             dataitem("Integer"; "Integer")
             {
                 DataItemTableView = SORTING(Number);
@@ -160,11 +160,15 @@ report 69007 "Import payroll details"
                     end
                     else begin
                         PayrollLines."Basic Salary" := BasicPay;
+                        //CC
+                        PayrollLines."Job No" := 'FC25008';
+                        PayrollLines."Job Task No" := '6120';
                         PayrollLines."Gross Pay" := Totallowances;
                         PayrollLines.Netpay := NetPay;
                         PayrollLines."Total Deduction" := "Total Deductions";
                     end;
-
+                    PayrollLines."Job No" := 'FC25008';
+                    PayrollLines."Job Task No" := '6120';
                     PayrollLines."Personal No." := Employee."No.";
                     PayrollLines."Payroll Period" := PayrollHeader."Payroll Period";
                     PayrollLines.Insert;

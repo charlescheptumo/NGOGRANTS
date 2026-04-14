@@ -248,7 +248,7 @@ Page 75295 "Individual Financial Bid Evalu"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -267,7 +267,7 @@ Page 75295 "Individual Financial Bid Evalu"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -286,7 +286,7 @@ Page 75295 "Individual Financial Bid Evalu"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -304,7 +304,7 @@ Page 75295 "Individual Financial Bid Evalu"
                     Caption = 'Comments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -327,7 +327,7 @@ Page 75295 "Individual Financial Bid Evalu"
                     Caption = 'Re&lease';
                     Image = ReleaseDoc;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ShortCutKey = 'Ctrl+F9';
@@ -347,7 +347,7 @@ Page 75295 "Individual Financial Bid Evalu"
                     Caption = 'Re&open';
                     Image = ReOpen;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Reopen the document to change it after it has been approved. Approved documents have the Released status and must be opened before they can be changed';
 
@@ -375,7 +375,7 @@ Page 75295 "Individual Financial Bid Evalu"
                     ApplicationArea = Basic;
                     Image = TeamSales;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Bid Evaluation Committee";
                     RunPageLink = "Document No." = field(Code);
                     ToolTip = 'Executes the Bid Evaluation Tender Committee action.';

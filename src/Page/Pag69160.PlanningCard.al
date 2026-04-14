@@ -181,7 +181,7 @@ Page 69160 "Planning Card"
                     Caption = '&Plan';
                     Image = StepInto;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     // trigger OnAction()
                     // begin
@@ -208,7 +208,7 @@ Page 69160 "Planning Card"
                     Caption = 'Training Costs';
                     Image = TaskList;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Training Cost";
                     RunPageLink = "Training ID" = field(Code);
                     Visible = false;
@@ -226,7 +226,7 @@ Page 69160 "Planning Card"
                     Caption = 'Training Bonding Conditions';
                     Image = BOM;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Training App Participants List";
                     RunPageLink = "Global Dimension 1 Code" = field(Code);
                     Visible = false;
@@ -241,7 +241,7 @@ Page 69160 "Planning Card"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
 
                     trigger OnAction()
@@ -260,7 +260,7 @@ Page 69160 "Planning Card"
                     Caption = 'Send Approval Request';
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
 
                     trigger OnAction()
@@ -275,7 +275,7 @@ Page 69160 "Planning Card"
                     Caption = 'Cancel Approval Request';
                     Image = CancelAllLines;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
 
                     trigger OnAction()

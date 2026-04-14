@@ -145,7 +145,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = AllLines;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "Vacancy Applicants";
 //                 RunPageLink = "Document ID" = field("Vacancy No");
@@ -174,7 +174,7 @@
 //                     Caption = 'Send A&pproval Request';
 //                     Image = SendApprovalRequest;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Executes the Send A&pproval Request action.';
 //                     trigger OnAction()
 //                     var
@@ -190,7 +190,7 @@
 //                     Enabled = true;
 //                     Image = Cancel;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     ToolTip = 'Executes the Cancel Approval Re&quest action.';
 //                     trigger OnAction()

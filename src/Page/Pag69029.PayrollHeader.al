@@ -313,7 +313,7 @@ Page 69029 "Payroll Header"
                     Enabled = not OpenApprovalEntriesExist;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Send A&pproval Request action.';
                     Visible = Rec.Status = Rec.Status::Open;
                     trigger OnAction()
@@ -339,7 +339,7 @@ Page 69029 "Payroll Header"
                     // Enabled = OpenApprovalEntriesExist;
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Cancel Approval Re&quest action.';
                     Visible = Rec.Status = Rec.Status::"Pending Approval";
                     trigger OnAction()
@@ -368,7 +368,7 @@ Page 69029 "Payroll Header"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = false;
                     ToolTip = 'Executes the Approvals action.';
                     trigger OnAction()
@@ -545,7 +545,7 @@ Page 69029 "Payroll Header"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -564,7 +564,7 @@ Page 69029 "Payroll Header"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -583,7 +583,7 @@ Page 69029 "Payroll Header"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;

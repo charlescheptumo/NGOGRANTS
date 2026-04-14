@@ -220,7 +220,7 @@ Page 57111 "Posted Staff Claim"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = false;
 
                     trigger OnAction()
@@ -249,7 +249,7 @@ Page 57111 "Posted Staff Claim"
                     Enabled = not OpenApprovalEntriesExist;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
 
                     trigger OnAction()
@@ -265,7 +265,7 @@ Page 57111 "Posted Staff Claim"
                     Enabled = OpenApprovalEntriesExist;
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
 
                     trigger OnAction()

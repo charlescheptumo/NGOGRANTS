@@ -202,7 +202,7 @@ Page 70046 "Commitee Creation"
                 Caption = 'Approve';
                 Image = Approve;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Approve the requested changes.';
 
@@ -222,7 +222,7 @@ Page 70046 "Commitee Creation"
                 Caption = 'Reject';
                 Image = Reject;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Reject the approval request.';
 
@@ -242,7 +242,7 @@ Page 70046 "Commitee Creation"
                 Caption = 'Comments';
                 Image = ViewComments;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'View or add comments for the record.';
 
                 trigger OnAction()

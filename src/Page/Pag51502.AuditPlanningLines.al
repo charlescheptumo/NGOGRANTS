@@ -94,7 +94,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Opportunity;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Audit Objectives";
 //                     // RunPageLink = "Audit Plan No." = field("Audit Plan Header");
@@ -105,7 +105,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Lock;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Audit Plan Locations";
 //                     RunPageLink = "Audit Plan No." = field("Audit Plan Header"),
@@ -118,7 +118,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Production;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Audit Plan Procedure";
 //                     RunPageLink = "Audit Plan No." = field("Audit Plan Header"),
@@ -131,7 +131,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = AvailableToPromise;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Audit Plan Scope";
 //                     RunPageLink = "Audit Plan No." = field("Audit Plan Header"),
@@ -144,7 +144,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Resource;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     ToolTip = 'Executes the Proposed Team action.';
 //                 }

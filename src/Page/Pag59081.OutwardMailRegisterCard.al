@@ -208,7 +208,7 @@
 //                 Caption = 'Approvals';
 //                 Image = Approvals;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 ToolTip = 'Executes the Approvals action.';
 //                 trigger OnAction()
 //                 begin
@@ -223,7 +223,7 @@
 //                 Caption = 'Send A&pproval Request';
 //                 Image = SendApprovalRequest;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 Visible = true;
 //                 ToolTip = 'Executes the Send A&pproval Request action.';
 //                 trigger OnAction()
@@ -246,7 +246,7 @@
 //                 Caption = 'Cancel Approval Re&quest';
 //                 Image = Reject;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 ToolTip = 'Executes the Cancel Approval Re&quest action.';
 //                 trigger OnAction()
 //                 begin

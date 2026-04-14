@@ -139,7 +139,7 @@ Page 69662 "Commitee Appointment Voucher"
                 ApplicationArea = Basic;
                 Image = Post;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Executes the Appoint action.';
                 trigger OnAction()

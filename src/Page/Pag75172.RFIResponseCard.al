@@ -142,7 +142,7 @@ Page 75172 "RFI Response Card"
                     Image = Attach;
                     Visible = false;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Add a file as an attachment. You can attach images as well as documents.';
 
                     trigger OnAction()
@@ -161,7 +161,7 @@ Page 75172 "RFI Response Card"
                     Image = Filed;
                     Promoted = true;
                     Visible = false;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "RFI Response Filed Document";
                     RunPageLink = "Document No" = field("Document No.");
                 }

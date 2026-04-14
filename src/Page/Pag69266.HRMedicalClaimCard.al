@@ -222,7 +222,7 @@ Page 69266 "HR Medical Claim Card"
                     Caption = 'Approvals';
                     Image = Approval;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Approvals action.';
                     trigger OnAction()
                     var
@@ -242,7 +242,7 @@ Page 69266 "HR Medical Claim Card"
                     Caption = 'Send A&pproval Request';
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Send A&pproval Request action.';
                     trigger OnAction()
                     var
@@ -264,7 +264,7 @@ Page 69266 "HR Medical Claim Card"
                     ApplicationArea = Basic;
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Canel Approval Request action.';
                     trigger OnAction()
                     var

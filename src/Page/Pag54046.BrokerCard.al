@@ -540,7 +540,7 @@
 //                     Caption = 'Approvals';
 //                     Image = Approvals;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     PromotedOnly = true;
 //                     ToolTip = 'View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.';
 
@@ -921,7 +921,7 @@
 //                     Caption = 'Approve';
 //                     Image = Approve;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     ToolTip = 'Approve the requested changes.';
 //                     Visible = OpenApprovalEntriesExistCurrUser;
@@ -939,7 +939,7 @@
 //                     Caption = 'Reject';
 //                     Image = Reject;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     ToolTip = 'Reject the approval request.';
 //                     Visible = OpenApprovalEntriesExistCurrUser;
@@ -957,7 +957,7 @@
 //                     Caption = 'Delegate';
 //                     Image = Delegate;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Delegate the approval to a substitute approver.';
 //                     Visible = OpenApprovalEntriesExistCurrUser;
 
@@ -974,7 +974,7 @@
 //                     Caption = 'Comments';
 //                     Image = ViewComments;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'View or add comments for the record.';
 //                     Visible = OpenApprovalEntriesExistCurrUser;
 
@@ -997,7 +997,7 @@
 //                     Enabled = not OpenApprovalEntriesExist and CanRequestApprovalForFlow;
 //                     Image = SendApprovalRequest;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     PromotedOnly = true;
 //                     ToolTip = 'Request approval to change the record.';
 
@@ -1016,7 +1016,7 @@
 //                     Enabled = CanCancelApprovalForRecord or CanCancelApprovalForFlow;
 //                     Image = CancelApprovalRequest;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     PromotedOnly = true;
 //                     ToolTip = 'Cancel the approval request.';
 
@@ -1037,7 +1037,7 @@
 //                         Caption = 'Create a Flow';
 //                         Image = Flow;
 //                         Promoted = true;
-//                         PromotedCategory = Category5;
+//                         PromotedCategory = Process;
 //                         PromotedOnly = true;
 //                         ToolTip = 'Create a new Flow from a list of relevant Flow templates.';
 //                         Visible = IsSaaS;
@@ -1058,7 +1058,7 @@
 //                         Caption = 'See my Flows';
 //                         Image = Flow;
 //                         Promoted = true;
-//                         PromotedCategory = Category5;
+//                         PromotedCategory = Process;
 //                         PromotedOnly = true;
 //                         RunObject = Page "Flow Selector";
 //                         ToolTip = 'View and configure Flows that you created.';

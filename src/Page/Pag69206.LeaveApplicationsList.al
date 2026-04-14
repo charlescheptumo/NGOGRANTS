@@ -132,7 +132,7 @@ Page 69206 "Leave Applications List"
                     Caption = '&Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Approvals action.';
                     trigger OnAction()
                     begin
@@ -148,7 +148,7 @@ Page 69206 "Leave Applications List"
                     Enabled = not OpenApprovalEntriesExist;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Send A&pproval Request action.';
                     trigger OnAction()
                     begin
@@ -164,7 +164,7 @@ Page 69206 "Leave Applications List"
                     Enabled = OpenApprovalEntriesExist;
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Cancel Approval Re&quest action.';
                     trigger OnAction()
                     begin
@@ -177,7 +177,7 @@ Page 69206 "Leave Applications List"
                     Caption = 'Re-Open';
                     Image = ReopenCancelled;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     ToolTip = 'Executes the Re-Open action.';
                     trigger OnAction()
@@ -193,7 +193,7 @@ Page 69206 "Leave Applications List"
                     Caption = 'Recall';
                     Image = ReopenCancelled;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Re-Open action.';
                     RunObject = page "Leave Application Recall";
                 }
@@ -203,7 +203,7 @@ Page 69206 "Leave Applications List"
                     Caption = 'Recall';
                     Image = ReopenCancelled;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Re-Open action.';
                     trigger OnAction()
                     var

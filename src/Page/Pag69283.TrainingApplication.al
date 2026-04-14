@@ -56,7 +56,7 @@ Page 69283 "Training Application"
                     Caption = 'Comments';
                     Image = Comment;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -80,7 +80,7 @@ Page 69283 "Training Application"
                     Caption = '&Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -99,7 +99,7 @@ Page 69283 "Training Application"
                     Caption = '&Send Approval &Request';
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     begin
@@ -117,7 +117,7 @@ Page 69283 "Training Application"
                     Caption = '&Cancel Approval request';
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     begin
@@ -131,7 +131,7 @@ Page 69283 "Training Application"
                     Caption = '&Print';
                     Image = PrintForm;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     begin
@@ -148,7 +148,7 @@ Page 69283 "Training Application"
                     Caption = 'Re-Open';
                     Image = ReOpen;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
 
                     trigger OnAction()
@@ -175,7 +175,7 @@ Page 69283 "Training Application"
                     Caption = 'Training Participants';
                     Image = PersonInCharge;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Training App Participants List";
                     RunPageLink = "Training Code" = field(Code);
                 }
@@ -221,7 +221,7 @@ Page 69283 "Training Application"
                     Caption = 'Training Costs';
                     Image = TaskList;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Training Cost";
                     RunPageLink = "Training ID" = field(Code);
                 }

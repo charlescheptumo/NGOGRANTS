@@ -136,7 +136,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = QualificationOverview;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "HSE Plan Sections";
 //                 RunPageLink = "Plan ID" = field("Plan ID"),
@@ -148,7 +148,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = GanttChart;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "HSE Plan Sections";
 //                 RunPageLink = "Plan ID" = field("Plan ID"),
@@ -160,7 +160,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = "Action";
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "HSE Plan Sections";
 //                 RunPageLink = "Plan ID" = field("Plan ID"),
@@ -172,7 +172,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = RollUpCosts;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "HSE Roles";
 //                 ToolTip = 'Executes the Roles & Responsibilities action.';
@@ -182,7 +182,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = MoveDown;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "Hazard Identification Methods";
 //                 ToolTip = 'Executes the Hazard Identification Methods action.';
@@ -192,7 +192,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = StepInto;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "OSH Legal Instruments";
 //                 ToolTip = 'Executes the Legal Instruments & Standards action.';
@@ -287,7 +287,7 @@
 //                 Caption = 'Dimensions';
 //                 Image = Dimensions;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ShortCutKey = 'Shift+Ctrl+D';
 //                 ToolTip = 'View or edit dimensions, such as area, project, or department, that you can assign to sales and purchase documents to distribute costs and analyze transaction history.';
@@ -308,7 +308,7 @@
 //                     Caption = 'Send A&pproval Request';
 //                     Image = SendApprovalRequest;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Executes the Send A&pproval Request action.';
 //                     trigger OnAction()
 //                     begin
@@ -327,7 +327,7 @@
 //                     Caption = 'Cancel Approval Re&quest';
 //                     Image = Cancel;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Executes the Cancel Approval Re&quest action.';
 //                     trigger OnAction()
 //                     begin
@@ -354,7 +354,7 @@
 //                     Caption = 'Re&lease';
 //                     Image = ReleaseDoc;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     ShortCutKey = 'Ctrl+F9';
 //                     ToolTip = 'Executes the Re&lease action.';
 //                     trigger OnAction()
@@ -373,7 +373,7 @@
 //                     Caption = 'Re&open';
 //                     Image = ReOpen;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Executes the Re&open action.';
 //                     trigger OnAction()
 //                     var

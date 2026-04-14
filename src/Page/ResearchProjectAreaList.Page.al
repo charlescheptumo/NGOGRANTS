@@ -3,6 +3,7 @@ Page 65012 "Research Project Area List"
 {
     CardPageID = "Research Project Area Card";
     Editable = false;
+    caption = 'Operations Project Area List';
     PageType = List;
     SourceTable = "Research Project Area";
     ApplicationArea = All;

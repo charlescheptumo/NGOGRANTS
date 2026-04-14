@@ -497,7 +497,7 @@ Page 50400 "Customer Card CRM"
                     Ellipsis = true;
                     Image = CustomerCode;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                    //PromotedCategory = Category5;
+                    //PromotedCategory = Process;
                     //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
                     //PromotedIsBig = true;
                     RunObject = Page "Standard Customer Sales Codes";
@@ -651,7 +651,7 @@ Page 50400 "Customer Card CRM"
                 Image = BlanketOrder;
                 Promoted = false;
                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                //PromotedCategory = Category4;
+                //PromotedCategory = Process;
                 RunObject = Page "Blanket Sales Order";
                 RunPageLink = "Sell-to Customer No." = field("No.");
                 RunPageMode = Create;
@@ -664,7 +664,7 @@ Page 50400 "Customer Card CRM"
                 Caption = 'Sales Quote';
                 Image = NewSalesQuote;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Sales Quote";
                 RunPageLink = "Sell-to Customer No." = field("No.");
                 RunPageMode = Create;
@@ -678,7 +678,7 @@ Page 50400 "Customer Card CRM"
                 Caption = 'Sales Invoice';
                 Image = NewSalesInvoice;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 // RunObject = Page "Sales Invoice";
                 // RunPageLink = "Sell-to Customer No." = field("No.");
                 RunPageMode = Create;
@@ -692,7 +692,7 @@ Page 50400 "Customer Card CRM"
                 Caption = 'Sales Order';
                 Image = Document;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Sales Order";
                 RunPageLink = "Sell-to Customer No." = field("No.");
                 RunPageMode = Create;
@@ -706,7 +706,7 @@ Page 50400 "Customer Card CRM"
                 Caption = 'Sales Credit Memo';
                 Image = CreditMemo;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Sales Credit Memo";
                 RunPageLink = "Sell-to Customer No." = field("No.");
                 RunPageMode = Create;
@@ -720,7 +720,7 @@ Page 50400 "Customer Card CRM"
                 Caption = 'Sales Quote';
                 Image = NewSalesQuote;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Offer items or services to a customer.';
                 Visible = IsOfficeAddin;
 
@@ -736,7 +736,7 @@ Page 50400 "Customer Card CRM"
                 Caption = 'Sales Invoice';
                 Image = NewSalesInvoice;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedOnly = true;
                 ToolTip = 'Create a sales invoice for the customer.';
                 Visible = IsOfficeAddin;
@@ -753,7 +753,7 @@ Page 50400 "Customer Card CRM"
                 Caption = 'Sales Order';
                 Image = Document;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Create a sales order for the customer.';
                 Visible = IsOfficeAddin;
 
@@ -769,7 +769,7 @@ Page 50400 "Customer Card CRM"
                 Caption = 'Sales Credit Memo';
                 Image = CreditMemo;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Create a new sales credit memo to revert a posted sales invoice.';
                 Visible = IsOfficeAddin;
 
@@ -786,7 +786,7 @@ Page 50400 "Customer Card CRM"
                 Image = ReturnOrder;
                 Promoted = false;
                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                //PromotedCategory = Category4;
+                //PromotedCategory = Process;
                 RunObject = Page "Sales Return Order";
                 RunPageLink = "Sell-to Customer No." = field("No.");
                 RunPageMode = Create;
@@ -800,7 +800,7 @@ Page 50400 "Customer Card CRM"
                 Image = Quote;
                 Promoted = false;
                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                //PromotedCategory = Category4;
+                //PromotedCategory = Process;
                 RunObject = Page "Service Quote";
                 RunPageLink = "Customer No." = field("No.");
                 RunPageMode = Create;
@@ -814,7 +814,7 @@ Page 50400 "Customer Card CRM"
                 Image = Invoice;
                 Promoted = false;
                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                //PromotedCategory = Category4;
+                //PromotedCategory = Process;
                 RunObject = Page "Service Invoice";
                 RunPageLink = "Customer No." = field("No.");
                 RunPageMode = Create;
@@ -828,7 +828,7 @@ Page 50400 "Customer Card CRM"
                 Image = Document;
                 Promoted = false;
                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                //PromotedCategory = Category4;
+                //PromotedCategory = Process;
                 RunObject = Page "Service Order";
                 RunPageLink = "Customer No." = field("No.");
                 RunPageMode = Create;
@@ -842,7 +842,7 @@ Page 50400 "Customer Card CRM"
                 Image = CreditMemo;
                 Promoted = false;
                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                //PromotedCategory = Category4;
+                //PromotedCategory = Process;
                 RunObject = Page "Service Credit Memo";
                 RunPageLink = "Customer No." = field("No.");
                 RunPageMode = Create;
@@ -855,7 +855,7 @@ Page 50400 "Customer Card CRM"
                 Caption = 'Reminder';
                 Image = Reminder;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page Reminder;
                 RunPageLink = "Customer No." = field("No.");
                 RunPageMode = Create;
@@ -869,7 +869,7 @@ Page 50400 "Customer Card CRM"
                 Image = FinChargeMemo;
                 Promoted = false;
                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                //PromotedCategory = Category4;
+                //PromotedCategory = Process;
                 RunObject = Page "Finance Charge Memo";
                 RunPageLink = "Customer No." = field("No.");
                 RunPageMode = Create;
@@ -888,7 +888,7 @@ Page 50400 "Customer Card CRM"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -907,7 +907,7 @@ Page 50400 "Customer Card CRM"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the approval request.';
@@ -926,7 +926,7 @@ Page 50400 "Customer Card CRM"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the approval to a substitute approver.';
                     Visible = OpenApprovalEntriesExistCurrUser;
@@ -944,7 +944,7 @@ Page 50400 "Customer Card CRM"
                     Caption = 'Comments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistCurrUser;
@@ -1015,11 +1015,11 @@ Page 50400 "Customer Card CRM"
                         trigger OnAction()
                         var
                             FlowServiceManagement: Codeunit "Flow Service Management";
-                            //FlowTemplateSelector: Page "Flow Template Selector";
+                        //FlowTemplateSelector: Page "Flow Template Selector";
                         begin
                             // Opens page 6400 where the user can use filtered templates to create new flows.
-                          //  FlowTemplateSelector.SetSearchText(FlowServiceManagement.GetCustomerTemplateFilter);
-                          //  FlowTemplateSelector.Run;
+                            //  FlowTemplateSelector.SetSearchText(FlowServiceManagement.GetCustomerTemplateFilter);
+                            //  FlowTemplateSelector.Run;
                         end;
                     }
                     action(SeeFlows)
@@ -1029,7 +1029,7 @@ Page 50400 "Customer Card CRM"
                         Image = Flow;
                         Promoted = true;
                         PromotedCategory = Category6;
-                       // RunObject = Page "Flow Selector";
+                        // RunObject = Page "Flow Selector";
                         ToolTip = 'View and configure Flows that you created.';
                     }
                 }

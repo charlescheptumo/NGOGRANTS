@@ -282,7 +282,7 @@ Page 57166 "Imprest Warrant Voucher"
                     ApplicationArea = Basic;
                     Image = Export;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Executes the Mpesa Payments Report action.';
                     trigger OnAction()

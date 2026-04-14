@@ -216,7 +216,7 @@ Page 57063 "Approved Bank Transfer"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = false;
                     ToolTip = 'Executes the Approvals action.';
                     trigger OnAction()
@@ -245,7 +245,7 @@ Page 57063 "Approved Bank Transfer"
                     Enabled = not OpenApprovalEntriesExist;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Send A&pproval Request action.';
                     trigger OnAction()
                     var
@@ -266,14 +266,14 @@ Page 57063 "Approved Bank Transfer"
                     Enabled = OpenApprovalEntriesExist;
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Cancel Approval Re&quest action.';
                     trigger OnAction()
                     var
                         VarVariant: Variant;
                         CustomApprovals: Codeunit "Custom Approvals Codeunit";
                     begin
-                          VarVariant := Rec;
+                        VarVariant := Rec;
                         CustomApprovals.OnCancelDocApprovalRequest(VarVariant);
                         //ApprovalsMgmt.OnCancelPaymentsApprovalRequest(Rec);
                     end;
@@ -292,7 +292,7 @@ Page 57063 "Approved Bank Transfer"
                     Caption = 'Attachments';
                     Image = Attach;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Add a file as an attachment. You can attach images as well as documents.';
 
                     trigger OnAction()
@@ -415,7 +415,7 @@ Page 57063 "Approved Bank Transfer"
                     ApplicationArea = Basic;
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Approve action.';
                 }
                 action(Reject)

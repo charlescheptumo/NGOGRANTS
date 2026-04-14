@@ -39,7 +39,7 @@ page 50105 "Approval Test Card"
                 //Enabled = not OpenApprovalEntriesExist;
                 Image = SendApprovalRequest;
                 //Promoted = true;
-                //PromotedCategory = Category4;
+                //PromotedCategory = Process;
                 ToolTip = 'Executes the Send A&pproval Request action.';
 
 
@@ -61,7 +61,7 @@ page 50105 "Approval Test Card"
                 //Enabled = OpenApprovalEntriesExist;
                 Image = Cancel;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Cancel Approval Re&quest action.';
                 trigger OnAction()
                 var
@@ -78,5 +78,5 @@ page 50105 "Approval Test Card"
             }
         }
     }
-    
+
 }

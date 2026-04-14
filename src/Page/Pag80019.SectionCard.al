@@ -214,7 +214,7 @@ Page 80019 "Section Card"
                 Caption = 'Responsibility Centers';
                 Image = Position;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Responsibility Center List";
                 ToolTip = 'Set up responsibility centers to administer business operations that cover multiple locations, such as a sales offices or a purchasing departments.';
             }
@@ -226,7 +226,7 @@ Page 80019 "Section Card"
                 ApplicationArea = Basic;
                 Image = AccountingPeriods;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Annual Reporting Codes";
             }
             group(ActionGroup37)

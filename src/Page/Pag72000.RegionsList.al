@@ -113,7 +113,7 @@ Page 72000 "Regions List"
                     ApplicationArea = Basic;
                     Image = Job;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Job List";
                     RunPageLink = "Research Center" = field(Code);
                 }
@@ -122,7 +122,7 @@ Page 72000 "Regions List"
                 //     ApplicationArea = Basic;
                 //     Image = Skills;
                 //     Promoted = true;
-                //     PromotedCategory = Category4;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Research Sub-Center List";
                 //     RunPageLink = "Research Centre" = field(Code);
                 // }
@@ -131,7 +131,7 @@ Page 72000 "Regions List"
                 //     ApplicationArea = Basic;
                 //     Image = Planning;
                 //     Promoted = true;
-                //     PromotedCategory = Category4;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Research Center Programs List";
                 //     RunPageLink = "Center Code" = field(Code);
                 // }
@@ -140,7 +140,7 @@ Page 72000 "Regions List"
                 //     ApplicationArea = Basic;
                 //     Image = FixedAssets;
                 //     Promoted = true;
-                //     PromotedCategory = Category5;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Research Infrastructure List";
                 //     RunPageLink = "Center Code" = field(Code);
                 // }
@@ -149,7 +149,7 @@ Page 72000 "Regions List"
                     ApplicationArea = Basic;
                     Image = FixedAssets;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Fixed Asset List";
                     RunPageLink = "Research Center" = field(Code);
                 }
@@ -158,7 +158,7 @@ Page 72000 "Regions List"
                     ApplicationArea = Basic;
                     Image = Statistics;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Research Center Statistics";
                     RunPageLink = Code = field(Code);
                 }
@@ -172,7 +172,7 @@ Page 72000 "Regions List"
                 {
                     ApplicationArea = Basic;
                     Image = "report";
-                  //  RunObject = Report "Research Center List";
+                    //  RunObject = Report "Research Center List";
                 }
                 // action("Research Centers Profile")
                 // {

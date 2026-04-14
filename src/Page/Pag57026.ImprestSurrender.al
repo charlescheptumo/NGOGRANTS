@@ -395,7 +395,7 @@ Page 57026 "Imprest Surrender"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = false;
                     ToolTip = 'Executes the Approvals action.';
                     trigger OnAction()
@@ -425,7 +425,7 @@ Page 57026 "Imprest Surrender"
                     Enabled = not OpenApprovalEntriesExist;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Send A&pproval Request action.';
                     trigger OnAction()
                     var
@@ -465,7 +465,7 @@ Page 57026 "Imprest Surrender"
                     // Enabled = OpenApprovalEntriesExist;
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Cancel Approval Re&quest action.';
                     trigger OnAction()
                     var
@@ -533,7 +533,7 @@ Page 57026 "Imprest Surrender"
                 Caption = 'Attachments';
                 Image = Attach;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 ToolTip = 'Add a file as an attachment. You can attach images as well as documents.';
                 Visible = false;
 
@@ -612,7 +612,7 @@ Page 57026 "Imprest Surrender"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -631,7 +631,7 @@ Page 57026 "Imprest Surrender"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -650,7 +650,7 @@ Page 57026 "Imprest Surrender"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -685,7 +685,7 @@ Page 57026 "Imprest Surrender"
                     ApplicationArea = Basic;
                     Image = Attach;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     Visible = false;
                     ToolTip = 'Executes the Attach Documents action.';

@@ -110,7 +110,7 @@ Page 69246 "HR Shortlisting Card"
                     Caption = 'Get ShortListed Applicants';
                     Image = SelectField;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Get ShortListed Applicants action.';
                     trigger OnAction()
                     begin
@@ -166,7 +166,7 @@ Page 69246 "HR Shortlisting Card"
                     Caption = 'Qualify Applicants';
                     Image = SelectField;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Qualify Applicants action.';
                     trigger OnAction()
                     begin
@@ -196,7 +196,7 @@ Page 69246 "HR Shortlisting Card"
                     Image = PrintReport;
                     ToolTip = 'Executes the &Print action.';
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                    //PromotedCategory = Category4;
+                    //PromotedCategory = Process;
 
                     trigger OnAction()
                     begin
@@ -212,7 +212,7 @@ Page 69246 "HR Shortlisting Card"
                     Caption = '&Send Interview Invitation';
                     Image = SendMail;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Send Interview Invitation action.';
                     trigger OnAction()
                     begin
@@ -272,7 +272,7 @@ Page 69246 "HR Shortlisting Card"
                     Caption = '&Print1';
                     Image = PrintReport;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
                     ToolTip = 'Executes the &Print1 action.';
                     trigger OnAction()

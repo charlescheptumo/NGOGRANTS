@@ -196,7 +196,7 @@ Page 69221 "Training Requisition"
                     Caption = '&Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -215,7 +215,7 @@ Page 69221 "Training Requisition"
                     Caption = 'Send A&pproval Request';
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     // trigger OnAction()
                     // begin
@@ -231,7 +231,7 @@ Page 69221 "Training Requisition"
                     Caption = 'Cancel Approval Re&quest';
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     begin
@@ -263,7 +263,7 @@ Page 69221 "Training Requisition"
                     Caption = 'Re-Open';
                     Image = ReOpen;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
 
                     trigger OnAction()
@@ -301,7 +301,7 @@ Page 69221 "Training Requisition"
                 Caption = 'Upload Documents';
                 Image = Attach;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 ToolTip = 'Add a file as an attachment. You can attach images as well as documents.';
 
                 trigger OnAction()

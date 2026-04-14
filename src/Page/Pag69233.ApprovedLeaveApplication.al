@@ -366,7 +366,7 @@ Page 69233 "Approved Leave Application"
                     Caption = 'Comments';
                     Image = Comment;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Comments action.';
                     trigger OnAction()
                     var
@@ -402,7 +402,7 @@ Page 69233 "Approved Leave Application"
                     Caption = '&Post Leave Application';
                     Image = Post;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Post Leave Application action.';
                     trigger OnAction()
                     var
@@ -442,7 +442,7 @@ Page 69233 "Approved Leave Application"
                     Caption = '&Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Approvals action.';
                     trigger OnAction()
                     begin
@@ -458,7 +458,7 @@ Page 69233 "Approved Leave Application"
                     Caption = 'Re-Open';
                     Image = ReopenCancelled;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Re-Open action.';
                     trigger OnAction()
                     begin
@@ -472,7 +472,7 @@ Page 69233 "Approved Leave Application"
                     Caption = 'Print';
                     Image = PrintForm;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Print action.';
                     trigger OnAction()
                     begin
@@ -488,7 +488,7 @@ Page 69233 "Approved Leave Application"
                     Caption = 'Create Leave Ledger Entries';
                     Image = CreateLinesFromJob;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
                     ToolTip = 'Executes the Create Leave Ledger Entries action.';
                     trigger OnAction()

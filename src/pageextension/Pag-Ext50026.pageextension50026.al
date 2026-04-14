@@ -232,7 +232,7 @@ PageExtension 50026 "pageextension50026" extends "Job Card"
                 //     ApplicationArea = Basic;
                 //     Image = Job;
                 //     Promoted = true;
-                //     PromotedCategory = Category4;
+                //     PromotedCategory = Process;
                 //     PromotedIsBig = true;
 
                 //     trigger OnAction()

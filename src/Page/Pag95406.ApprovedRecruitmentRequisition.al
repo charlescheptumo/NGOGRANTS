@@ -466,7 +466,7 @@ page 95406 ApprovedRecruitmentRequisition
                 Caption = 'Approvals';
                 Image = Approvals;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = false;
 
                 trigger OnAction()
@@ -485,7 +485,7 @@ page 95406 ApprovedRecruitmentRequisition
                 Image = SendApprovalRequest;
                 Promoted = true;
                 Visible = Rec."Approval Status" = Rec."Approval Status"::Open;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
@@ -509,7 +509,7 @@ page 95406 ApprovedRecruitmentRequisition
                 Enabled = true;
                 Image = Cancel;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 Visible = Rec."Approval Status" = Rec."Approval Status"::"Pending Approval";
 
                 trigger OnAction()

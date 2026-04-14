@@ -1,7 +1,7 @@
 #pragma warning disable AA0005, AA0008, AA0018, AA0021, AA0072, AA0137, AA0201, AA0204, AA0206, AA0218, AA0228, AL0254, AL0424, AS0011, AW0006 // ForNAV settings
 Page 65000 "Research Center Card"
 {
-    Caption = 'Research Center Card';
+    Caption = 'Operation Center Card';
     DeleteAllowed = false;
     PageType = Card;
     SourceTable = "Research Center";
@@ -112,7 +112,7 @@ Page 65000 "Research Center Card"
                     ToolTip = 'Specifies the responsibility center''s web site.';
                 }
             }
-            group(" Research")
+            group(" Operations")
             {
                 field(ResearchCenter; Rec."Research Center?")
                 {
@@ -151,6 +151,7 @@ Page 65000 "Research Center Card"
         {
             part(Control35; "Research Center Factbox")
             {
+                caption = 'Operations Center FactBox';
                 SubPageLink = Code = field(Code);
             }
             systempart(Control1900383207; Links)
@@ -212,7 +213,7 @@ Page 65000 "Research Center Card"
                     Promoted = true;
                     PromotedCategory = Process;
                     RunObject = Page "Employee List-P";
-                   // RunPageLink = "Research Center" = field(Code);
+                    // RunPageLink = "Research Center" = field(Code);
                 }
                 action("Grants Profile")
                 {
@@ -221,14 +222,14 @@ Page 65000 "Research Center Card"
                     Promoted = true;
                     PromotedCategory = Process;
                     RunObject = Page "Grant Funding Application List";
-                   // RunPageLink = "Research Center" = field(Code);
+                    // RunPageLink = "Research Center" = field(Code);
                 }
                 action("Project profile")
                 {
                     ApplicationArea = Basic;
                     Image = Job;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Job List";
                     RunPageLink = "Research Center" = field(Code);
                 }
@@ -237,7 +238,7 @@ Page 65000 "Research Center Card"
                     ApplicationArea = Basic;
                     Image = Skills;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     // RunObject = Page "Research Sub-Center List";
                     // RunPageLink = "Research Centre" = field(Code);
                 }
@@ -246,7 +247,7 @@ Page 65000 "Research Center Card"
                     ApplicationArea = Basic;
                     Image = Planning;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Research Center Programs List";
                     RunPageLink = "Center Code" = field(Code);
                 }
@@ -255,7 +256,7 @@ Page 65000 "Research Center Card"
                     ApplicationArea = Basic;
                     Image = FixedAssets;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     // RunObject = Page "Research Infrastructure List";
                     // RunPageLink = "Center Code" = field(Code);
                 }
@@ -264,7 +265,7 @@ Page 65000 "Research Center Card"
                     ApplicationArea = Basic;
                     Image = FixedAssets;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Fixed Asset List";
                     RunPageLink = "Research Center" = field(Code);
                 }
@@ -273,7 +274,7 @@ Page 65000 "Research Center Card"
                     ApplicationArea = Basic;
                     Image = Statistics;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Research Center Statistics";
                     RunPageLink = Code = field(Code);
                 }

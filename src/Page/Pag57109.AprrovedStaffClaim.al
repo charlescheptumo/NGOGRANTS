@@ -320,7 +320,7 @@ Page 57109 "Aprroved Staff Claim"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = false;
                     ToolTip = 'Executes the Approvals action.';
                     trigger OnAction()

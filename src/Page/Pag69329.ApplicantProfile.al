@@ -191,7 +191,7 @@ Page 69329 "Applicant Profile"
                     ApplicationArea = Basic;
                     Image = Holiday;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Applicant Hobbies";
                     RunPageLink = "Applicant ID" = field("Scheme No");
                     ToolTip = 'Executes the Applicant Hobbies action.';

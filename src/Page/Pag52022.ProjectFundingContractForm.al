@@ -67,18 +67,18 @@ Page 52022 "Project Funding Contract Form"
             }
             part(GrantResearchObjectivesList; "Grant Research Objectives List")
             {
-                SubPageLink="Grant Application ID" = field("Project Contract No");
-                ApplicationArea=Basic;
-                Caption='Grant Objectives';
+                SubPageLink = "Grant Application ID" = field("Project Contract No");
+                ApplicationArea = Basic;
+                Caption = 'Grant Objectives';
             }
-            part(GrantPaymentSchedule;"Grant Payment Schedule")
+            part(GrantPaymentSchedule; "Grant Payment Schedule")
             {
                 SubPageLink = "Grant No" = field("Project Contract No");
                 ApplicationArea = Basic;
             }
             part(GrantReportingSchedule; "Grant Reporting Schedule")
             {
-                SubPageLink =  "Grant No" = field("Project Contract No");
+                SubPageLink = "Grant No" = field("Project Contract No");
                 ApplicationArea = Basic;
                 Caption = 'Grant Reporting Schedule';
             }
@@ -337,7 +337,7 @@ Page 52022 "Project Funding Contract Form"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -355,7 +355,7 @@ Page 52022 "Project Funding Contract Form"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -373,7 +373,7 @@ Page 52022 "Project Funding Contract Form"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
 
@@ -390,7 +390,7 @@ Page 52022 "Project Funding Contract Form"
                     Caption = 'Comments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'View or add comments for the record.';
 

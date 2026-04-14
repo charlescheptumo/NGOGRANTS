@@ -87,7 +87,7 @@ Page 69312 "Approved Training Needs Header"
                     Caption = '&Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Approvals action.';
                     trigger OnAction()
                     var
@@ -103,7 +103,7 @@ Page 69312 "Approved Training Needs Header"
                     Caption = '&Send Approval &Request';
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Send Approval &Request action.';
                     trigger OnAction()
                     begin
@@ -116,7 +116,7 @@ Page 69312 "Approved Training Needs Header"
                     Caption = '&Cancel Approval request';
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Cancel Approval request action.';
                     trigger OnAction()
                     begin
@@ -129,7 +129,7 @@ Page 69312 "Approved Training Needs Header"
                     Caption = '&Print';
                     Image = PrintForm;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Print action.';
                     trigger OnAction()
                     begin

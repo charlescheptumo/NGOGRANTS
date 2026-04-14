@@ -156,7 +156,7 @@ page 50010 "Receipt Card"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -175,7 +175,7 @@ page 50010 "Receipt Card"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -194,7 +194,7 @@ page 50010 "Receipt Card"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -212,7 +212,7 @@ page 50010 "Receipt Card"
                     Caption = 'Comments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -322,7 +322,7 @@ page 50010 "Receipt Card"
                 Image = SendApprovalRequest;
                 Promoted = true;
                 Visible = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
@@ -348,7 +348,7 @@ page 50010 "Receipt Card"
                 Image = Cancel;
                 Promoted = true;
                 Visible = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
@@ -369,7 +369,7 @@ page 50010 "Receipt Card"
                 Caption = 'Approvals';
                 Image = Approvals;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = false;
                 Visible = true;
                 ToolTip = 'Executes the Approvals action.';

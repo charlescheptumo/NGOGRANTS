@@ -800,7 +800,7 @@ Page 75078 "Invitation To Tender"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -819,7 +819,7 @@ Page 75078 "Invitation To Tender"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -838,7 +838,7 @@ Page 75078 "Invitation To Tender"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -881,7 +881,7 @@ Page 75078 "Invitation To Tender"
                     Enabled = Rec.Status <> Rec.Status::Open;
                     Image = ReOpen;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Reopen the document to change it after it has been approved. Approved documents have the Released status and must be opened before they can be changed';
 
@@ -987,7 +987,7 @@ Page 75078 "Invitation To Tender"
                     Enabled = Rec.Published = false;
                     Image = PrintCover;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     Visible = Rec.status = Rec.status::Released;
                     ToolTip = 'Executes the Publish Invitations action.';
                     trigger OnAction()
@@ -1012,7 +1012,7 @@ Page 75078 "Invitation To Tender"
                     Enabled = Rec.Published = true;
                     Image = ActivateDiscounts;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     Visible = false;
                     //Visible = Rec.status = Rec.status::Released;
                     ToolTip = 'Executes the Activate Evaluations action.';
@@ -1028,7 +1028,7 @@ Page 75078 "Invitation To Tender"
                     Enabled = Rec."code" <> '';
                     Image = Close;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     Visible = Rec.status = Rec.status::Released;
                     ToolTip = 'Executes the Close IFP action.';
                     trigger OnAction()
@@ -1041,7 +1041,7 @@ Page 75078 "Invitation To Tender"
                     ApplicationArea = Suite;
                     Image = CancelAllLines;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     Visible = Rec.status = Rec.status::Released;
                     ToolTip = 'Executes the Cancel Invitation action.';
                     trigger OnAction()
@@ -1055,7 +1055,7 @@ Page 75078 "Invitation To Tender"
                     Caption = 'IFP Response';
                     Image = ReturnRelated;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     RunObject = Page "RFI Response List";
                     RunPageLink = "RFI Document No." = field(Code);
@@ -1123,7 +1123,7 @@ Page 75078 "Invitation To Tender"
                     Caption = 'Send A&pproval Request';
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Request approval of the document.';
 
@@ -1196,7 +1196,7 @@ Page 75078 "Invitation To Tender"
                     ApplicationArea = Basic;
                     Image = Agreement;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "IFS Tender Committee";
                     RunPageLink = "IFS Code" = field(Code);
                     ToolTip = 'Executes the Appointed Committees action.';

@@ -137,7 +137,7 @@ Page 69756 "Referee Recommendation Card"
                 ApplicationArea = Basic;
                 Image = Ranges;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page "Referee Recommendation Rating";
                 RunPageLink = "Document No." = field("Document No."),
@@ -164,7 +164,7 @@ Page 69756 "Referee Recommendation Card"
                 ApplicationArea = Basic;
                 Image = Post;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Post recommendation to the background checks header';
 

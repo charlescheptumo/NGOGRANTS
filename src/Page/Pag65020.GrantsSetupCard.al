@@ -29,19 +29,19 @@ Page 65020 "Grants Setup Card"
             }
             group("Number Series")
             {
-                field("Research Iinfrastructure Nos"; Rec."Research Iinfrastructure Nos")
+                field("Operations Iinfrastructure Nos"; Rec."Research Iinfrastructure Nos")
                 {
                     ApplicationArea = Basic;
                     ToolTip = 'Specifies the value of the Research Iinfrastructure Nos field.';
 
                 }
-                field("Research Output Nos"; Rec."Research Output Nos")
+                field("Operations Output Nos"; Rec."Research Output Nos")
                 {
                     ApplicationArea = Basic;
                     ToolTip = 'Specifies the value of the Research Output Nos field.';
 
                 }
-                field("Researcher Nos"; Rec."Researcher Nos")
+                field("Operations Nos"; Rec."Researcher Nos")
                 {
                     ApplicationArea = Basic;
                     ToolTip = 'Specifies the value of the Researcher Nos field.';
@@ -78,7 +78,7 @@ Page 65020 "Grants Setup Card"
                     ToolTip = 'Specifies the value of the Project Admin Nos field.';
                     Visible = false;
                 }
-                field("Research Project Nos"; Rec."Research Project Nos")
+                field("Operations Project Nos"; Rec."Research Project Nos")
                 {
                     ApplicationArea = Basic;
                     ToolTip = 'Specifies the value of the Research Project Nos field.';

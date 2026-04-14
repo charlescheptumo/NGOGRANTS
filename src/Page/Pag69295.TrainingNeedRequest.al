@@ -144,7 +144,7 @@ Page 69295 "Training Need Request"
                     Caption = 'Send A&pproval Request';
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -162,7 +162,7 @@ Page 69295 "Training Need Request"
                     Enabled = true;
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -178,7 +178,7 @@ Page 69295 "Training Need Request"
                     ApplicationArea = Basic;
                     Image = PostApplication;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     Visible = Rec.Status = Rec.Status::Released;
 

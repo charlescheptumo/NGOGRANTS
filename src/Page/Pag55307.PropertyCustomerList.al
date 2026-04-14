@@ -424,7 +424,7 @@ Page 55307 "Property Customer List"
                     Caption = 'Online Map';
                     Image = Map;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     Scope = Repeater;
                     ToolTip = 'View the address on an online map.';
@@ -872,7 +872,7 @@ Page 55307 "Property Customer List"
                 Image = NewSalesQuote;
                 Visible = false;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 PromotedOnly = true;
                 RunObject = Page "Sales Quote";
@@ -887,7 +887,7 @@ Page 55307 "Property Customer List"
                 Image = NewSalesInvoice;
                 Promoted = true;
                 Visible = false;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 PromotedOnly = true;
                 RunObject = Page "Sales Invoice";
@@ -902,7 +902,7 @@ Page 55307 "Property Customer List"
                 Image = Document;
                 Promoted = true;
                 Visible = false;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 PromotedOnly = true;
                 RunObject = Page "Sales Order";
@@ -917,7 +917,7 @@ Page 55307 "Property Customer List"
                 Image = CreditMemo;
                 Promoted = true;
                 Visible = false;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 PromotedOnly = true;
                 RunObject = Page "Sales Credit Memo";
@@ -984,7 +984,7 @@ Page 55307 "Property Customer List"
                 Caption = 'Reminder';
                 Image = Reminder;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page Reminder;
                 RunPageLink = "Customer No." = field("No.");

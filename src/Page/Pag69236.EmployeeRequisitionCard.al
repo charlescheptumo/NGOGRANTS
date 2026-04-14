@@ -193,7 +193,7 @@ Page 69236 "Employee Requisition Card"
                     Caption = 'Advertise';
                     Image = Salutation;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Advertise action.';
                     trigger OnAction()
                     begin
@@ -237,7 +237,7 @@ Page 69236 "Employee Requisition Card"
                     Caption = 'Mark as Closed/Open';
                     Image = ReopenCancelled;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Mark as Closed/Open action.';
                     trigger OnAction()
                     begin
@@ -261,7 +261,7 @@ Page 69236 "Employee Requisition Card"
                     Caption = '&Print';
                     Image = PrintReport;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Print action.';
                     trigger OnAction()
                     begin
@@ -277,7 +277,7 @@ Page 69236 "Employee Requisition Card"
                     Caption = '&Send Mail to HR to add vacant position';
                     Image = Email;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = false;
                     Visible = false;
                     ToolTip = 'Executes the &Send Mail to HR to add vacant position action.';
@@ -302,7 +302,7 @@ Page 69236 "Employee Requisition Card"
                     Caption = 'Re-Open';
                     Image = ReOpen;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     Visible = false;
                     ToolTip = 'Executes the Re-Open action.';
                     trigger OnAction()
@@ -360,7 +360,7 @@ Page 69236 "Employee Requisition Card"
                     Caption = 'Requirements';
                     Image = JobListSetup;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     Visible = false;
                     ToolTip = 'Executes the Requirements action.';
                 }
@@ -370,7 +370,7 @@ Page 69236 "Employee Requisition Card"
                     Caption = 'Responsibilities';
                     Image = JobResponsibility;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     Visible = false;
                     ToolTip = 'Executes the Responsibilities action.';
                 }

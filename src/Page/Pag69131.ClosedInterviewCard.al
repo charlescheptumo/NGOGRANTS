@@ -127,7 +127,7 @@ Page 69131 "Closed Interview Card"
                     Caption = 'Onboard as Employee';
                     Image = Salutation;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Onboard as Employee action.';
                     trigger OnAction()
                     begin

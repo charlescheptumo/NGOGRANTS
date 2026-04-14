@@ -94,7 +94,7 @@ Page 80041 "Performance Management Plan"
                 ApplicationArea = Basic;
                 Image = Addresses;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Performance Improvement Plans";
             }
             action("Performance Mgmt Policies")
@@ -102,7 +102,7 @@ Page 80041 "Performance Management Plan"
                 ApplicationArea = Basic;
                 Image = AddAction;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Performance Plan Guidelines";
                 RunPageLink = "Performance Mgt Plan ID" = field(No);
             }
@@ -111,7 +111,7 @@ Page 80041 "Performance Management Plan"
                 ApplicationArea = Basic;
                 Image = Replan;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Review Periods";
             }
         }

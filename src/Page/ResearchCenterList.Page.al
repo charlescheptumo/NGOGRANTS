@@ -2,7 +2,7 @@
 Page 65001 "Research Center List"
 {
     ApplicationArea = Advanced;
-    Caption = 'Research Center List';
+    Caption = 'Operation Center List';
     CardPageID = "Research Center Card";
     DeleteAllowed = false;
     Editable = false;
@@ -16,17 +16,17 @@ Page 65001 "Research Center List"
         {
             repeater(Control1)
             {
-                field("Code";Rec.Code)
+                field("Code"; Rec.Code)
                 {
                     ApplicationArea = Location;
                     ToolTip = 'Specifies the responsibility center list code.';
                 }
-                field(Name;Rec.Name)
+                field(Name; Rec.Name)
                 {
                     ApplicationArea = Location;
                     ToolTip = 'Specifies the name.';
                 }
-                field(LocationCode;Rec."Location Code")
+                field(LocationCode; Rec."Location Code")
                 {
                     ApplicationArea = Location;
                     ToolTip = 'Specifies the location of the responsibility center.';
@@ -35,11 +35,11 @@ Page 65001 "Research Center List"
         }
         area(factboxes)
         {
-            systempart(Control1900383207;Links)
+            systempart(Control1900383207; Links)
             {
                 Visible = false;
             }
-            systempart(Control1905767507;Notes)
+            systempart(Control1905767507; Notes)
             {
                 Visible = false;
             }
@@ -60,8 +60,8 @@ Page 65001 "Research Center List"
                     Caption = 'Dimensions';
                     Image = Dimensions;
                     RunObject = Page "Default Dimensions";
-                    RunPageLink = "Table ID"=const(5714),
-                                  "No."=field(Code);
+                    RunPageLink = "Table ID" = const(5714),
+                                  "No." = field(Code);
                     ShortCutKey = 'Shift+Ctrl+D';
                     ToolTip = 'View or edit dimensions, such as area, project, or department, that you can assign to sales and purchase documents to distribute costs and analyze transaction history.';
                 }
@@ -74,17 +74,17 @@ Page 65001 "Research Center List"
 
                     trigger OnAction()
                     begin
-                        if Rec.Code='' then
-                          Error(Text0001,Rec.Code);
-                          CompInfo.Get();
-                           Rec.Address:=CompInfo.Address;
-                           Rec."Address 2":=CompInfo."Address 2";
-                           Rec."Post Code":=CompInfo."Post Code";
-                           Rec.City:=CompInfo.City;
-                           Rec."Country/Region Code":=CompInfo."Country/Region Code";
-                           Rec.Modify;
+                        if Rec.Code = '' then
+                            Error(Text0001, Rec.Code);
+                        CompInfo.Get();
+                        Rec.Address := CompInfo.Address;
+                        Rec."Address 2" := CompInfo."Address 2";
+                        Rec."Post Code" := CompInfo."Post Code";
+                        Rec.City := CompInfo.City;
+                        Rec."Country/Region Code" := CompInfo."Country/Region Code";
+                        Rec.Modify;
 
-                         Message(Text0002);
+                        Message(Text0002);
                     end;
                 }
                 action("Staff Profile")
@@ -94,7 +94,7 @@ Page 65001 "Research Center List"
                     Promoted = true;
                     PromotedCategory = Process;
                     RunObject = Page "Employee List-P";
-                 //   RunPageLink = "Research Center"=field(Code);
+                    //   RunPageLink = "Research Center"=field(Code);
                 }
                 action("Grants Profile")
                 {
@@ -103,23 +103,23 @@ Page 65001 "Research Center List"
                     Promoted = true;
                     PromotedCategory = Process;
                     RunObject = Page "Grant Funding Application List";
-                  //  RunPageLink = "Research Center"=field(Code);
+                    //  RunPageLink = "Research Center"=field(Code);
                 }
                 action("Project profile")
                 {
                     ApplicationArea = Basic;
                     Image = Job;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Job List";
-                    RunPageLink = "Research Center"=field(Code);
+                    RunPageLink = "Research Center" = field(Code);
                 }
                 action("Sub Centers")
                 {
                     ApplicationArea = Basic;
                     Image = Skills;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     // RunObject = Page "Research Sub-Center List";
                     // RunPageLink = "Research Centre"=field(Code);
                 }
@@ -128,16 +128,16 @@ Page 65001 "Research Center List"
                     ApplicationArea = Basic;
                     Image = Planning;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Research Center Programs List";
-                    RunPageLink = "Center Code"=field(Code);
+                    RunPageLink = "Center Code" = field(Code);
                 }
                 action("Research Infrastructure")
                 {
                     ApplicationArea = Basic;
                     Image = FixedAssets;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     // RunObject = Page "Research Infrastructure List";
                     // RunPageLink = "Center Code"=field(Code);
                 }
@@ -146,18 +146,18 @@ Page 65001 "Research Center List"
                     ApplicationArea = Basic;
                     Image = FixedAssets;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Fixed Asset List";
-                    RunPageLink = "Research Center"=field(Code);
+                    RunPageLink = "Research Center" = field(Code);
                 }
                 action(Statistics)
                 {
                     ApplicationArea = Basic;
                     Image = Statistics;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Research Center Statistics";
-                    RunPageLink = Code=field(Code);
+                    RunPageLink = Code = field(Code);
                 }
             }
         }
@@ -169,7 +169,7 @@ Page 65001 "Research Center List"
                 {
                     ApplicationArea = Basic;
                     Image = "report";
-                  //  RunObject = Report "Contract Professional Opinion";
+                    //  RunObject = Report "Contract Professional Opinion";
                 }
                 action("Research Centers Profile")
                 {
@@ -181,9 +181,9 @@ Page 65001 "Research Center List"
                     trigger OnAction()
                     begin
                         ResearchCenter.Reset;
-                        ResearchCenter.SetRange(Code,Rec.Code);
+                        ResearchCenter.SetRange(Code, Rec.Code);
                         if ResearchCenter.Find('-') then begin
-                          Report.Run(65010,true,true,ResearchCenter);
+                            Report.Run(65010, true, true, ResearchCenter);
                         end;
                     end;
                 }
@@ -200,9 +200,9 @@ Page 65001 "Research Center List"
                     trigger OnAction()
                     begin
                         ResearchCenter.Reset;
-                        ResearchCenter.SetRange(Code,Rec.Code);
+                        ResearchCenter.SetRange(Code, Rec.Code);
                         if ResearchCenter.Find('-') then begin
-                          Report.Run(65011,true,true,ResearchCenter);
+                            Report.Run(65011, true, true, ResearchCenter);
                         end;
                     end;
                 }
@@ -216,9 +216,9 @@ Page 65001 "Research Center List"
                     trigger OnAction()
                     begin
                         ResearchCenter.Reset;
-                        ResearchCenter.SetRange(Code,Rec.Code);
+                        ResearchCenter.SetRange(Code, Rec.Code);
                         if ResearchCenter.Find('-') then begin
-                          Report.Run(65012,true,true,ResearchCenter);
+                            Report.Run(65012, true, true, ResearchCenter);
                         end;
                     end;
                 }
@@ -235,9 +235,9 @@ Page 65001 "Research Center List"
                     trigger OnAction()
                     begin
                         ResearchCenter.Reset;
-                        ResearchCenter.SetRange(Code,Rec.Code);
+                        ResearchCenter.SetRange(Code, Rec.Code);
                         if ResearchCenter.Find('-') then begin
-                          Report.Run(65013,true,true,ResearchCenter);
+                            Report.Run(65013, true, true, ResearchCenter);
                         end;
                     end;
                 }

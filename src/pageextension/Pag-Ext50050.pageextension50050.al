@@ -96,7 +96,7 @@ PageExtension 50050 "pageextension50050" extends "Bank Acc. Reconciliation"
                     Caption = 'Send A&pproval Request';
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -115,7 +115,7 @@ PageExtension 50050 "pageextension50050" extends "Bank Acc. Reconciliation"
                     Caption = 'Cancel Approval Re&quest';
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var

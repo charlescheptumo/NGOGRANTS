@@ -201,7 +201,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = SendApprovalRequest;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 
 //                 trigger OnAction()
@@ -214,7 +214,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = CancelApprovalRequest;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 
 //                 trigger OnAction()
@@ -227,7 +227,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = ReleaseDoc;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 
 //                 trigger OnAction()
@@ -243,7 +243,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = ReOpen;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 
 //                 trigger OnAction()
@@ -259,7 +259,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Approvals;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 
 //                 trigger OnAction()
@@ -272,7 +272,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Print;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 
 //                 trigger OnAction()

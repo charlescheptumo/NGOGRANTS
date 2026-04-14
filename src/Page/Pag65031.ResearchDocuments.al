@@ -53,7 +53,7 @@ Page 65031 "Research Documents"
                 Caption = 'Open';
                 Image = Open;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
 
                 trigger OnAction()
@@ -78,7 +78,7 @@ Page 65031 "Research Documents"
                 Ellipsis = true;
                 Image = Create_Movement;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
@@ -111,7 +111,7 @@ Page 65031 "Research Documents"
                 Ellipsis = true;
                 Image = Copy;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
@@ -139,7 +139,7 @@ Page 65031 "Research Documents"
                 Ellipsis = true;
                 Image = Import;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
 
                 trigger OnAction()
@@ -174,7 +174,7 @@ Page 65031 "Research Documents"
                 Ellipsis = true;
                 Image = Export;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
 
                 trigger OnAction()
@@ -199,7 +199,7 @@ Page 65031 "Research Documents"
                 Ellipsis = true;
                 Image = RemoveContacts;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
 
                 trigger OnAction()

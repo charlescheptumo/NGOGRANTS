@@ -59,7 +59,7 @@ Page 69181 "Employee Discplinary Documents"
                 Caption = 'Open';
                 Image = Open;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Executes the Open action.';
                 trigger OnAction()
@@ -84,7 +84,7 @@ Page 69181 "Employee Discplinary Documents"
                 Ellipsis = true;
                 Image = PostApplication;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Create action.';
                 trigger OnAction()
                 var
@@ -117,7 +117,7 @@ Page 69181 "Employee Discplinary Documents"
                 Ellipsis = true;
                 Image = Copy;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Copy & From action.';
                 trigger OnAction()
                 var
@@ -145,7 +145,7 @@ Page 69181 "Employee Discplinary Documents"
                 Ellipsis = true;
                 Image = Import;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Executes the Import action.';
                 trigger OnAction()
@@ -180,7 +180,7 @@ Page 69181 "Employee Discplinary Documents"
                 Ellipsis = true;
                 Image = Export;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Executes the E&xport action.';
                 trigger OnAction()
@@ -205,7 +205,7 @@ Page 69181 "Employee Discplinary Documents"
                 Ellipsis = true;
                 Image = RemoveContacts;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Executes the Remove action.';
                 trigger OnAction()

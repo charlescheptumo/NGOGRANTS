@@ -256,7 +256,7 @@ Page 57006 "Posted Payment Voucher"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = false;
                     ToolTip = 'Executes the Approvals action.';
                     trigger OnAction()

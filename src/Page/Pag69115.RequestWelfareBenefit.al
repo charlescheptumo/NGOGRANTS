@@ -218,7 +218,7 @@ Page 69115 "Request Welfare  Benefit"
                     ApplicationArea = Basic;
                     Image = Attach;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     RunObject = Page "Benefits Attachments";
                     RunPageLink = "Benefit Category" = field("Welfare Code");

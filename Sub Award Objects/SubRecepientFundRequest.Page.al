@@ -250,7 +250,7 @@ Page 65178 "Sub Recepient Fund Request"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = false;
 
                     trigger OnAction()
@@ -279,7 +279,7 @@ Page 65178 "Sub Recepient Fund Request"
                     Enabled = not OpenApprovalEntriesExist;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -305,7 +305,7 @@ Page 65178 "Sub Recepient Fund Request"
                     Enabled = OpenApprovalEntriesExist;
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -377,7 +377,7 @@ Page 65178 "Sub Recepient Fund Request"
                     ApplicationArea = Basic;
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                 }
                 action(Reject)
                 {

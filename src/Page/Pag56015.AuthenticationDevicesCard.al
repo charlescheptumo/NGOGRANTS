@@ -984,7 +984,7 @@
 //                     Caption = 'Approve';
 //                     Image = Approve;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     ToolTip = 'Approve the requested changes.';
 //                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -1002,7 +1002,7 @@
 //                     Caption = 'Reject';
 //                     Image = Reject;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     ToolTip = 'Reject the approval request.';
 //                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -1020,7 +1020,7 @@
 //                     Caption = 'Delegate';
 //                     Image = Delegate;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Delegate the approval to a substitute approver.';
 //                     Visible = OpenApprovalEntriesExistForCurrUser;
 
@@ -1037,7 +1037,7 @@
 //                     Caption = 'Comments';
 //                     Image = ViewComments;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'View or add comments.';
 //                     Visible = OpenApprovalEntriesExistForCurrUser;
 

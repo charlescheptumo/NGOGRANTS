@@ -98,7 +98,7 @@ pageextension 50138 "Time Sheet Card Ext" extends "Time Sheet Card"
                 ApplicationArea = Basic;
                 Image = Documents;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Opens attached documents from the portal.';
                 RunObject = Page "Portal Documents";
@@ -183,7 +183,7 @@ pageextension 50138 "Time Sheet Card Ext" extends "Time Sheet Card"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -203,7 +203,7 @@ pageextension 50138 "Time Sheet Card Ext" extends "Time Sheet Card"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -244,7 +244,7 @@ pageextension 50138 "Time Sheet Card Ext" extends "Time Sheet Card"
                     Caption = '&Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Approvals action.';
                     trigger OnAction()
                     var
@@ -265,7 +265,7 @@ pageextension 50138 "Time Sheet Card Ext" extends "Time Sheet Card"
                     Enabled = not OpenApprovalEntriesExist;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Send A&pproval Request action.';
                     trigger OnAction()
                     var
@@ -291,7 +291,7 @@ pageextension 50138 "Time Sheet Card Ext" extends "Time Sheet Card"
                     Caption = 'Cancel Approval Re&quest';
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Cancel Approval Re&quest action.';
                     trigger OnAction()
                     var

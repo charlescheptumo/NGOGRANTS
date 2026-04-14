@@ -887,7 +887,7 @@
 //                     Caption = 'Attributes';
 //                     Image = Category;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedOnly = true;
 //                     ToolTip = 'View or edit the item''s attributes, such as color, size, or other characteristics that help to describe the item.';
 
@@ -905,7 +905,7 @@
 //                     Enabled = InventoryItemEditable;
 //                     Image = InventoryCalculation;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedOnly = true;
 //                     ToolTip = 'Increase or decrease the item''s inventory quantity manually by entering a new quantity. Adjusting the inventory quantity manually may be relevant after a physical count or if you do not record purchased quantities.';
 //                     Visible = IsFoundationEnabled;
@@ -1264,7 +1264,7 @@
 //                         Caption = 'Ledger E&ntries';
 //                         Image = ItemLedger;
 //                         //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                         //PromotedCategory = Category5;
+//                         //PromotedCategory = Process;
 //                         //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
 //                         //PromotedIsBig = true;
 //                         RunObject = Page "Item Ledger Entries";
@@ -1280,7 +1280,7 @@
 //                         Caption = '&Phys. Inventory Ledger Entries';
 //                         Image = PhysicalInventoryLedger;
 //                         Promoted = true;
-//                         PromotedCategory = Category5;
+//                         PromotedCategory = Process;
 //                         PromotedIsBig = true;
 //                         RunObject = Page "Phys. Inventory Ledger Entries";
 //                         RunPageLink = "Item No." = field("No.");
@@ -1351,7 +1351,7 @@
 //                     Caption = 'Dimensions';
 //                     Image = Dimensions;
 //                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                     //PromotedCategory = Category4;
+//                     //PromotedCategory = Process;
 //                     //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
 //                     //PromotedIsBig = true;
 //                     RunObject = Page "Default Dimensions";
@@ -1366,7 +1366,7 @@
 //                 //     Caption = 'Cross Re&ferences';
 //                 //     Image = Change;
 //                 //     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                 //     //PromotedCategory = Category4;
+//                 //     //PromotedCategory = Process;
 //                 //     //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
 //                 //     //PromotedIsBig = true;
 //                 //     RunObject = Page "Item Cross Reference Entries";
@@ -1379,7 +1379,7 @@
 //                     Caption = '&Units of Measure';
 //                     Image = UnitOfMeasure;
 //                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                     //PromotedCategory = Category4;
+//                     //PromotedCategory = Process;
 //                     //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
 //                     //PromotedIsBig = true;
 //                     RunObject = Page "Item Units of Measure";
@@ -1392,7 +1392,7 @@
 //                     Caption = 'E&xtended Texts';
 //                     Image = Text;
 //                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                     //PromotedCategory = Category4;
+//                     //PromotedCategory = Process;
 //                     //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
 //                     //PromotedIsBig = true;
 //                     RunObject = Page "Extended Text List";
@@ -1407,7 +1407,7 @@
 //                     Caption = 'Translations';
 //                     Image = Translations;
 //                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                     //PromotedCategory = Category4;
+//                     //PromotedCategory = Process;
 //                     //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
 //                     //PromotedIsBig = true;
 //                     RunObject = Page "Item Translations";

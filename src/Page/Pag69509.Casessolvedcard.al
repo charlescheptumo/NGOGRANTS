@@ -151,7 +151,7 @@
 //             {
 //                 ApplicationArea = Basic;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 Visible = false;
 //                 ToolTip = 'Executes the Resolved action.';
 //                 trigger OnAction()

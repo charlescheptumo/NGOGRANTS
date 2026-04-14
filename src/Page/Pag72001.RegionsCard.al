@@ -230,14 +230,14 @@ Page 72001 "Regions Card"
                     Promoted = true;
                     PromotedCategory = Process;
                     RunObject = Page "Grant Funding Application List";
-                   // RunPageLink = "Research Center" = field(Code);
+                    // RunPageLink = "Research Center" = field(Code);
                 }
                 action("Road Work Projects")
                 {
                     ApplicationArea = Basic;
                     Image = Job;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Job List";
                     RunPageLink = "Research Center" = field(Code);
                 }
@@ -246,7 +246,7 @@ Page 72001 "Regions Card"
                 //     ApplicationArea = Basic;
                 //     Image = Skills;
                 //     Promoted = true;
-                //     PromotedCategory = Category4;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Research Sub-Center List";
                 //     RunPageLink = "Research Centre" = field(Code);
                 //     Visible = false;
@@ -256,7 +256,7 @@ Page 72001 "Regions Card"
                 //     ApplicationArea = Basic;
                 //     Image = Planning;
                 //     Promoted = true;
-                //     PromotedCategory = Category4;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Research Center Programs List";
                 //     RunPageLink = "Center Code" = field(Code);
                 //     Visible = false;
@@ -266,7 +266,7 @@ Page 72001 "Regions Card"
                 //     ApplicationArea = Basic;
                 //     Image = FixedAssets;
                 //     Promoted = true;
-                //     PromotedCategory = Category5;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Research Infrastructure List";
                 //     RunPageLink = "Center Code" = field(Code);
                 //     Visible = false;
@@ -276,7 +276,7 @@ Page 72001 "Regions Card"
                     ApplicationArea = Basic;
                     Image = FixedAssets;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Fixed Asset List";
                     RunPageLink = "Research Center" = field(Code);
                 }
@@ -285,7 +285,7 @@ Page 72001 "Regions Card"
                     ApplicationArea = Basic;
                     Image = Statistics;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Research Center Statistics";
                     RunPageLink = Code = field(Code);
                 }
@@ -388,7 +388,7 @@ Page 72001 "Regions Card"
         Text0002: label 'Details updated successfully';
         WorkDescription: Text;
         ShowMapLbl: label 'Show on Map';
-        // ResearchCenter: Record "Research Center";
+    // ResearchCenter: Record "Research Center";
 
     local procedure SetControlAppearance()
     var

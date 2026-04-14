@@ -1047,7 +1047,7 @@ Page 69043 "Payroll Admin Role Center"
     //             {
     //                 ApplicationArea = Basic;
     //                 Promoted = true;
-    //                 PromotedCategory = Category4;
+    //                 PromotedCategory = Process;
     //                 PromotedIsBig = true;
     //                 RunObject = Page "Center Re-Allocation Vouchers";
     //                 ToolTip = 'Executes the Center Re-Allocation Vouchers action.';

@@ -102,7 +102,7 @@ Page 75004 "Solicitation Type"
                     ApplicationArea = Basic;
                     Image = Info;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Request For Information";
                     RunPageLink = "Solicitation Type" = field(Code);
                 }
@@ -111,7 +111,7 @@ Page 75004 "Solicitation Type"
                     ApplicationArea = Basic;
                     Image = InwardEntry;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Draft Invitation For Supply";
                     RunPageLink = "Solicitation Type" = field(Code);
                 }
@@ -120,7 +120,7 @@ Page 75004 "Solicitation Type"
                     ApplicationArea = Basic;
                     Image = Quote;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Purchase Quotes";
                     RunPageLink = "Solicitation Type" = field(Code);
                 }
@@ -129,7 +129,7 @@ Page 75004 "Solicitation Type"
                     ApplicationArea = Basic;
                     Image = "Order";
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Purchase Order List";
                     RunPageLink = "Solicitation Type" = field(Code);
                 }
@@ -138,7 +138,7 @@ Page 75004 "Solicitation Type"
                     ApplicationArea = Basic;
                     Image = BlanketOrder;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Blanket Purchase Orders";
                     RunPageLink = "Solicitation Type" = field(Code);
                 }
@@ -147,7 +147,7 @@ Page 75004 "Solicitation Type"
                     ApplicationArea = Basic;
                     Image = Allocate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Solicitation Procurement Types";
                     RunPageLink = "Solicitation Type" = field(Code);
                 }
@@ -156,7 +156,7 @@ Page 75004 "Solicitation Type"
                     ApplicationArea = Basic;
                     Image = CapacityLedger;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Solicitation Activity Schedule";
                     RunPageLink = "Solicitation Type ID" = field(Code);
                 }
@@ -165,7 +165,7 @@ Page 75004 "Solicitation Type"
                     ApplicationArea = Basic;
                     Image = EntriesList;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Procurement Plan Entry";
                     RunPageLink = "Solicitation Type" = field(Code);
                 }

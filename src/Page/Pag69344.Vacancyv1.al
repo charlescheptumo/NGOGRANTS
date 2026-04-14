@@ -146,7 +146,7 @@ Page 69344 "Vacancyv1"
                 ApplicationArea = Basic;
                 Image = ReservationLedger;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page "Position Responsibilitiesv2";
                 RunPageLink = "Job ID" = field("Job Id");
@@ -156,7 +156,7 @@ Page 69344 "Vacancyv1"
                 ApplicationArea = Basic;
                 Image = RefreshVoucher;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page "Position Requirements";
                 RunPageLink = "Job Id" = field("Job Id");

@@ -703,7 +703,7 @@
 //                     Caption = '&WIP Entries';
 //                     Image = WIPEntries;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Job WIP Entries";
 //                     RunPageLink = "Job No." = field("No.");
 //                     RunPageView = sorting("Job No.", "Job Posting Group", "WIP Posting Date")
@@ -716,7 +716,7 @@
 //                     Caption = 'WIP &G/L Entries';
 //                     Image = WIPLedger;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Job WIP G/L Entries";
 //                     RunPageLink = "Job No." = field("No.");
 //                     RunPageView = sorting("Job No.")
@@ -734,7 +734,7 @@
 //                     Caption = '&Resource';
 //                     Image = Resource;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Job Resource Prices";
 //                     RunPageLink = "Job No." = field("No.");
 //                     ToolTip = 'View this job''s resource prices.';
@@ -745,7 +745,7 @@
 //                     Caption = '&Item';
 //                     Image = Item;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Job Item Prices";
 //                     RunPageLink = "Job No." = field("No.");
 //                     ToolTip = 'View this job''s item prices.';
@@ -756,7 +756,7 @@
 //                     Caption = '&G/L Account';
 //                     Image = JobPrice;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Job G/L Account Prices";
 //                     RunPageLink = "Job No." = field("No.");
@@ -811,7 +811,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Job;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     ToolTip = 'Executes the Populate Task Lines action.';
 //                     trigger OnAction()
@@ -895,7 +895,7 @@
 //                     Ellipsis = true;
 //                     Image = CalculateWIP;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     ToolTip = 'Run the Job Calculate WIP batch job.';
 
@@ -916,7 +916,7 @@
 //                     Ellipsis = true;
 //                     Image = PostOrder;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     ShortCutKey = 'F9';
 //                     ToolTip = 'Run the Job Post WIP to G/L batch job.';

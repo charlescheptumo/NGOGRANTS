@@ -183,7 +183,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Salutation;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Policy Stakeholder Revision";
 //                     RunPageLink = "Revision No." = field("Revision No."),
@@ -194,7 +194,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Info;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Policy Revision Info Sources";
 //                     RunPageLink = "Revision No." = field("Revision No."),
@@ -205,7 +205,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = ContactPerson;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Policy Revision Committee";
 //                     RunPageLink = "Revision No." = field("Revision No."),
@@ -242,7 +242,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Approval;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 
 //                     trigger OnAction()
 //                     begin
@@ -254,7 +254,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = SendApprovalRequest;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 
 //                     trigger OnAction()
 //                     var
@@ -273,7 +273,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = CancelApprovalRequest;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 
 //                     trigger OnAction()
 //                     begin

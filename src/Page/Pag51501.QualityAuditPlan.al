@@ -116,7 +116,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Planning;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Audit Plan Objectives";
 //                     RunPageLink = "Quality Audit No." = field(Code);
@@ -126,7 +126,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Production;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Audit Plan Procedure";
 //                     RunPageLink = "Audit Plan No." = field(Code);
@@ -136,7 +136,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = AvailableToPromise;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Audit Plan Scope";
 //                     RunPageLink = "Audit Plan No." = field(Code);

@@ -340,7 +340,7 @@ Page 57015 "Approved Imprest Requisition"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = false;
                     ToolTip = 'Executes the Approvals action.';
                     trigger OnAction()
@@ -369,7 +369,7 @@ Page 57015 "Approved Imprest Requisition"
                     Enabled = false;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
                     ToolTip = 'Executes the Send A&pproval Request action.';
                     trigger OnAction()
@@ -385,7 +385,7 @@ Page 57015 "Approved Imprest Requisition"
                     Enabled = OpenApprovalEntriesExist;
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
                     ToolTip = 'Executes the Cancel Approval Re&quest action.';
                     trigger OnAction()

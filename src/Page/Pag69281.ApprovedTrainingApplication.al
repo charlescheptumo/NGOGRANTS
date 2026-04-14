@@ -164,7 +164,7 @@ Page 69281 "Approved Training Application"
                     Caption = 'Comments';
                     Image = Comment;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Comments action.';
                     trigger OnAction()
                     var
@@ -188,7 +188,7 @@ Page 69281 "Approved Training Application"
                     Caption = '&Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Approvals action.';
                     trigger OnAction()
                     var
@@ -207,7 +207,7 @@ Page 69281 "Approved Training Application"
                     Caption = '&Print';
                     Image = PrintForm;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Print action.';
                     trigger OnAction()
                     begin
@@ -224,7 +224,7 @@ Page 69281 "Approved Training Application"
                     Caption = 'Close Application';
                     Image = Close;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Close Application action.';
                     trigger OnAction()
                     begin
@@ -238,7 +238,7 @@ Page 69281 "Approved Training Application"
                     Caption = 'Training Participants';
                     Image = PersonInCharge;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Training App Participants List";
                     RunPageLink = "Training Code" = field(Code);
                     ToolTip = 'Executes the Training Participants action.';
@@ -283,7 +283,7 @@ Page 69281 "Approved Training Application"
                     Caption = 'Training Costs';
                     Image = TaskList;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Training Cost";
                     RunPageLink = "Training ID" = field(Code);
                     ToolTip = 'Executes the Training Costs action.';

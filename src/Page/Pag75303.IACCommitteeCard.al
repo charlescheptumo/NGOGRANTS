@@ -248,7 +248,7 @@ Page 75303 "IAC Committee Card"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -267,7 +267,7 @@ Page 75303 "IAC Committee Card"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -286,7 +286,7 @@ Page 75303 "IAC Committee Card"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -304,7 +304,7 @@ Page 75303 "IAC Committee Card"
                     Caption = 'Comments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -328,7 +328,7 @@ Page 75303 "IAC Committee Card"
                     Enabled = Rec."Approval Status" = Rec."Approval Status"::open;
                     Image = ReleaseDoc;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ShortCutKey = 'Ctrl+F9';
@@ -348,7 +348,7 @@ Page 75303 "IAC Committee Card"
                     Enabled = Rec."Approval Status" <> Rec."Approval Status"::Open;
                     Image = ReOpen;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Reopen the document to change it after it has been approved. Approved documents have the Released status and must be opened before they can be changed';
 
@@ -370,7 +370,7 @@ Page 75303 "IAC Committee Card"
                     Enabled = Rec."Approval Status" = Rec."Approval Status"::released;
                     Image = SendMail;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Appoint & Notify Appointees action.';
                     trigger OnAction()
                     begin
@@ -402,7 +402,7 @@ Page 75303 "IAC Committee Card"
                     ApplicationArea = Basic;
                     Image = WorkCenterLoad;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Procurement Committee Function";
                     RunPageLink = "Committee Type" = field("Committee Type");
                     ToolTip = 'Executes the Committee Functions action.';
@@ -430,7 +430,7 @@ Page 75303 "IAC Committee Card"
                     ApplicationArea = Basic;
                     Image = Document;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "IFS Tender Document Source";
                     RunPageLink = "Document No." = field("IFS Code");
                     ToolTip = 'Executes the Document Sources action.';
@@ -564,7 +564,7 @@ Page 75303 "IAC Committee Card"
         CashMgt.Get;
         CashMgt.TestField("Imprest Memo Nos");
         ImpNo := NoSeriesManagement.GetNextNo(CashMgt."Imprest Nos", WorkDate(), true);
-       // NoSeriesManagement.InitSeries(CashMgt."Imprest Memo Nos", CashMgt."Imprest Memo Nos", 0D, ImpNo, CashMgt."Imprest Memo Nos");
+        // NoSeriesManagement.InitSeries(CashMgt."Imprest Memo Nos", CashMgt."Imprest Memo Nos", 0D, ImpNo, CashMgt."Imprest Memo Nos");
         ImprestReq."No." := ImpNo;
         ImprestReq."Document Type" := ImprestReq."document type"::"Imprest Memo";
         ImprestReq."Imprest No." := ImprestReq."No.";

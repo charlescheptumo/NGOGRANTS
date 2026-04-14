@@ -377,7 +377,7 @@ Page 80083 "Individual Scorecard"
             //     ApplicationArea = Basic;
             //     Image = "Action";
             //     Promoted = true;
-            //     PromotedCategory = Category4;
+            //     PromotedCategory = Process;
             //     PromotedIsBig = true;
             //     RunObject = Page "Aligned Business Goals";
             //     RunPageLink = "Performance Contract ID" = field(No);
@@ -388,7 +388,7 @@ Page 80083 "Individual Scorecard"
             //     ApplicationArea = Basic;
             //     Image = Reserve;
             //     Promoted = true;
-            //     PromotedCategory = Category5;
+            //     PromotedCategory = Process;
             //     PromotedIsBig = true;
             //     RunObject = Page "Workplan Risk";
             //     RunPageLink = "Document No" = field(No);
@@ -399,7 +399,7 @@ Page 80083 "Individual Scorecard"
             //     ApplicationArea = Basic;
             //     Image = "Action";
             //     Promoted = true;
-            //     PromotedCategory = Category5;
+            //     PromotedCategory = Process;
             //     PromotedIsBig = true;
             //     RunObject = Page "Workplan Capability Matrixs";
             //     RunPageLink = "Document No" = field(No);
@@ -413,7 +413,7 @@ Page 80083 "Individual Scorecard"
                 ApplicationArea = Basic;
                 Image = Approval;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Approvals action.';
                 trigger OnAction()
                 begin
@@ -425,7 +425,7 @@ Page 80083 "Individual Scorecard"
                 ApplicationArea = Basic;
                 Image = SendApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Send Approval Request action.';
                 trigger OnAction()
                 var
@@ -548,7 +548,7 @@ Page 80083 "Individual Scorecard"
                 ApplicationArea = Basic;
                 Image = CancelApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Cancel Approval Request action.';
                 trigger OnAction()
                 begin
@@ -691,8 +691,8 @@ Page 80083 "Individual Scorecard"
         SPMGeneralSetup: Record "SPM General Setup";
         TotalWeight: Decimal;
         PCHeader: Record "Perfomance Contract Header";
-        // BoardSubActivities: Record "Board Sub Activities";
-        // PCSubActivities: Record "Sub PC Objective";
+    // BoardSubActivities: Record "Board Sub Activities";
+    // PCSubActivities: Record "Sub PC Objective";
 }
 
 #pragma implicitwith restore

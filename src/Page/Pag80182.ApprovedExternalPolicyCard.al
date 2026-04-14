@@ -106,7 +106,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Salutation;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Policy Stakeholder";
 //                     RunPageLink = "Policy ID" = field(Code);
 //                     ToolTip = 'Executes the Policy Stakeholder action.';
@@ -116,7 +116,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = FileContract;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Policy Statement Area";
 //                     RunPageLink = "Policy ID" = field(Code);
 //                     ToolTip = 'Executes the Policy Statement Area action.';
@@ -126,7 +126,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Info;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Policy Information Sources";
 //                     RunPageLink = "Policy ID" = field(Code);
@@ -137,7 +137,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = FiledOverview;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Policy Version";
 //                     RunPageLink = "Policy Id" = field(Code);
 //                     ToolTip = 'Executes the Policy Version action.';
@@ -147,7 +147,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = ContactPerson;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Policy Committee Member";
 //                     RunPageLink = "Policy ID" = field(upperlimit(Code));
@@ -162,7 +162,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Approval;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Executes the Approvals action.';
 //                     trigger OnAction()
 //                     begin
@@ -174,7 +174,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = SendApprovalRequest;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Executes the Send Approval Request action.';
 //                     trigger OnAction()
 //                     var
@@ -198,7 +198,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = CancelApprovalRequest;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Executes the Cancel Approval Request action.';
 //                     trigger OnAction()
 //                     begin

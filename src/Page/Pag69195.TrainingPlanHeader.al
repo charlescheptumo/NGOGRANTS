@@ -104,7 +104,7 @@ Page 69195 "Training Plan Header"
                 Caption = '&Approvals';
                 Image = Approvals;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 begin
@@ -117,7 +117,7 @@ Page 69195 "Training Plan Header"
                 Caption = 'Send A&pproval Request';
                 Image = SendApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 // var
@@ -135,7 +135,7 @@ Page 69195 "Training Plan Header"
                 Caption = 'Cancel Approval Re&quest';
                 Image = Cancel;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 begin
@@ -150,7 +150,7 @@ Page 69195 "Training Plan Header"
                 Caption = 'Re-Open';
                 Image = ReopenCancelled;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 Visible = false;
 
                 trigger OnAction()

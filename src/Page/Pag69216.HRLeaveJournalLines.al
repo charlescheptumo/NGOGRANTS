@@ -125,7 +125,7 @@ Page 69216 "HR Leave Journal Lines"
                     Caption = 'Post Adjustment';
                     Image = PostBatch;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Post Adjustment action.';
                     trigger OnAction()
                     begin
@@ -149,7 +149,7 @@ Page 69216 "HR Leave Journal Lines"
                     ApplicationArea = Basic;
                     Image = Batch;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Batch Allocation action.';
                     trigger OnAction()
                     begin

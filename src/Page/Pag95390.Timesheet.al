@@ -217,7 +217,7 @@ page 95390 Timesheet
                 Caption = 'Approvals';
                 Image = Approvals;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = false;
                 ToolTip = 'Executes the Approvals action.';
                 trigger OnAction()
@@ -236,7 +236,7 @@ page 95390 Timesheet
                 Caption = 'Send A&pproval Request';
                 Image = SendApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
@@ -258,7 +258,7 @@ page 95390 Timesheet
                 Caption = 'Cancel Approval Re&quest';
                 Image = Cancel;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
@@ -279,7 +279,7 @@ page 95390 Timesheet
                 Caption = 'Re-Open';
                 Image = ReopenCancelled;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 Visible = false;
 
                 trigger OnAction()

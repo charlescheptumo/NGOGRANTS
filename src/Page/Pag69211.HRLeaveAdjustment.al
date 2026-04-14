@@ -132,7 +132,7 @@ Page 69211 "HR Leave Adjustment"
                     Caption = 'Post Adjustment';
                     Image = PostBatch;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Post Adjustment action.';
                     trigger OnAction()
                     begin
@@ -156,7 +156,7 @@ Page 69211 "HR Leave Adjustment"
                     ApplicationArea = Basic;
                     Image = Batch;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Batch Allocation action.';
                     trigger OnAction()
                     begin
@@ -216,7 +216,7 @@ Page 69211 "HR Leave Adjustment"
                                          END
                                          END
                                          END ELSE*/
-                                        Rec."No. of Days" := HRLeaveTypes.Days/12;
+                                        Rec."No. of Days" := HRLeaveTypes.Days / 12;
                                         Rec."Leave Period Start Date" := HRLeavePeriods.Starts;
                                         Rec."Leave Period End Date" := HRLeavePeriods.Ends;
                                         Rec."Document No." := 'Allocation';

@@ -202,7 +202,7 @@ Page 65186 "Sub Recepient Surrender"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = false;
 
                     trigger OnAction()
@@ -230,7 +230,7 @@ Page 65186 "Sub Recepient Surrender"
                     Enabled = not OpenApprovalEntriesExist;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -260,7 +260,7 @@ Page 65186 "Sub Recepient Surrender"
                     Enabled = OpenApprovalEntriesExist;
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -330,7 +330,7 @@ Page 65186 "Sub Recepient Surrender"
                     ApplicationArea = Basic;
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                 }
                 action(Reject)
                 {

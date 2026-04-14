@@ -1019,7 +1019,7 @@ Page 69162 "Employee Card-HR1"
                 //     Caption = 'Attachments';
                 //     Image = Attachments;
                 //     Promoted = true;
-                //     PromotedCategory = Category5;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Attachments Setup";
                 //     RunPageLink = Code = field("No.");
                 //     ToolTip = 'Executes the Attachments action.';

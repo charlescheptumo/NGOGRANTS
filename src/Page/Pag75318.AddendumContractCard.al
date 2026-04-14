@@ -410,7 +410,7 @@ Page 75318 "Addendum Contract Card"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -429,7 +429,7 @@ Page 75318 "Addendum Contract Card"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the approval request.';
@@ -448,7 +448,7 @@ Page 75318 "Addendum Contract Card"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the approval to a substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -466,7 +466,7 @@ Page 75318 "Addendum Contract Card"
                     Caption = 'Comments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -630,7 +630,7 @@ Page 75318 "Addendum Contract Card"
                     ApplicationArea = Basic;
                     Image = ContactReference;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Purchase Contract Documents";
                     RunPageLink = "No." = field("No.");
                     ToolTip = 'Executes the Contract Documents action.';
@@ -640,7 +640,7 @@ Page 75318 "Addendum Contract Card"
                     ApplicationArea = Basic;
                     Image = Insurance;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Purchase Contract Insurance";
                     RunPageLink = "No." = field("No.");
                     ToolTip = 'Executes the Contract Insurance action.';
@@ -650,7 +650,7 @@ Page 75318 "Addendum Contract Card"
                     ApplicationArea = Basic;
                     Image = PaymentPeriod;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Purchase Contract Payment Term";
                     RunPageLink = "No." = field("No.");
                     ToolTip = 'Executes the Contract Payment Terms action.';
@@ -660,7 +660,7 @@ Page 75318 "Addendum Contract Card"
                     ApplicationArea = Basic;
                     Image = PlanningWorksheet;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Purchase Contract Milestone";
                     RunPageLink = "No." = field("No.");
                     ToolTip = 'Executes the Contract Milestone action.';
@@ -670,7 +670,7 @@ Page 75318 "Addendum Contract Card"
                     ApplicationArea = Basic;
                     Image = Resource;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Contract Representative";
                     RunPageLink = "No." = field("No.");
                     ToolTip = 'Executes the Contract Representative action.';
@@ -686,7 +686,7 @@ Page 75318 "Addendum Contract Card"
                     Enabled = not OpenApprovalEntriesExist;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Request approval of the document.';
 
@@ -705,7 +705,7 @@ Page 75318 "Addendum Contract Card"
                     Enabled = CanCancelApprovalForRecord;
                     Image = CancelApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Cancel the approval request.';
 
                     trigger OnAction()

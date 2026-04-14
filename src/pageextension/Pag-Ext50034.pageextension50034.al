@@ -3,7 +3,7 @@
 PageExtension 50034 "pageextension50034" extends "G/L Budget Names"
 {
     PromotedActionCategories = 'New,Process,Report,Approvals,Attachments,Comment,Actions,Navigate,Home';
-    
+
     layout
     {
         addafter(Description)
@@ -53,7 +53,7 @@ PageExtension 50034 "pageextension50034" extends "G/L Budget Names"
                 Caption = 'Send A&pproval Request';
                 Image = SendApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 Visible = true;
 
                 trigger OnAction()
@@ -68,7 +68,7 @@ PageExtension 50034 "pageextension50034" extends "G/L Budget Names"
                 Caption = 'Cancel Approval Re&quest';
                 Image = Cancel;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 Visible = true;
 
                 trigger OnAction()
@@ -83,7 +83,7 @@ PageExtension 50034 "pageextension50034" extends "G/L Budget Names"
                 Caption = '&Approvals';
                 Image = Approvals;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 begin

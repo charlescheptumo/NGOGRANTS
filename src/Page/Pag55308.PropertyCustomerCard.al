@@ -1251,7 +1251,7 @@ Page 55308 "Property Customer Card"
                     Ellipsis = true;
                     Image = CustomerCode;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                    //PromotedCategory = Category5;
+                    //PromotedCategory = Process;
                     //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
                     //PromotedIsBig = true;
                     RunObject = Page "Standard Customer Sales Codes";
@@ -1420,7 +1420,7 @@ Page 55308 "Property Customer Card"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Approve the requested changes.';
                     Visible = OpenApprovalEntriesExistCurrUser;
@@ -1438,7 +1438,7 @@ Page 55308 "Property Customer Card"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Reject the approval request.';
                     Visible = OpenApprovalEntriesExistCurrUser;
@@ -1456,7 +1456,7 @@ Page 55308 "Property Customer Card"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Delegate the approval to a substitute approver.';
                     Visible = OpenApprovalEntriesExistCurrUser;
 
@@ -1473,7 +1473,7 @@ Page 55308 "Property Customer Card"
                     Caption = 'Comments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistCurrUser;
 

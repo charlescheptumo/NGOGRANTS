@@ -3,6 +3,7 @@ pageextension 50008 "Customer List Ext" extends "Customer List"
     PromotedActionCategories = 'New,Process,Report,Approve,New Document,Request Approval,Donor';
     layout
     {
+      
         modify("Responsibility Center")
         {
             Visible = false;
@@ -26,6 +27,10 @@ pageextension 50008 "Customer List Ext" extends "Customer List"
         modify("Payments (LCY)")
         {
             Visible = false;
+        }
+        addafter("No.")
+        {
+            field(isDonor;rec.isDonor){ApplicationArea = all;}
         }
     }
     actions

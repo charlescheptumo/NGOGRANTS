@@ -212,7 +212,7 @@
 //                     Caption = 'Stakeholder Details';
 //                     Image = UserInterface;
 //                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                     //PromotedCategory = Category4;
+//                     //PromotedCategory = Process;
 //                     //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
 //                     //PromotedIsBig = true;
 //                     RunObject = Page "Prog Stakeholder Response";
@@ -223,7 +223,7 @@
 //                     Caption = 'Strength/Weakness';
 //                     Image = AnalysisView;
 //                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                     //PromotedCategory = Category4;
+//                     //PromotedCategory = Process;
 //                     //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
 //                     //PromotedIsBig = true;
 //                     RunObject = Page "Analysis of Stakeholders";
@@ -239,7 +239,7 @@
 //                     Image = AddAction;
 //                     Promoted = false;
 //                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                     //PromotedCategory = Category5;
+//                     //PromotedCategory = Process;
 //                     //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
 //                     //PromotedIsBig = true;
 //                     RunObject = Page "Programme Response Objectives";
@@ -251,7 +251,7 @@
 //                     Caption = 'Programme Organization';
 //                     Image = AllocatedCapacity;
 //                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                     //PromotedCategory = Category5;
+//                     //PromotedCategory = Process;
 //                     //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
 //                     //PromotedIsBig = true;
 //                     RunObject = Page "Audit Programme Organization";
@@ -263,7 +263,7 @@
 //                     Caption = 'Specification Strength/Weakness';
 //                     Image = AnalysisViewDimension;
 //                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                     //PromotedCategory = Category5;
+//                     //PromotedCategory = Process;
 //                     //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
 //                     //PromotedIsBig = true;
 //                     RunObject = Page "Analy Programme Specification";
@@ -275,7 +275,7 @@
 //                     Caption = 'Content Strength/Weakness';
 //                     Image = AnalysisView;
 //                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                     //PromotedCategory = Category5;
+//                     //PromotedCategory = Process;
 //                     //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
 //                     //PromotedIsBig = true;
 //                     RunObject = Page "Analy Programme Curriculm";
@@ -287,7 +287,7 @@
 //                     Caption = 'Organization  Strength/Weakness';
 //                     Image = AlternativeAddress;
 //                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                     //PromotedCategory = Category5;
+//                     //PromotedCategory = Process;
 //                     //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
 //                     //PromotedIsBig = true;
 //                     RunObject = Page "Analy Programme Organization";

@@ -9,9 +9,9 @@ Page 65111 "Posted Usage Costs"
     PageType = List;
     PromotedActionCategories = 'New,Process,Report,Entry';
     SourceTable = "Job Ledger Entry";
-    SourceTableView = sorting("Job No.","Posting Date")
+    SourceTableView = sorting("Job No.", "Posting Date")
                       order(descending)
-                      where("Entry Type"=const(Usage));
+                      where("Entry Type" = const(Usage));
     UsageCategory = History;
 
     layout
@@ -295,12 +295,12 @@ Page 65111 "Posted Usage Costs"
         }
         area(factboxes)
         {
-            systempart(Control1900383207;Links)
+            systempart(Control1900383207; Links)
             {
                 ApplicationArea = RecordLinks;
                 Visible = false;
             }
-            systempart(Control1905767507;Notes)
+            systempart(Control1905767507; Notes)
             {
                 ApplicationArea = Notes;
                 Visible = false;
@@ -318,12 +318,12 @@ Page 65111 "Posted Usage Costs"
                 Image = Entry;
                 action(Dimensions)
                 {
-                    AccessByPermission = TableData Dimension=R;
+                    AccessByPermission = TableData Dimension = R;
                     ApplicationArea = Dimensions;
                     Caption = 'Dimensions';
                     Image = Dimensions;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ShortCutKey = 'Shift+Ctrl+D';
                     ToolTip = 'View or edit dimensions, such as area, project, or department, that you can assign to sales and purchase documents to distribute costs and analyze transaction history.';
 
@@ -339,12 +339,12 @@ Page 65111 "Posted Usage Costs"
                     Ellipsis = true;
                     Image = "Filter";
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Limit the entries according to the dimension filters that you specify. NOTE: If you use a high number of dimension combinations, this function may not work and can result in a message that the SQL server only supports a maximum of 2100 parameters.';
 
                     trigger OnAction()
                     begin
-                        Rec.SetFilter("Dimension Set ID",DimensionSetIDFilter.LookupFilter);
+                        Rec.SetFilter("Dimension Set ID", DimensionSetIDFilter.LookupFilter);
                     end;
                 }
                 action("<Action28>")
@@ -353,7 +353,7 @@ Page 65111 "Posted Usage Costs"
                     Caption = 'Show Linked Job Planning Lines';
                     Image = JobLines;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'View the planning lines that are associated with job journal entries that have been posted to the job ledger. This requires that the Apply Usage Link check box has been selected for the job, or is the default setting for all jobs in your organization.';
 
                     trigger OnAction()
@@ -364,13 +364,13 @@ Page 65111 "Posted Usage Costs"
                         JobUsageLink.SetRange("Entry No.", Rec."Entry No.");
 
                         if JobUsageLink.FindSet then
-                          repeat
-                            JobPlanningLine.Get(JobUsageLink."Job No.",JobUsageLink."Job Task No.",JobUsageLink."Line No.");
-                            JobPlanningLine.Mark := true;
-                          until JobUsageLink.Next = 0;
+                            repeat
+                                JobPlanningLine.Get(JobUsageLink."Job No.", JobUsageLink."Job Task No.", JobUsageLink."Line No.");
+                                JobPlanningLine.Mark := true;
+                            until JobUsageLink.Next = 0;
 
                         JobPlanningLine.MarkedOnly(true);
-                        Page.Run(Page::"Job Planning Lines",JobPlanningLine);
+                        Page.Run(Page::"Job Planning Lines", JobPlanningLine);
                     end;
                 }
             }
@@ -411,7 +411,7 @@ Page 65111 "Posted Usage Costs"
                 Caption = '&Navigate';
                 Image = Navigate;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Find all entries and documents that exist for the document number and posting date on the selected entry or document.';
 
                 trigger OnAction()

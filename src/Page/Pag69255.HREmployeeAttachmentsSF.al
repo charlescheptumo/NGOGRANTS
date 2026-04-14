@@ -40,7 +40,7 @@ Page 69255 "HR Employee Attachments SF"
                 Caption = 'Open';
                 Image = Open;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Executes the Open action.';
                 trigger OnAction()
@@ -65,7 +65,7 @@ Page 69255 "HR Employee Attachments SF"
                 Ellipsis = true;
                 Image = Create_Movement;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Create action.';
                 trigger OnAction()
                 var
@@ -98,7 +98,7 @@ Page 69255 "HR Employee Attachments SF"
                 Ellipsis = true;
                 Image = Copy;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Copy & From action.';
                 trigger OnAction()
                 var
@@ -126,7 +126,7 @@ Page 69255 "HR Employee Attachments SF"
                 Ellipsis = true;
                 Image = Import;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Executes the Import action.';
                 trigger OnAction()
@@ -161,7 +161,7 @@ Page 69255 "HR Employee Attachments SF"
                 Ellipsis = true;
                 Image = Export;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Executes the E&xport action.';
                 trigger OnAction()
@@ -186,7 +186,7 @@ Page 69255 "HR Employee Attachments SF"
                 Ellipsis = true;
                 Image = RemoveContacts;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Executes the Remove action.';
                 trigger OnAction()

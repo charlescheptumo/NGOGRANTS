@@ -336,7 +336,7 @@ Page 69235 "Posted Leave Application"
                     Caption = 'Attachments';
                     Image = Attachments;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "HR Leave Documents";
                     RunPageLink = "Doc No." = field("Application Code");
                 }
@@ -350,7 +350,7 @@ Page 69235 "Posted Leave Application"
                     Caption = '&Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     begin
@@ -365,7 +365,7 @@ Page 69235 "Posted Leave Application"
                     Caption = 'Re-Open';
                     Image = ReopenCancelled;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
 
                     trigger OnAction()
@@ -397,7 +397,7 @@ Page 69235 "Posted Leave Application"
                     Caption = 'Create Leave Ledger Entries';
                     Image = CreateLinesFromJob;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
 
                     trigger OnAction()

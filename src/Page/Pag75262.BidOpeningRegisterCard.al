@@ -172,7 +172,7 @@ Page 75262 "Bid Opening Register Card"
                     ApplicationArea = Basic;
                     Image = AllocatedCapacity;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Bid Opening Bidder Attendance";
                     RunPageLink = Code = field(upperlimit(Code)),
                                   "IFS Code" = field("IFS Code");
@@ -183,7 +183,7 @@ Page 75262 "Bid Opening Register Card"
                     ApplicationArea = Basic;
                     Image = TeamSales;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Bid Opening Tender Committee";
                     RunPageLink = "Document No." = field(Code);
                     ToolTip = 'Executes the Bid Opening Tender Committee action.';

@@ -108,7 +108,7 @@ page 95402 "Approved Award Addendum"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = false;
                     ToolTip = 'Executes the Approvals action.';
                     trigger OnAction()
@@ -137,7 +137,7 @@ page 95402 "Approved Award Addendum"
                     Enabled = not OpenApprovalEntriesExist;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Send A&pproval Request action.';
 
 
@@ -169,7 +169,7 @@ page 95402 "Approved Award Addendum"
                     //Enabled = OpenApprovalEntriesExist;
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Cancel Approval Re&quest action.';
                     trigger OnAction()
                     var
@@ -297,7 +297,7 @@ page 95402 "Approved Award Addendum"
                             Caption = 'Approve';
                             Image = Approve;
                             Promoted = true;
-                            PromotedCategory = Category4;
+                            PromotedCategory = Process;
                             PromotedIsBig = true;
                             PromotedOnly = true;
                             ToolTip = 'Approve the requested changes.';
@@ -316,7 +316,7 @@ page 95402 "Approved Award Addendum"
                             Caption = 'Reject';
                             Image = Reject;
                             Promoted = true;
-                            PromotedCategory = Category4;
+                            PromotedCategory = Process;
                             PromotedIsBig = true;
                             PromotedOnly = true;
                             ToolTip = 'Reject the requested changes.';
@@ -335,7 +335,7 @@ page 95402 "Approved Award Addendum"
                             Caption = 'Delegate';
                             Image = Delegate;
                             Promoted = true;
-                            PromotedCategory = Category4;
+                            PromotedCategory = Process;
                             PromotedOnly = true;
                             ToolTip = 'Delegate the requested changes to the substitute approver.';
                             Visible = OpenApprovalEntriesExistForCurrUser;
@@ -371,7 +371,7 @@ page 95402 "Approved Award Addendum"
                             Image = Attach;
                             Promoted = true;
                             Visible = false;
-                            PromotedCategory = Category5;
+                            PromotedCategory = Process;
                             PromotedIsBig = true;
                             ToolTip = 'Executes the Attach Documents action.';
                             trigger OnAction()

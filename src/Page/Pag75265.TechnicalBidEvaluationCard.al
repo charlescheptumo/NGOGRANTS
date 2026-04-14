@@ -192,7 +192,7 @@ Page 75265 "Technical Bid Evaluation Card"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.';
 
                     trigger OnAction()
@@ -219,7 +219,7 @@ Page 75265 "Technical Bid Evaluation Card"
                     Caption = 'Attachments';
                     Image = Attach;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Add a file as an attachment. You can attach images as well as documents.';
 
                     trigger OnAction()
@@ -269,7 +269,7 @@ Page 75265 "Technical Bid Evaluation Card"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -277,7 +277,7 @@ Page 75265 "Technical Bid Evaluation Card"
 
                     trigger OnAction()
                     var
-                    ApprovalsMgmt: Codeunit "Approvals Mgmt.";
+                        ApprovalsMgmt: Codeunit "Approvals Mgmt.";
                     begin
                         ApprovalsMgmt.ApproveRecordApprovalRequest(Rec.RecordId);
                     end;
@@ -288,7 +288,7 @@ Page 75265 "Technical Bid Evaluation Card"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -296,7 +296,7 @@ Page 75265 "Technical Bid Evaluation Card"
 
                     trigger OnAction()
                     var
-                    ApprovalsMgmt: Codeunit "Approvals Mgmt.";
+                        ApprovalsMgmt: Codeunit "Approvals Mgmt.";
                     begin
                         ApprovalsMgmt.RejectRecordApprovalRequest(Rec.RecordId);
                     end;
@@ -307,14 +307,14 @@ Page 75265 "Technical Bid Evaluation Card"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
 
                     trigger OnAction()
                     var
-                    ApprovalsMgmt: Codeunit "Approvals Mgmt.";
+                        ApprovalsMgmt: Codeunit "Approvals Mgmt.";
                     begin
                         ApprovalsMgmt.DelegateRecordApprovalRequest(Rec.RecordId);
                     end;
@@ -375,7 +375,7 @@ Page 75265 "Technical Bid Evaluation Card"
 
                     trigger OnAction()
                     var
-                    ReleasePurchDoc: Codeunit "Release Approval Document";
+                        ReleasePurchDoc: Codeunit "Release Approval Document";
                     begin
                         //ReleasePurchDoc.ReopenVendDebarment(Rec);
                         /*IF Released=FALSE THEN
@@ -444,13 +444,13 @@ Page 75265 "Technical Bid Evaluation Card"
                     Caption = 'Send A&pproval Request';
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Request approval of the document.';
 
                     trigger OnAction()
                     var
-                    ApprovalsMgmt: Codeunit "Approvals Mgmt.";
+                        ApprovalsMgmt: Codeunit "Approvals Mgmt.";
                     begin
                         // if ApprovalsMgmt.CheckBidEvaluationApprovalPossible(Rec) then
                         // ApprovalsMgmt.OnSendBidEvaluationForApproval(Rec);
@@ -463,7 +463,7 @@ Page 75265 "Technical Bid Evaluation Card"
                     Caption = 'Cancel Approval Re&quest';
                     Image = CancelApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Cancel the approval request.';
 
                     trigger OnAction()

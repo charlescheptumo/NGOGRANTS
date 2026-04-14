@@ -76,7 +76,7 @@ Page 69228 "Training App Participants List"
                     Caption = 'Attendance Register';
                     Image = ApplyEntries;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Attendance Register";
                     RunPageLink = "Training Application No." = field("Training Code");
 

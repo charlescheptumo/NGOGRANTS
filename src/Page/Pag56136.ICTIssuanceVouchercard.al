@@ -196,7 +196,7 @@
 //                 Caption = 'Issue';
 //                 Image = PostApplication;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Issue action.';
 //                 trigger OnAction()
@@ -282,7 +282,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Approve;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 Visible = false;
 //                 ToolTip = 'Executes the Accept action.';
 //                 trigger OnAction()
@@ -299,7 +299,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Reject;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 Visible = false;
 //                 ToolTip = 'Executes the Reject action.';
 //                 trigger OnAction()
@@ -324,7 +324,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Return;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 ToolTip = 'Executes the Return action.';
 //                 trigger OnAction()
 //                 begin

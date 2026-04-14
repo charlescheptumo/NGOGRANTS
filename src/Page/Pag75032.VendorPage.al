@@ -665,7 +665,7 @@ Page 75032 "Vendor Page"
                     ApplicationArea = Basic;
                     Image = EntriesList;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Vendor Prequalification Entry";
                     RunPageLink = "Vendor No." = field("No.");
                 }
@@ -674,7 +674,7 @@ Page 75032 "Vendor Page"
                     ApplicationArea = Basic;
                     Image = VoidRegister;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Vendor Special Group Entry";
                     RunPageLink = "Vendor No" = field("No.");
                 }
@@ -683,7 +683,7 @@ Page 75032 "Vendor Page"
                     ApplicationArea = Basic;
                     Image = Payment;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Vendor Business Owner";
                     RunPageLink = "Vendor No." = field("No.");
                 }
@@ -692,7 +692,7 @@ Page 75032 "Vendor Page"
                     ApplicationArea = Basic;
                     Image = Category;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Vendor Classification";
                     RunPageLink = "Vendor No" = field("No.");
                 }
@@ -701,7 +701,7 @@ Page 75032 "Vendor Page"
                     ApplicationArea = Basic;
                     Image = History;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Vendor Past Experience";
                     RunPageLink = "Vendor No." = field("No.");
                 }
@@ -710,7 +710,7 @@ Page 75032 "Vendor Page"
                     ApplicationArea = Basic;
                     Image = Relationship;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Vendor Past Experience";
                     RunPageLink = "Vendor No." = field("No.");
                 }
@@ -719,7 +719,7 @@ Page 75032 "Vendor Page"
                     ApplicationArea = Basic;
                     Image = SalesPerson;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Vendor Professional Staff";
                     RunPageLink = "Vendor No." = field("No.");
                 }
@@ -728,7 +728,7 @@ Page 75032 "Vendor Page"
                     ApplicationArea = Basic;
                     Image = AgreementQuote;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Vendor Works Awarded";
                     RunPageLink = "Vendor No" = field("No.");
                 }
@@ -737,7 +737,7 @@ Page 75032 "Vendor Page"
                     ApplicationArea = Basic;
                     Image = DueDate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Vendor Certificate Expiry";
                     RunPageLink = "Vendor No" = field("No.");
                 }
@@ -746,7 +746,7 @@ Page 75032 "Vendor Page"
                     ApplicationArea = Basic;
                     Image = Balance;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Vendor Audited Balance Sheet";
                     RunPageLink = "Vendor No." = field("No.");
                 }
@@ -755,7 +755,7 @@ Page 75032 "Vendor Page"
                     ApplicationArea = Basic;
                     Image = GLAccountBalance;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Vendor Audited Income Statemen";
                     RunPageLink = "Vendor No." = field("No.");
                 }
@@ -1107,7 +1107,7 @@ Page 75032 "Vendor Page"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -1126,7 +1126,7 @@ Page 75032 "Vendor Page"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the approval request.';
@@ -1145,7 +1145,7 @@ Page 75032 "Vendor Page"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the approval to a substitute approver.';
                     Visible = OpenApprovalEntriesExistCurrUser;
@@ -1163,7 +1163,7 @@ Page 75032 "Vendor Page"
                     Caption = 'Comments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistCurrUser;
@@ -1187,7 +1187,7 @@ Page 75032 "Vendor Page"
                     Enabled = not OpenApprovalEntriesExist and CanRequestApprovalForFlow;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Request approval to change the record.';
 
@@ -1206,7 +1206,7 @@ Page 75032 "Vendor Page"
                     Enabled = CanCancelApprovalForRecord or CanCancelApprovalForFlow;
                     Image = CancelApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Cancel the approval request.';
 
                     trigger OnAction()
@@ -1226,18 +1226,18 @@ Page 75032 "Vendor Page"
                         Caption = 'Create a Flow';
                         Image = Flow;
                         Promoted = true;
-                        PromotedCategory = Category5;
+                        PromotedCategory = Process;
                         ToolTip = 'Create a new Flow from a list of relevant Flow templates.';
                         Visible = IsSaaS;
 
                         trigger OnAction()
                         var
                             FlowServiceManagement: Codeunit "Flow Service Management";
-                          //  FlowTemplateSelector: Page "Flow Template Selector";
+                        //  FlowTemplateSelector: Page "Flow Template Selector";
                         begin
                             // Opens page 6400 where the user can use filtered templates to create new Flows.
-                          //  FlowTemplateSelector.SetSearchText(FlowServiceManagement.GetVendorTemplateFilter);
-                           // FlowTemplateSelector.Run;
+                            //  FlowTemplateSelector.SetSearchText(FlowServiceManagement.GetVendorTemplateFilter);
+                            // FlowTemplateSelector.Run;
                         end;
                     }
                     action(SeeFlows)
@@ -1246,8 +1246,8 @@ Page 75032 "Vendor Page"
                         Caption = 'See my Flows';
                         Image = Flow;
                         Promoted = true;
-                        PromotedCategory = Category5;
-                       // RunObject = Page "Flow Selector";
+                        PromotedCategory = Process;
+                        // RunObject = Page "Flow Selector";
                         ToolTip = 'View and configure Flows that you created.';
                     }
                 }

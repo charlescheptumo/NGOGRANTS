@@ -336,7 +336,7 @@ Page 75066 "Projects Works PRNs"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.';
 
                     trigger OnAction()
@@ -370,7 +370,7 @@ Page 75066 "Projects Works PRNs"
                     Image = Attach;
                     Promoted = true;
                     Visible = false;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Add a file as an attachment. You can attach images as well as documents.';
 
                     trigger OnAction()
@@ -396,7 +396,7 @@ Page 75066 "Projects Works PRNs"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -415,7 +415,7 @@ Page 75066 "Projects Works PRNs"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -434,7 +434,7 @@ Page 75066 "Projects Works PRNs"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -475,7 +475,7 @@ Page 75066 "Projects Works PRNs"
                     Caption = 'Re&lease';
                     Image = ReleaseDoc;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     Visible = false;
                     PromotedOnly = true;
@@ -504,7 +504,7 @@ Page 75066 "Projects Works PRNs"
                     Enabled = Rec.Status <> Rec.Status::Open;
                     Image = ReOpen;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Reopen the document to change it after it has been approved. Approved documents have the Released status and must be opened before they can be changed';
 
@@ -586,7 +586,7 @@ Page 75066 "Projects Works PRNs"
                     Caption = 'Attach Document';
                     Image = Attach;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     Visible = false;
@@ -683,7 +683,7 @@ Page 75066 "Projects Works PRNs"
                     Enabled = not OpenApprovalEntriesExist and CanRequestApprovalForFlow;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Request approval of the document.';
 
@@ -712,7 +712,7 @@ Page 75066 "Projects Works PRNs"
                     Enabled = CanCancelApprovalForRecord or CanCancelApprovalForFlow;
                     Image = CancelApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Cancel the approval request.';
 
                     trigger OnAction()

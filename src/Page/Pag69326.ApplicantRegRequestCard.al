@@ -402,7 +402,7 @@ Page 69326 "Applicant Reg Request Card"
                     Caption = 'Customer/Vendor';
                     Image = ContactReference;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'View the related customer, vendor, or bank account.';
                     Visible = IsOfficeAddin;
 

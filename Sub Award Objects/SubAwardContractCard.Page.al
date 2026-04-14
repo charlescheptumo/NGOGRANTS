@@ -236,7 +236,7 @@ page 65166 "Sub Award Contract Card"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = false;
                     Visible = false;
                     ToolTip = 'Executes the Approvals action.';
@@ -264,7 +264,7 @@ page 65166 "Sub Award Contract Card"
                     //  Enabled = not OpenApprovalEntriesExist;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
                     ToolTip = 'Executes the Send A&pproval Request action.';
                 }
@@ -351,7 +351,7 @@ page 65166 "Sub Award Contract Card"
                             Caption = 'Approve';
                             Image = Approve;
                             Promoted = true;
-                            PromotedCategory = Category4;
+                            PromotedCategory = Process;
                             PromotedIsBig = true;
                             PromotedOnly = true;
                             Visible = false;
@@ -371,7 +371,7 @@ page 65166 "Sub Award Contract Card"
                             Caption = 'Reject';
                             Image = Reject;
                             Promoted = true;
-                            PromotedCategory = Category4;
+                            PromotedCategory = Process;
                             PromotedIsBig = true;
                             PromotedOnly = true;
                             Visible = false;
@@ -391,7 +391,7 @@ page 65166 "Sub Award Contract Card"
                             Caption = 'Delegate';
                             Image = Delegate;
                             Promoted = true;
-                            PromotedCategory = Category4;
+                            PromotedCategory = Process;
                             PromotedOnly = true;
                             ToolTip = 'Delegate the requested changes to the substitute approver.';
                             // Visible = OpenApprovalEntriesExistForCurrUser;
@@ -463,7 +463,7 @@ page 65166 "Sub Award Contract Card"
                             Caption = 'Sub Grant Agreement';
                             Image = ContractPayment;
                             Promoted = true;
-                            PromotedCategory = Category5;
+                            PromotedCategory = Process;
                             PromotedOnly = true;
                             trigger OnAction()
                             begin
@@ -477,7 +477,7 @@ page 65166 "Sub Award Contract Card"
                             Caption = 'Closeout Report';
                             Image = Close;
                             Promoted = true;
-                            PromotedCategory = Category5;
+                            PromotedCategory = Process;
                             PromotedOnly = true;
                             Visible = Closeout;
                             trigger OnAction()

@@ -108,7 +108,7 @@ Page 69805 "Interview Scoresheet Template"
                 ApplicationArea = Basic;
                 Image = AvailableToPromise;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Question Group";
                 RunPageLink = "Header No." = field(Code);
                 ToolTip = 'Executes the Evaluation Sections action.';
@@ -118,7 +118,7 @@ Page 69805 "Interview Scoresheet Template"
                 ApplicationArea = Basic;
                 Image = PlanningWorksheet;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page "Interview Invitations";
                 RunPageLink = "Interview Scoresheet Template" = field(Code);
@@ -129,7 +129,7 @@ Page 69805 "Interview Scoresheet Template"
                 ApplicationArea = Basic;
                 Image = SuggestReminderLines;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Executes the Suggest Score Guide action.';
                 trigger OnAction()

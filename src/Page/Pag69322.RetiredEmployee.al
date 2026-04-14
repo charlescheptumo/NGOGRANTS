@@ -372,7 +372,7 @@ Page 69322 "Retired Employee"
                     Caption = 'Co&mments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Human Resource Comment Sheet";
                     RunPageLink = "Table Name" = const(Employee),
                                   "No." = field("No.");
@@ -384,7 +384,7 @@ Page 69322 "Retired Employee"
                     Caption = 'Dimensions';
                     Image = Dimensions;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     RunObject = Page "Default Dimensions";
                     RunPageLink = "Table ID" = const(5200),
@@ -398,7 +398,7 @@ Page 69322 "Retired Employee"
                     Caption = '&Picture';
                     Image = Picture;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Employee Picture";
                     RunPageLink = "No." = field("No.");
                     ToolTip = 'View or add a picture of the employee or, for example, the company''s logo.';
@@ -436,7 +436,7 @@ Page 69322 "Retired Employee"
                     Caption = '&Confidential Information';
                     Image = Lock;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     RunObject = Page "Confidential Information";
                     RunPageLink = "Employee No." = field("No.");
@@ -448,7 +448,7 @@ Page 69322 "Retired Employee"
                     Caption = 'Q&ualifications';
                     Image = Certificate;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Employee Qualifications";
                     RunPageLink = "Employee No." = field("No.");
                     ToolTip = 'Open the list of qualifications that are registered for the employee.';
@@ -459,7 +459,7 @@ Page 69322 "Retired Employee"
                     Caption = 'A&bsences';
                     Image = Absence;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     RunObject = Page "Employee Absences";
                     RunPageLink = "Employee No." = field("No.");
@@ -503,7 +503,7 @@ Page 69322 "Retired Employee"
                     Caption = 'Ledger E&ntries';
                     Image = VendorLedger;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     RunObject = Page "Employee Ledger Entries";
                     RunPageLink = "Employee No." = field("No.");
@@ -518,7 +518,7 @@ Page 69322 "Retired Employee"
                     Caption = 'Attachments';
                     Image = Attach;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Add a file as an attachment. You can attach images as well as documents.';
 
                     trigger OnAction()

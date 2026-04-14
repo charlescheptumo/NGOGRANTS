@@ -89,7 +89,7 @@ Page 69248 "HR Shortlisting Lines"
                 Caption = '&Send Interview Invitation';
                 Image = SendMail;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the &Send Interview Invitation action.';
                 trigger OnAction()
                 begin
@@ -106,7 +106,7 @@ Page 69248 "HR Shortlisting Lines"
                 Caption = '&Print1';
                 Image = PrintReport;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 Visible = false;
                 ToolTip = 'Executes the &Print1 action.';
                 trigger OnAction()

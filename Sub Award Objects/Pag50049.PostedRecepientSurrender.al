@@ -270,7 +270,7 @@ page 50049 "Posted Recepient Surrender"
                     ApplicationArea = Basic;
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                 }
                 action(Reject)
                 {

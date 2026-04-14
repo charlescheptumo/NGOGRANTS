@@ -2,6 +2,7 @@
 Page 65017 "Research Output Register Card"
 {
     PageType = Card;
+    CAPTION = 'Operations Output Register List';
     SourceTable = "Research Output Register";
     ApplicationArea = All;
 
@@ -39,11 +40,11 @@ Page 65017 "Research Output Register Card"
                     ApplicationArea = Basic;
                     Editable = false;
                 }
-                field(ResearchOutputCategory; Rec."Research Output Category")
+                field("Operations Output Category"; Rec."Research Output Category")
                 {
                     ApplicationArea = Basic;
                 }
-                field(ResearchOutputSubCategory; Rec."Research Output SubCategory")
+                field("Operations Output SubCategory"; Rec."Research Output SubCategory")
                 {
                     ApplicationArea = Basic;
                 }

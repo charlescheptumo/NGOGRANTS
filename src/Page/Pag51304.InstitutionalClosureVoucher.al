@@ -103,7 +103,7 @@
 //     //                 ApplicationArea = Basic;
 //     //                 Image = Close;
 //     //                 Promoted = true;
-//     //                 PromotedCategory = Category5;
+//     //                 PromotedCategory = Process;
 //     //                 PromotedIsBig = true;
 //     //                 ToolTip = 'Executes the Close Accreditation Process action.';
 //     //                 trigger OnAction()
@@ -191,7 +191,7 @@
 //     //                 ApplicationArea = Basic;
 //     //                 Image = Recalculate;
 //     //                 Promoted = true;
-//     //                 PromotedCategory = Category5;
+//     //                 PromotedCategory = Process;
 //     //                 PromotedIsBig = true;
 //     //                 ToolTip = 'Executes the Request Re-visit action.';
 //     //                 trigger OnAction()

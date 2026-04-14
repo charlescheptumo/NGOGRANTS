@@ -307,7 +307,7 @@
 //                     Caption = 'Statistics';
 //                     Image = Statistics;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Sales Invoice Statistics";
 //                     RunPageLink = "No." = field("No.");
@@ -319,7 +319,7 @@
 //                     Caption = 'Co&mments';
 //                     Image = ViewComments;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Sales Comment Sheet";
 //                     RunPageLink = "Document Type" = const("Posted Invoice"),
@@ -332,7 +332,7 @@
 //                     Caption = 'Dimensions';
 //                     Image = Dimensions;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     ShortCutKey = 'Shift+Ctrl+D';
 //                     ToolTip = 'View or edit dimensions, such as area, project, or department, that you can assign to sales and purchase documents to distribute costs and analyze transaction history.';
@@ -349,7 +349,7 @@
 //                     Caption = 'Incoming Document';
 //                     Image = Document;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 
 //                     trigger OnAction()
 //                     var
@@ -414,7 +414,7 @@
 //                 Ellipsis = true;
 //                 Image = SendToMultiple;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 PromotedOnly = true;
 //                 ToolTip = 'Prepare to send the document according to the customer''s sending profile, such as attached to an email. The Send document to window opens where you can confirm or select a sending profile.';
@@ -472,7 +472,7 @@
 //                 Caption = '&Navigate';
 //                 Image = Navigate;
 //                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                 //PromotedCategory = Category5;
+//                 //PromotedCategory = Process;
 //                 ToolTip = 'Find all entries and documents that exist for the document number and posting date on the selected entry or document.';
 //                 Visible = not IsOfficeAddin;
 
@@ -562,7 +562,7 @@
 //                     Caption = 'Customer';
 //                     Image = Customer;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     PromotedOnly = true;
 //                     RunObject = Page "Customer Card";
@@ -578,7 +578,7 @@
 //                     Enabled = Rec.Cancelled or Rec.Corrective;
 //                     Image = CreditMemo;
 //                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                     //PromotedCategory = Category4;
+//                     //PromotedCategory = Process;
 //                     Scope = Repeater;
 //                     ToolTip = 'Open the posted sales credit memo that was created when you canceled the posted sales invoice. If the posted sales invoice is the result of a canceled sales credit memo, then canceled sales credit memo will open.';
 

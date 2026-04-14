@@ -120,7 +120,7 @@ Page 69129 "Apptitude Interview Card"
                     Caption = 'Get Shortlisted Applicants';
                     Image = Salutation;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Get Shortlisted Applicants action.';
                     trigger OnAction()
                     begin

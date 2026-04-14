@@ -297,7 +297,7 @@
 //                     Caption = 'Approve';
 //                     Image = Approve;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     ToolTip = 'Approve the requested changes.';
 //                     Visible = PendingApp;
@@ -317,7 +317,7 @@
 //                     Caption = 'Reject';
 //                     Image = Reject;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     Visible = PendingApp;
 //                     ToolTip = 'Executes the Reject action.';
@@ -334,7 +334,7 @@
 //                     Caption = 'Delegate';
 //                     Image = Delegate;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     Visible = PendingApp;
 //                     ToolTip = 'Executes the Delegate action.';
 //                     trigger OnAction()

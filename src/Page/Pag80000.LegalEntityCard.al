@@ -245,7 +245,7 @@ Page 80000 "Legal Entity Card"
                 Caption = 'Responsibility Centers';
                 Image = Position;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Responsibility Center List";
                 ToolTip = 'Set up responsibility centers to administer business operations that cover multiple locations, such as a sales offices or a purchasing departments.';
             }
@@ -257,7 +257,7 @@ Page 80000 "Legal Entity Card"
                 ApplicationArea = Basic;
                 Image = AccountingPeriods;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Annual Reporting Codes";
                 ToolTip = 'Executes the Annual Reporting Codes action.';
             }
@@ -269,7 +269,7 @@ Page 80000 "Legal Entity Card"
                 ApplicationArea = Basic;
                 Image = ContactPerson;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 RunObject = Page "Stakeholder Groups";
                 ToolTip = 'Executes the Partners & Collaborators action.';
             }

@@ -428,7 +428,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -447,7 +447,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -466,7 +466,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -484,7 +484,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     Caption = 'Comments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -509,7 +509,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     Enabled = Rec.Status <> Rec.Status::Open;
                     Image = ReOpen;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Reopen the document to change it after it has been approved. Approved documents have the Released status and must be opened before they can be changed';
 
@@ -527,7 +527,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     Enabled = Rec.Status <> Rec.Status::Open;
                     Image = ReOpen;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Testing';
 
@@ -672,7 +672,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     Enabled = Rec.Published = false;
                     Image = PrintCover;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     Visible = Rec.status = Rec.status::Released;
 
                     trigger OnAction()
@@ -695,7 +695,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     Enabled = Rec.Published = true;
                     Image = ActivateDiscounts;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     Visible = Rec.status = Rec.status::Released;
 
                     trigger OnAction()
@@ -710,7 +710,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     Enabled = Rec."code" <> '';
                     Image = Close;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     Visible = Rec.status = Rec.status::Released;
 
                     trigger OnAction()
@@ -723,7 +723,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     ApplicationArea = Suite;
                     Image = CancelAllLines;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     Visible = Rec.status = Rec.status::Released;
 
                     trigger OnAction()
@@ -750,7 +750,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     ApplicationArea = Basic;
                     Image = Filed;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "IFS Required Document";
                     RunPageLink = "Document No" = field(Code);
                     Visible = false;
@@ -789,7 +789,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     ApplicationArea = Basic;
                     Image = SocialSecurity;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "IFS Securities";
                     RunPageLink = "IFS Code" = field(Code);
                     Visible = false;
@@ -799,7 +799,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     ApplicationArea = Basic;
                     Image = SourceDocLine;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "IFS Tender Document Source";
                     RunPageLink = "Tender Source ID" = field(Code);
                     Visible = false;
@@ -892,7 +892,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     ApplicationArea = Basic;
                     Image = Change;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Tender Addendum Notice";
                     RunPageLink = "Invitation Notice No." = field(Code);
                     Visible = false;
@@ -911,7 +911,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     ApplicationArea = Basic;
                     Image = PlanningWorksheet;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "IFS Key Staff";
                     RunPageLink = "IFS Code" = field(Code);
                     Visible = false;
@@ -921,7 +921,7 @@ Page 75121 "Request For Quotation (RFQ)"
                 //     ApplicationArea = Basic;
                 //     Image = LiFo;
                 //     Promoted = true;
-                //     PromotedCategory = Category4;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "IFS Required Equipment";
                 //     RunPageLink = "Document No" = field(Code);
                 //     Visible = false;
@@ -931,7 +931,7 @@ Page 75121 "Request For Quotation (RFQ)"
                     ApplicationArea = Basic;
                     Image = Delivery;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "IFS Major Work_Deliverable";
                     RunPageLink = "Document No" = field(Code);
                     Visible = false;

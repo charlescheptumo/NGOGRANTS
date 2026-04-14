@@ -244,7 +244,7 @@ Page 57017 "Petty Cash Voucher"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = false;
 
                     trigger OnAction()
@@ -272,7 +272,7 @@ Page 57017 "Petty Cash Voucher"
                     Enabled = not OpenApprovalEntriesExist;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -307,7 +307,7 @@ Page 57017 "Petty Cash Voucher"
                     Enabled = OpenApprovalEntriesExist;
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -318,7 +318,7 @@ Page 57017 "Petty Cash Voucher"
                         Rec.TestField("Created By", UserId); //control so that only the initiator of the document can send for approval
                         VarVariant := Rec;
                         CustomApprovals.OnCancelDocApprovalRequest(VarVariant);
-                       
+
                     end;
                 }
                 separator(Action1000000043)
@@ -419,7 +419,7 @@ Page 57017 "Petty Cash Voucher"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -438,7 +438,7 @@ Page 57017 "Petty Cash Voucher"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -457,7 +457,7 @@ Page 57017 "Petty Cash Voucher"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -475,7 +475,7 @@ Page 57017 "Petty Cash Voucher"
                     Caption = 'Comments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'View or add comments for the record.';
                     Visible = not OpenApprovalEntriesExist;
@@ -494,7 +494,7 @@ Page 57017 "Petty Cash Voucher"
                     Promoted = true;
                     Visible = false;
                     Enabled = false;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
 
                     trigger OnAction()

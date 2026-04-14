@@ -734,7 +734,7 @@ page 50108 "Employee Card HR3"
     {
         area(navigation)
         {
-            
+
             group("E&mployee")
             {
                 Caption = 'E&mployee';
@@ -1015,7 +1015,7 @@ page 50108 "Employee Card HR3"
                 //     Caption = 'Attachments';
                 //     Image = Attachments;
                 //     Promoted = true;
-                //     PromotedCategory = Category5;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Attachments Setup";
                 //     RunPageLink = Code = field("No.");
                 //     ToolTip = 'Executes the Attachments action.';

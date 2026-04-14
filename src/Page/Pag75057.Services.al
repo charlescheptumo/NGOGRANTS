@@ -386,7 +386,7 @@ Page 75057 "Services"
                     Caption = '&Units of Measure';
                     Image = UnitOfMeasure;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                    //PromotedCategory = Category4;
+                    //PromotedCategory = Process;
                     RunObject = Page "Item Units of Measure";
                     RunPageLink = "Item No." = field("No.");
                     Scope = Repeater;
@@ -399,7 +399,7 @@ Page 75057 "Services"
                     Caption = 'Attributes';
                     Image = Category;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                    //PromotedCategory = Category4;
+                    //PromotedCategory = Process;
                     Scope = Repeater;
                     ToolTip = 'View or edit the item''s attributes, such as color, size, or other characteristics that help to describe the item.';
 
@@ -513,7 +513,7 @@ Page 75057 "Services"
                     Caption = 'Cross Re&ferences';
                     Image = Change;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     //RunObject = Page "Item Cross Reference Entries";
                     //RunPageLink = "Item No." = field("No.");
@@ -538,7 +538,7 @@ Page 75057 "Services"
                     Caption = 'Translations';
                     Image = Translations;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                    //PromotedCategory = Category4;
+                    //PromotedCategory = Process;
                     RunObject = Page "Item Translations";
                     RunPageLink = "Item No." = field("No."),
                                   "Variant Code" = const('');
@@ -555,7 +555,7 @@ Page 75057 "Services"
                         Enabled = IsInventoriable;
                         Image = InventoryCalculation;
                         Promoted = true;
-                        PromotedCategory = Category4;
+                        PromotedCategory = Process;
                         PromotedOnly = true;
                         Scope = Repeater;
                         ToolTip = 'Increase or decrease the item''s inventory quantity manually by entering a new quantity. Adjusting the inventory quantity manually may be relevant after a physical count or if you do not record purchased quantities.';
@@ -621,7 +621,7 @@ Page 75057 "Services"
                         Caption = 'Ledger E&ntries';
                         Image = ItemLedger;
                         //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                        //PromotedCategory = Category5;
+                        //PromotedCategory = Process;
                         RunObject = Page "Item Ledger Entries";
                         RunPageLink = "Item No." = field("No.");
                         RunPageView = sorting("Item No.")
@@ -636,7 +636,7 @@ Page 75057 "Services"
                         Caption = '&Phys. Inventory Ledger Entries';
                         Image = PhysicalInventoryLedger;
                         //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                        //PromotedCategory = Category5;
+                        //PromotedCategory = Process;
                         RunObject = Page "Phys. Inventory Ledger Entries";
                         RunPageLink = "Item No." = field("No.");
                         RunPageView = sorting("Item No.");
@@ -1344,7 +1344,7 @@ Page 75057 "Services"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.';
 

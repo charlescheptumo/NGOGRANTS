@@ -67,7 +67,7 @@ Page 69623 "Recruitment Plan Position"
     //                 ApplicationArea = Basic;
     //                 Image = CreateForm;
     //                 Promoted = true;
-    //                 PromotedCategory = Category4;
+    //                 PromotedCategory = Process;
     //                 PromotedIsBig = true;
 
     //                 trigger OnAction()

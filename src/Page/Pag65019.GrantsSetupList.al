@@ -14,17 +14,17 @@ Page 65019 "Grants Setup List"
         {
             repeater(Group)
             {
-                field("Research Iinfrastructure Nos"; Rec."Research Iinfrastructure Nos")
+                field("Operations Iinfrastructure Nos"; Rec."Research Iinfrastructure Nos")
                 {
                     ApplicationArea = Basic;
                     ToolTip = 'Specifies the value of the Research Iinfrastructure Nos field.';
                 }
-                field("Research Output Nos"; Rec."Research Output Nos")
+                field("Operations Output Nos"; Rec."Research Output Nos")
                 {
                     ApplicationArea = Basic;
                     ToolTip = 'Specifies the value of the Research Output Nos field.';
                 }
-                field("Researcher Nos"; Rec."Researcher Nos")
+                field("Operations Nos"; Rec."Researcher Nos")
                 {
                     ApplicationArea = Basic;
                     ToolTip = 'Specifies the value of the Researcher Nos field.';

@@ -242,7 +242,7 @@
 //                     Caption = 'Send A&pproval Request';
 //                     Image = SendApprovalRequest;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 
 //                     trigger OnAction()
 //                     begin
@@ -258,7 +258,7 @@
 //                     Caption = 'Cancel Approval Re&quest';
 //                     Image = Cancel;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 
 //                     trigger OnAction()
 //                     begin

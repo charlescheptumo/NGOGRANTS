@@ -58,7 +58,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">General Information</Value>
+                                      <Value>General Information</Value>
                                       <Style>
                                         <FontSize>12pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -123,7 +123,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Application No.:</Value>
+                                      <Value>Application No.:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -176,7 +176,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!ApplicationNo_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!ApplicationNo_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -229,7 +229,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Primary Research Program ID:</Value>
+                                      <Value>Primary Research Program ID:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -282,7 +282,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!PrimaryResearchProgramID_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!PrimaryResearchProgramID_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -340,7 +340,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Document Date:</Value>
+                                      <Value>Document Date:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -393,7 +393,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!DocumentDate_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!DocumentDate_GrantFundingApplication.Value</Value>
                                       <Style>
                                         <Format>MM/dd/yyyy</Format>
                                       </Style>
@@ -428,7 +428,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Primary Research Area:</Value>
+                                      <Value>Primary Research Area:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -481,7 +481,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!PrimaryResearchArea_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!PrimaryResearchArea_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -539,7 +539,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">FOA ID:</Value>
+                                      <Value>FOA ID:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -592,7 +592,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!FOAID_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!FOAID_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -645,7 +645,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Principal Investigator:</Value>
+                                      <Value>Principal Investigator:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -698,7 +698,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!PrincipalInvestigator_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!PrincipalInvestigator_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -756,7 +756,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">External Document No.:</Value>
+                                      <Value>External Document No.:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -809,7 +809,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!ExternalDocumentNo_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!ExternalDocumentNo_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -862,7 +862,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Grant Admin Team:</Value>
+                                      <Value>Grant Admin Team:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -915,7 +915,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!GrantAdminTeamCode_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!GrantAdminTeamCode_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -973,7 +973,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Description:</Value>
+                                      <Value>Description:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -1026,7 +1026,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!Description_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!Description_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -1079,7 +1079,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Application Status:</Value>
+                                      <Value>Application Status:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -1132,7 +1132,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!ApplicationStatus_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!ApplicationStatus_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -1190,7 +1190,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Opportunity Title:</Value>
+                                      <Value>Opportunity Title:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -1243,7 +1243,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!OpportunityTitle_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!OpportunityTitle_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -1296,7 +1296,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Application Due Date:</Value>
+                                      <Value>Application Due Date:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -1349,7 +1349,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!ApplicationDueDate_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!ApplicationDueDate_GrantFundingApplication.Value</Value>
                                       <Style>
                                         <Format>MM/dd/yyyy</Format>
                                       </Style>
@@ -1389,7 +1389,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Call Type:</Value>
+                                      <Value>Call Type:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -1442,7 +1442,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!CallType_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!CallType_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -1495,7 +1495,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Application Submitted Date:</Value>
+                                      <Value>Application Submitted Date:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -1548,7 +1548,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!ApplicationSubmittedDate_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!ApplicationSubmittedDate_GrantFundingApplication.Value</Value>
                                       <Style>
                                         <Format>MM/dd/yyyy</Format>
                                       </Style>
@@ -1588,7 +1588,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Grant Type:</Value>
+                                      <Value>Grant Type:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -1641,7 +1641,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!GrantType_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!GrantType_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -1694,7 +1694,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Estimated Award Date:</Value>
+                                      <Value>Estimated Award Date:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -1747,7 +1747,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!EstimatedAwardDate_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!EstimatedAwardDate_GrantFundingApplication.Value</Value>
                                       <Style>
                                         <Format>MM/dd/yyyy</Format>
                                       </Style>
@@ -1787,7 +1787,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Research Centre:</Value>
+                                      <Value>Research Centre:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -1840,7 +1840,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!ResearchCenter_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!ResearchCenter_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -1893,7 +1893,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Currency:</Value>
+                                      <Value>Currency:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -1946,7 +1946,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!CurrencyCode_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!CurrencyCode_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -2004,7 +2004,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Justification for Application:</Value>
+                                      <Value>Justification for Application:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -2059,7 +2059,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Requested Grant Amount:</Value>
+                                      <Value>Requested Grant Amount:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -2112,7 +2112,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!RequestedGrantAmount_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!RequestedGrantAmount_GrantFundingApplication.Value</Value>
                                       <Style>
                                         <Format>n0</Format>
                                       </Style>
@@ -2152,7 +2152,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!JustificationforApplication_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!JustificationforApplication_GrantFundingApplication.Value</Value>
                                       <Style>
                                         <FontWeight>Normal</FontWeight>
                                       </Style>
@@ -2207,7 +2207,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Requested Grant Amount(LCY):</Value>
+                                      <Value>Requested Grant Amount(LCY):</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -2260,7 +2260,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!RequestedGrantAmountLCY_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!RequestedGrantAmountLCY_GrantFundingApplication.Value</Value>
                                       <Style>
                                         <Format>n0</Format>
                                       </Style>
@@ -2300,7 +2300,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -2329,7 +2329,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -2358,7 +2358,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -2389,7 +2389,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -2418,7 +2418,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -2447,7 +2447,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -2476,7 +2476,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -2505,7 +2505,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -2539,14 +2539,14 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Grantor's Information</Value>
+                                      <Value>Grantor's Information</Value>
                                       <Style>
                                         <FontSize>12pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
                                     </TextRun>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">G</Value>
+                                      <Value>G</Value>
                                       <Style>
                                         <FontSize>12pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -2615,7 +2615,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Grantor Name:</Value>
+                                      <Value>Grantor Name:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -2671,7 +2671,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!GrantorName_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!GrantorName_GrantFundingApplication.Value</Value>
                                       <Style>
                                         <FontWeight>Normal</FontWeight>
                                       </Style>
@@ -2727,7 +2727,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Grantor Research Reviewer:</Value>
+                                      <Value>Grantor Research Reviewer:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -2783,7 +2783,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!GrantorResearchReviewer_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!GrantorResearchReviewer_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -2842,7 +2842,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Phone No:</Value>
+                                      <Value>Phone No:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -2898,7 +2898,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!PhoneNo_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!PhoneNo_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -2952,7 +2952,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Grantor Admin Name:</Value>
+                                      <Value>Grantor Admin Name:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -3008,7 +3008,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!GrantorAdminName_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!GrantorAdminName_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -3067,7 +3067,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Mobile No.:</Value>
+                                      <Value>Mobile No.:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -3123,7 +3123,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!MobilePhoneNo_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!MobilePhoneNo_GrantFundingApplication.Value</Value>
                                       <Style>
                                         <FontWeight>Normal</FontWeight>
                                       </Style>
@@ -3179,7 +3179,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Grantor Finance Contact:</Value>
+                                      <Value>Grantor Finance Contact:</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -3235,7 +3235,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!GrantorFinanceContact_GrantFundingApplication.Value</Value>
+                                      <Value>=Fields!GrantorFinanceContact_GrantFundingApplication.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -3294,7 +3294,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -3330,7 +3330,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -3366,7 +3366,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -3402,7 +3402,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                       </Style>
@@ -3441,7 +3441,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Grant Research Objectives</Value>
+                                      <Value>Grant Research Objectives</Value>
                                       <Style>
                                         <FontSize>12pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -3509,7 +3509,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Research Objective</Value>
+                                      <Value>Research Objective</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -3568,7 +3568,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Research Program</Value>
+                                      <Value>Research Program</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -3627,7 +3627,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Program Area</Value>
+                                      <Value>Program Area</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -3690,7 +3690,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!ResearchObjective_GrantResearchObjectives.Value</Value>
+                                      <Value>=Fields!ResearchObjective_GrantResearchObjectives.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -3744,7 +3744,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!ResearchProgram_GrantResearchObjectives.Value</Value>
+                                      <Value>=Fields!ResearchProgram_GrantResearchObjectives.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -3798,7 +3798,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!ProjectArea_GrantResearchObjectives.Value</Value>
+                                      <Value>=Fields!ProjectArea_GrantResearchObjectives.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -3856,7 +3856,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -4015,7 +4015,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Proposed Budget</Value>
+                                      <Value>Proposed Budget</Value>
                                       <Style>
                                         <FontSize>12pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -4070,7 +4070,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style>
                                         <FontSize>12pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -4127,7 +4127,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Budget Code</Value>
+                                      <Value>Budget Code</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -4182,7 +4182,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Currency</Value>
+                                      <Value>Currency</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -4237,7 +4237,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Budget Amount</Value>
+                                      <Value>Budget Amount</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -4292,7 +4292,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Budget Amount(LCY)</Value>
+                                      <Value>Budget Amount(LCY)</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -4352,7 +4352,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!Code_GrantBudgetSummary.Value</Value>
+                                      <Value>=Fields!Code_GrantBudgetSummary.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -4403,7 +4403,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!BudgetCurrency_GrantBudgetSummary.Value</Value>
+                                      <Value>=Fields!BudgetCurrency_GrantBudgetSummary.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -4454,7 +4454,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!BudgetAmount_GrantBudgetSummary.Value</Value>
+                                      <Value>=Fields!BudgetAmount_GrantBudgetSummary.Value</Value>
                                       <Style>
                                         <Format>n0</Format>
                                       </Style>
@@ -4487,7 +4487,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!BudgetAmountLCY_GrantBudgetSummary.Value</Value>
+                                      <Value>=Fields!BudgetAmountLCY_GrantBudgetSummary.Value</Value>
                                       <Style>
                                         <Format>n0</Format>
                                       </Style>
@@ -4525,7 +4525,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -4566,7 +4566,6 @@
                               </Style>
                             </Textbox>
                             <ColSpan>2</ColSpan>
-                            <rd:Selected>true</rd:Selected>
                           </CellContents>
                         </TablixCell>
                         <TablixCell />
@@ -4579,7 +4578,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Sum(Fields!BudgetAmount_GrantBudgetSummary.Value)</Value>
+                                      <Value>=Sum(Fields!BudgetAmount_GrantBudgetSummary.Value)</Value>
                                       <Style>
                                         <Format>n0</Format>
                                       </Style>
@@ -4612,7 +4611,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Sum(Fields!BudgetAmountLCY_GrantBudgetSummary.Value)</Value>
+                                      <Value>=Sum(Fields!BudgetAmountLCY_GrantBudgetSummary.Value)</Value>
                                       <Style>
                                         <Format>n0</Format>
                                       </Style>
@@ -4749,7 +4748,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Administrative Tasks</Value>
+                                      <Value>Administrative Tasks</Value>
                                       <Style>
                                         <FontSize>12pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -4807,7 +4806,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style>
                                         <FontSize>12pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -4859,7 +4858,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style>
                                         <FontSize>12pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -4911,7 +4910,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style>
                                         <FontSize>12pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -4963,7 +4962,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style>
                                         <FontSize>12pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -5015,7 +5014,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto" />
+                                      <Value />
                                       <Style>
                                         <FontSize>12pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -5072,7 +5071,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">No.</Value>
+                                      <Value>No.</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -5125,7 +5124,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Team Name</Value>
+                                      <Value>Team Name</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -5178,7 +5177,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Researcher </Value>
+                                      <Value>Researcher </Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -5231,7 +5230,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Task Type</Value>
+                                      <Value>Task Type</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -5284,7 +5283,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Date</Value>
+                                      <Value>Date</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -5337,7 +5336,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Ending Date</Value>
+                                      <Value>Ending Date</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -5390,7 +5389,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Duration</Value>
+                                      <Value>Duration</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -5443,7 +5442,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Closed</Value>
+                                      <Value>Closed</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -5496,7 +5495,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Date Closed</Value>
+                                      <Value>Date Closed</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -5549,7 +5548,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Comment</Value>
+                                      <Value>Comment</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -5602,7 +5601,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Completed By</Value>
+                                      <Value>Completed By</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -5660,7 +5659,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!No_GrantAdminTasks.Value</Value>
+                                      <Value>=Fields!No_GrantAdminTasks.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -5711,7 +5710,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!TeamName_GrantAdminTasks.Value</Value>
+                                      <Value>=Fields!TeamName_GrantAdminTasks.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -5762,7 +5761,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!ResearcherNo_GrantAdminTasks.Value</Value>
+                                      <Value>=Fields!ResearcherNo_GrantAdminTasks.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -5813,7 +5812,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!TaskType_GrantAdminTasks.Value</Value>
+                                      <Value>=Fields!TaskType_GrantAdminTasks.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -5864,7 +5863,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!Date_GrantAdminTasks.Value</Value>
+                                      <Value>=Fields!Date_GrantAdminTasks.Value</Value>
                                       <Style>
                                         <Format>MM/dd/yyyy</Format>
                                       </Style>
@@ -5897,7 +5896,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!EndingDate_GrantAdminTasks.Value</Value>
+                                      <Value>=Fields!EndingDate_GrantAdminTasks.Value</Value>
                                       <Style>
                                         <Format>MM/dd/yyyy</Format>
                                       </Style>
@@ -5930,7 +5929,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!Duration_GrantAdminTasks.Value</Value>
+                                      <Value>=Fields!Duration_GrantAdminTasks.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -5981,7 +5980,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!Closed_GrantAdminTasks.Value</Value>
+                                      <Value>=Fields!Closed_GrantAdminTasks.Value</Value>
                                       <Style>
                                         <Format>MM/dd/yyyy</Format>
                                       </Style>
@@ -6014,7 +6013,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!DateClosed_GrantAdminTasks.Value</Value>
+                                      <Value>=Fields!DateClosed_GrantAdminTasks.Value</Value>
                                       <Style>
                                         <Format>MM/dd/yyyy</Format>
                                       </Style>
@@ -6047,7 +6046,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!Comment_GrantAdminTasks.Value</Value>
+                                      <Value>=Fields!Comment_GrantAdminTasks.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -6098,7 +6097,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!CompletedBy_GrantAdminTasks.Value</Value>
+                                      <Value>=Fields!CompletedBy_GrantAdminTasks.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -6213,7 +6212,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Secondary Programs</Value>
+                                      <Value>Secondary Programs</Value>
                                       <Style>
                                         <FontSize>12pt</FontSize>
                                         <FontWeight>Bold</FontWeight>
@@ -6273,7 +6272,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">GFA No.</Value>
+                                      <Value>GFA No.</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -6328,7 +6327,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Research Center</Value>
+                                      <Value>Research Center</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -6383,7 +6382,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">Research Program</Value>
+                                      <Value>Research Program</Value>
                                       <Style>
                                         <FontWeight>Bold</FontWeight>
                                         <Color>White</Color>
@@ -6443,7 +6442,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!GFANo_SecondaryResearchProgram.Value</Value>
+                                      <Value>=Fields!GFANo_SecondaryResearchProgram.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -6494,7 +6493,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!ResearchCenter_SecondaryResearchProgram.Value</Value>
+                                      <Value>=Fields!ResearchCenter_SecondaryResearchProgram.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -6545,7 +6544,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value EvaluationMode="Auto">=Fields!ResearchProgram_SecondaryResearchProgram.Value</Value>
+                                      <Value>=Fields!ResearchProgram_SecondaryResearchProgram.Value</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -6657,7 +6656,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value EvaluationMode="Auto">GRANT FUNDING PROPOSAL</Value>
+                      <Value>GRANT FUNDING PROPOSAL</Value>
                       <Style>
                         <FontSize>16pt</FontSize>
                         <FontWeight>Bold</FontWeight>
@@ -6686,12 +6685,12 @@
             </Textbox>
             <Image Name="Image1">
               <Source>Embedded</Source>
-              <Value>download</Value>
+              <Value>inkomoko</Value>
               <Sizing>FitProportional</Sizing>
-              <Top>0.05555in</Top>
+              <Top>0in</Top>
               <Left>0.3425in</Left>
-              <Height>1.17014in</Height>
-              <Width>1.25in</Width>
+              <Height>1.22569in</Height>
+              <Width>4.09375in</Width>
               <ZIndex>1</ZIndex>
               <Style>
                 <Border>
@@ -6776,6 +6775,17 @@ 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</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="inkomoko">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
     </EmbeddedImage>
   </EmbeddedImages>
   <Language>=User!Language</Language>

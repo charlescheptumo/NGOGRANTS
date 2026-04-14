@@ -120,7 +120,7 @@ Page 65115 "Budget Plan Card-Original"
                     ApplicationArea = Basic;
                     Image = Approval;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     begin
@@ -132,7 +132,7 @@ Page 65115 "Budget Plan Card-Original"
                     ApplicationArea = Basic;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -158,7 +158,7 @@ Page 65115 "Budget Plan Card-Original"
                     ApplicationArea = Basic;
                     Image = CancelApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     begin
@@ -212,7 +212,7 @@ Page 65115 "Budget Plan Card-Original"
                                 JobPlanningLines.Type := BudgetLines.Type;
                                 JobPlanningLines."No." := BudgetLines."No.";
                                 JobPlanningLines.Validate(JobPlanningLines."No.");
-                               // JobPlanningLines."Receipt Reference" := Rec."Receipt To Bugdet";
+                                // JobPlanningLines."Receipt Reference" := Rec."Receipt To Bugdet";
                                 JobPlanningLines."Document No." := Rec."Project Budget ID";
                                 JobPlanningLines."Planning Date" := BudgetLines."Planning Date";
                                 JobPlanningLines."Planned Delivery Date" := BudgetLines."Planned Delivery Date";
@@ -256,7 +256,7 @@ Page 65115 "Budget Plan Card-Original"
         BudgetHeader: Record "Project Budget Header";
         BudgetLines: Record "Project Budget Planning Line";
         ProcurementHeader: Record "Procurement Header";
-       // ProcurementLine: Record "Procurement Plan 1";
+        // ProcurementLine: Record "Procurement Plan 1";
         ProcurementEntry: Record "Procurement Plan Entry1";
         LineNumber: Integer;
         LineN: Integer;

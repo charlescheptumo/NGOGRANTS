@@ -721,7 +721,7 @@
 //                     Caption = '&Resource';
 //                     Image = Resource;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Job Resource Prices";
 //                     RunPageLink = "Job No." = field("No.");
 //                     ToolTip = 'View this job''s resource prices.';
@@ -732,7 +732,7 @@
 //                     Caption = '&Item';
 //                     Image = Item;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Job Item Prices";
 //                     RunPageLink = "Job No." = field("No.");
 //                     ToolTip = 'View this job''s item prices.';
@@ -743,7 +743,7 @@
 //                     Caption = '&G/L Account';
 //                     Image = JobPrice;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Job G/L Account Prices";
 //                     RunPageLink = "Job No." = field("No.");

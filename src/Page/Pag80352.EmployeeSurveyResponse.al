@@ -91,7 +91,7 @@
 //                 Caption = 'Submit';
 //                 Image = Save;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Submit action.';
 //                 trigger OnAction()

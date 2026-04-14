@@ -115,7 +115,7 @@ Page 69291 "Duty Stations1"
                     ApplicationArea = Basic;
                     Image = Job;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Job List";
                     RunPageLink = "Research Center" = field(Code);
                     ToolTip = 'Executes the Project profile action.';
@@ -125,7 +125,7 @@ Page 69291 "Duty Stations1"
                 //     ApplicationArea = Basic;
                 //     Image = Skills;
                 //     Promoted = true;
-                //     PromotedCategory = Category4;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Research Sub-Center List";
                 //     RunPageLink = "Research Centre" = field(Code);
                 //     ToolTip = 'Executes the Sub Centers action.';
@@ -135,7 +135,7 @@ Page 69291 "Duty Stations1"
                 //     ApplicationArea = Basic;
                 //     Image = Planning;
                 //     Promoted = true;
-                //     PromotedCategory = Category4;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Research Center Programs List";
                 //     RunPageLink = "Center Code" = field(Code);
                 //     ToolTip = 'Executes the Research Programs action.';
@@ -145,7 +145,7 @@ Page 69291 "Duty Stations1"
                 //     ApplicationArea = Basic;
                 //     Image = FixedAssets;
                 //     Promoted = true;
-                //     PromotedCategory = Category5;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Research Infrastructure List";
                 //     RunPageLink = "Center Code" = field(Code);
                 //     ToolTip = 'Executes the Research Infrastructure action.';
@@ -155,7 +155,7 @@ Page 69291 "Duty Stations1"
                     ApplicationArea = Basic;
                     Image = FixedAssets;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Fixed Asset List";
                     RunPageLink = "Research Center" = field(Code);
                     ToolTip = 'Executes the Fixed Assets action.';
@@ -165,7 +165,7 @@ Page 69291 "Duty Stations1"
                     ApplicationArea = Basic;
                     Image = Statistics;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Research Center Statistics";
                     RunPageLink = Code = field(Code);
                     ToolTip = 'Executes the Statistics action.';

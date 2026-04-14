@@ -5,6 +5,7 @@ Page 65018 "Research Output Register List"
     CardPageID = "Research Output Register Card";
     Editable = false;
     PageType = List;
+    Caption = 'Operations Output Register List';
     SourceTable = "Research Output Register";
     UsageCategory = Lists;
 
@@ -14,59 +15,59 @@ Page 65018 "Research Output Register List"
         {
             repeater(Group)
             {
-                field(No;Rec.No)
+                field(No; Rec.No)
                 {
                     ApplicationArea = Basic;
                 }
-                field(DocumentDate;Rec."Document Date")
+                field(DocumentDate; Rec."Document Date")
                 {
                     ApplicationArea = Basic;
                 }
-                field(CreatedBy;Rec."Created By")
+                field(CreatedBy; Rec."Created By")
                 {
                     ApplicationArea = Basic;
                 }
-                field(ResearchProjectId;Rec."Research Project Id")
+                field(ProjectId; Rec."Research Project Id")
                 {
                     ApplicationArea = Basic;
                 }
-                field(ResearchProgramId;Rec."Research Program Id")
+                field(ProgramId; Rec."Research Program Id")
                 {
                     ApplicationArea = Basic;
                 }
-                field(ResearchOutputCategory;Rec."Research Output Category")
+                field(OutputCategory; Rec."Research Output Category")
                 {
                     ApplicationArea = Basic;
                 }
-                field(PrincipleInvestigator;Rec."Principle Investigator")
+                field(PrincipleInvestigator; Rec."Principle Investigator")
                 {
                     ApplicationArea = Basic;
                 }
-                field(ResearchOutputSubCategory;Rec."Research Output SubCategory")
+                field(OutputSubCategory; Rec."Research Output SubCategory")
                 {
                     ApplicationArea = Basic;
                 }
-                field(ResearchOutputTitle;Rec."Research Output Title")
+                field(OutputTitle; Rec."Research Output Title")
                 {
                     ApplicationArea = Basic;
                 }
-                field(Abstract;Rec.Abstract)
+                field(Abstract; Rec.Abstract)
                 {
                     ApplicationArea = Basic;
                 }
-                field(Comments;Rec.Comments)
+                field(Comments; Rec.Comments)
                 {
                     ApplicationArea = Basic;
                 }
-                field(PublicationStatus;Rec."Publication Status")
+                field(PublicationStatus; Rec."Publication Status")
                 {
                     ApplicationArea = Basic;
                 }
-                field(VisibiltyCategory;Rec."Visibilty Category")
+                field(VisibiltyCategory; Rec."Visibilty Category")
                 {
                     ApplicationArea = Basic;
                 }
-                field(ApprovalStatus;Rec."Approval Status")
+                field(ApprovalStatus; Rec."Approval Status")
                 {
                     ApplicationArea = Basic;
                 }

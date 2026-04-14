@@ -51,15 +51,15 @@ Page 65087 "External Research Proposals"
                 {
                     ApplicationArea = Basic;
                 }
-                field(ResearchCenter; Rec."Research Center")
+                field("Operation Center"; Rec."Research Center")
                 {
                     ApplicationArea = Basic;
                 }
-                field(PrimaryResearchProgramID; Rec."Primary Research Program ID")
+                field(PrimaryOperationProgramID; Rec."Primary Research Program ID")
                 {
                     ApplicationArea = Basic;
                 }
-                field(PrimaryResearchArea; Rec."Primary Research Area")
+                field(PrimaryOperationArea; Rec."Primary Research Area")
                 {
                     ApplicationArea = Basic;
                 }

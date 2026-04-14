@@ -84,7 +84,7 @@
 //                 Caption = 'Approvals';
 //                 Image = Approvals;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 
 //                 trigger OnAction()
 //                 begin
@@ -99,7 +99,7 @@
 //                 Caption = 'Send A&pproval Request';
 //                 Image = SendApprovalRequest;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 Visible = true;
 
 //                 trigger OnAction()
@@ -115,7 +115,7 @@
 //                 Caption = 'Cancel Approval Re&quest';
 //                 Image = Reject;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 
 //                 trigger OnAction()
 //                 begin

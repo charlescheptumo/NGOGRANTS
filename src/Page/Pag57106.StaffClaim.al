@@ -226,7 +226,7 @@ Page 57106 "Staff Claim"
                     ApplicationArea = Basic;
                     Image = ResourceCosts;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     Visible = false;
                     PromotedOnly = true;
@@ -263,7 +263,7 @@ Page 57106 "Staff Claim"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = false;
 
                     trigger OnAction()
@@ -292,7 +292,7 @@ Page 57106 "Staff Claim"
                     Enabled = not OpenApprovalEntriesExist;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -336,7 +336,7 @@ Page 57106 "Staff Claim"
                     // Enabled = OpenApprovalEntriesExist;
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -446,7 +446,7 @@ Page 57106 "Staff Claim"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -465,7 +465,7 @@ Page 57106 "Staff Claim"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -484,7 +484,7 @@ Page 57106 "Staff Claim"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -519,7 +519,7 @@ Page 57106 "Staff Claim"
                     ApplicationArea = Basic;
                     Image = Attach;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
 
                     trigger OnAction()
@@ -532,7 +532,7 @@ Page 57106 "Staff Claim"
                     ApplicationArea = Basic;
                     Image = Documents;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Opens attached documents from the portal.';
                     RunObject = Page "Portal Documents";

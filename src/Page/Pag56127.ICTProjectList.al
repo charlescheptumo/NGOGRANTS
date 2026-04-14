@@ -146,7 +146,7 @@
 //                     Caption = 'Job Task &Lines';
 //                     Image = TaskList;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Job Task Lines";
 //                     RunPageLink = "Job No." = field("No.");
@@ -163,7 +163,7 @@
 //                         Caption = 'Dimensions-&Single';
 //                         Image = Dimensions;
 //                         Promoted = true;
-//                         PromotedCategory = Category5;
+//                         PromotedCategory = Process;
 //                         RunObject = Page "Default Dimensions";
 //                         RunPageLink = "Table ID" = const(167),
 //                                       "No." = field("No.");
@@ -177,7 +177,7 @@
 //                         Caption = 'Dimensions-&Multiple';
 //                         Image = DimensionSets;
 //                         Promoted = true;
-//                         PromotedCategory = Category5;
+//                         PromotedCategory = Process;
 //                         ToolTip = 'View or edit dimensions for a group of records. You can assign dimension codes to transactions to distribute costs and analyze historical information.';
 
 //                         trigger OnAction()
@@ -197,7 +197,7 @@
 //                     Caption = '&Statistics';
 //                     Image = Statistics;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Job Statistics";
 //                     RunPageLink = "No." = field("No.");
@@ -210,7 +210,7 @@
 //                     Caption = 'Sales &Invoices/Credit Memos';
 //                     Image = GetSourceDoc;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'View sales invoices or sales credit memos that are related to the selected job.';
 
 //                     trigger OnAction()
@@ -227,7 +227,7 @@
 //                     Caption = 'Co&mments';
 //                     Image = ViewComments;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Comment Sheet";
 //                     RunPageLink = "Table Name" = const(Job),
 //                                   "No." = field("No.");
@@ -324,7 +324,7 @@
 //                     Caption = 'Ledger E&ntries';
 //                     Image = CustomerLedger;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Job Ledger Entries";
 //                     RunPageLink = "Job No." = field("No.");

@@ -240,7 +240,7 @@ Page 75167 "Request for Registration"
                     Caption = 'Co&mments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Rlshp. Mgt. Comment Sheet";
                     RunPageLink = "Table Name" = const(Contact),
                                   "No." = field("No."),
@@ -548,7 +548,7 @@ Page 75167 "Request for Registration"
                     Caption = 'Statistics';
                     Image = Statistics;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     RunObject = Page "Contact Statistics";
                     RunPageLink = "No." = field("No.");

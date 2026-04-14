@@ -8,7 +8,7 @@ Page 65085 "Closed External Calls"
     Editable = false;
     PageType = List;
     SourceTable = "Funding Opportunity";
-    SourceTableView = where("Donor Type" = const(External),
+    SourceTableView = where("Grant Type" = filter('External'),
                             Status = const(Closed));
     UsageCategory = Lists;
 

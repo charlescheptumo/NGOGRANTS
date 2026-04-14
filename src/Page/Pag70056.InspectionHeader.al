@@ -110,7 +110,7 @@ Page 70056 "Inspection Header"
                     Caption = 'Attachments';
                     Image = Attach;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Add a file as an attachment. You can attach images as well as documents.';
@@ -177,7 +177,7 @@ Page 70056 "Inspection Header"
                 Caption = 'Approve';
                 Image = Approve;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Approve the requested changes.';
 
@@ -197,7 +197,7 @@ Page 70056 "Inspection Header"
                 Caption = 'Reject';
                 Image = Reject;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Reject the approval request.';
 
@@ -217,7 +217,7 @@ Page 70056 "Inspection Header"
                 Caption = 'Comments';
                 Image = ViewComments;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'View or add comments for the record.';
 
                 trigger OnAction()

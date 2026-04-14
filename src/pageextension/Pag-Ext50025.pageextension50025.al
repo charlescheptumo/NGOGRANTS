@@ -105,7 +105,7 @@ PageExtension 50025 "pageextension50025" extends "Resource Card"
             //     ApplicationArea = Basic;
             //     Image = Documents;
             //     Promoted = true;
-            //     PromotedCategory = Category4;
+            //     PromotedCategory = Process;
             //     PromotedIsBig = true;
             //     RunObject = Page "Marker Task Allocation";
             //     RunPageLink = "Resource No" = field("No.");

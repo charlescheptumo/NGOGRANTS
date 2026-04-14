@@ -42,7 +42,7 @@ Page 75003 "Procurement Types"
                     ApplicationArea = Basic;
                     Image = Info;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Request For Information";
                     RunPageLink = "Procurement Type" = field(Code);
                 }
@@ -51,7 +51,7 @@ Page 75003 "Procurement Types"
                     ApplicationArea = Basic;
                     Image = InwardEntry;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Draft Invitation For Supply";
                     RunPageLink = "Procurement Type" = field(Code);
                 }
@@ -60,7 +60,7 @@ Page 75003 "Procurement Types"
                     ApplicationArea = Basic;
                     Image = BinLedger;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     //  RunObject = Page Bidders;
                 }
                 action("Prequalification Categories")
@@ -68,7 +68,7 @@ Page 75003 "Procurement Types"
                     ApplicationArea = Basic;
                     Image = CoupledOpportunity;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Procurement Categories";
                     RunPageLink = "Procurement Type" = field(Code);
                 }
@@ -77,7 +77,7 @@ Page 75003 "Procurement Types"
                     ApplicationArea = Basic;
                     Image = OutboundEntry;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Procurement Plan Lines";
                     RunPageLink = "Procurement Type" = field(Code);
                 }
@@ -86,7 +86,7 @@ Page 75003 "Procurement Types"
                     ApplicationArea = Basic;
                     Image = BlanketOrder;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Solicitation Procurement Types";
                     RunPageLink = "Procument Type" = field(Code);
                 }
@@ -95,7 +95,7 @@ Page 75003 "Procurement Types"
                     ApplicationArea = Basic;
                     Image = Quote;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Purchase Quotes";
                     RunPageLink = "Procurement Type" = field(Code);
                 }
@@ -104,7 +104,7 @@ Page 75003 "Procurement Types"
                     ApplicationArea = Basic;
                     Image = "Order";
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Purchase Order List";
                     RunPageLink = "Procurement Type" = field(Code);
                 }
@@ -113,7 +113,7 @@ Page 75003 "Procurement Types"
                     ApplicationArea = Basic;
                     Image = BlanketOrder;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Blanket Purchase Orders";
                     RunPageLink = "Procurement Type" = field(Code);
                 }

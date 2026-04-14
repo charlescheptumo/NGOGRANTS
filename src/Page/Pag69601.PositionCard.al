@@ -288,7 +288,7 @@ Page 69601 "Position Card"
                 Caption = 'Dimensions';
                 Image = Dimensions;
                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                //PromotedCategory = Category4;
+                //PromotedCategory = Process;
                 //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
                 //PromotedIsBig = true;
                 RunObject = Page "Default Dimensions";

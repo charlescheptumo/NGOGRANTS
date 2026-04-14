@@ -533,7 +533,7 @@ Page 65064 "Project Contract Lines"
                     Caption = 'Send to Calendar';
                     Image = CalendarChanged;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Codeunit "Job Planning Line - Calendar";
                     RunPageOnRec = true;
                     ToolTip = 'Create a calendar appointment for the resource on each job planning line.';

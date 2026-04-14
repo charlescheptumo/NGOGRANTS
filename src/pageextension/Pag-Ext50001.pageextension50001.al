@@ -112,7 +112,7 @@ PageExtension 50001 "pageextension50001" extends "Company Information"
                 ApplicationArea = Basic;
                 Image = Segment;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Hr Guiding Principle";
             }
             action("Company Activities")
@@ -121,7 +121,7 @@ PageExtension 50001 "pageextension50001" extends "Company Information"
                 Caption = 'Organization Activities';
                 Image = Segment;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Medical Examination Type";
             }
             action("HR Committees")
@@ -130,7 +130,7 @@ PageExtension 50001 "pageextension50001" extends "Company Information"
                 Caption = 'Committees';
                 Image = Segment;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Disciplinary Committe";
             }
             action("Base Calendar")
@@ -138,7 +138,7 @@ PageExtension 50001 "pageextension50001" extends "Company Information"
                 ApplicationArea = Basic;
                 Image = Segment;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Base Calendar List";
             }
             action(Dimensions)
@@ -146,7 +146,7 @@ PageExtension 50001 "pageextension50001" extends "Company Information"
                 ApplicationArea = Basic;
                 Image = Dimensions;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page Dimensions;
             }
         }

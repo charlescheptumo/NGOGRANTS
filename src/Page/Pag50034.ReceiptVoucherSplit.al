@@ -253,7 +253,7 @@ Page 50034 "Receipt Voucher-Split"
                 ApplicationArea = Basic;
                 Image = PostBatch;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 begin

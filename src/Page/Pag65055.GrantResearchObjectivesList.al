@@ -3,6 +3,7 @@
 Page 65055 "Grant Research Objectives List"
 {
     PageType = ListPart;
+    caption = 'Grant Operation Objectives';
     SourceTable = "Grant Research Objectives";
     ApplicationArea = Basic;
 
@@ -12,7 +13,7 @@ Page 65055 "Grant Research Objectives List"
         {
             repeater(Group)
             {
-                field("Research Objective"; Rec."Research Objective")
+                field("Operation Objective"; Rec."Research Objective")
                 {
                     ApplicationArea = Basic;
                     ToolTip = 'Specifies the value of the Research Objective field.';

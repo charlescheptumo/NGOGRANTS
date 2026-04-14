@@ -98,7 +98,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = ItemTrackingLines;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "Maintenance Form Activities";
 //                 RunPageLink = "Document No" = field("Document No"),

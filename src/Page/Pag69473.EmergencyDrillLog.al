@@ -210,7 +210,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = SendApprovalRequest;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Send Approval Request action.';
 //                 trigger OnAction()
@@ -223,7 +223,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = CancelApprovalRequest;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Cancel Approval Request action.';
 //                 trigger OnAction()
@@ -236,7 +236,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Approvals;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Approvals action.';
 //                 trigger OnAction()
@@ -249,7 +249,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = ReleaseDoc;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Release action.';
 //                 trigger OnAction()
@@ -265,7 +265,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = ReOpen;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Reopen action.';
 //                 trigger OnAction()

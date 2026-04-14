@@ -100,7 +100,7 @@
 //                 Caption = 'Survey Section';
 //                 Image = AbsenceCategory;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "BR Survey Section";
 //                 RunPageLink = "Survey ID" = field("Document No.");
@@ -178,7 +178,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Approval;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 
 //                 trigger OnAction()
 //                 begin
@@ -190,7 +190,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = SendApprovalRequest;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 
 //                 trigger OnAction()
 //                 var
@@ -208,7 +208,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = CancelApprovalRequest;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 
 //                 trigger OnAction()
 //                 begin
@@ -263,7 +263,7 @@
 //                     Caption = 'Copy';
 //                     Image = Copy;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                 }
 //             }

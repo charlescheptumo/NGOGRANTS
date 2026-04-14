@@ -145,7 +145,7 @@ Page 57301 "Budget Reallocation Header"
                 Caption = 'Approve';
                 Image = Approve;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Approve the requested changes.';
 
@@ -165,7 +165,7 @@ Page 57301 "Budget Reallocation Header"
                 Caption = 'Reject';
                 Image = Reject;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Reject the approval request.';
 
@@ -185,7 +185,7 @@ Page 57301 "Budget Reallocation Header"
                 Caption = 'Comments';
                 Image = ViewComments;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'View or add comments for the record.';
 
                 trigger OnAction()
@@ -199,7 +199,7 @@ Page 57301 "Budget Reallocation Header"
     }
 
     var
-        // KasnebFunctions: Codeunit KasnebFunctions;
+    // KasnebFunctions: Codeunit KasnebFunctions;
     //ApprovalsMgmt: Codeunit "Approvals Mgmt.";
 }
 

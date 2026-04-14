@@ -249,7 +249,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = ShipmentLines;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 RunObject = Page "ICT Issuance Entries";
 //                 RunPageLink = Code = field(Code),
 //                               Type = const(Issuance);
@@ -260,7 +260,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = ViewDocumentLine;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "ICT Issuance Entries";
 //                 RunPageLink = Code = field(Code),
@@ -285,7 +285,7 @@
 //                 Caption = 'Main&tenance Ledger Entries';
 //                 Image = MaintenanceLedgerEntries;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 RunObject = Page "Posted Maintenance Activities";
 //                 RunPageLink = "ICT Inventory No." = field(Code);
 //                 ToolTip = 'View all the maintenance ledger entries for a fixed asset.';
@@ -295,7 +295,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = EntriesList;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "ICT Board of Survey Entries";
 //                 RunPageLink = "ICT Inventory No" = field(Code);

@@ -184,7 +184,7 @@ Page 65135 "Grants  Role Center"
                 {
                     Caption = 'Grants Reports';
 
-                    action("Research Centers List")
+                    action("Operations Centers List")
                     {
                         ApplicationArea = Basic;
                         RunObject = Report "Research Center List";
@@ -196,21 +196,21 @@ Page 65135 "Grants  Role Center"
                         RunObject = Report "FOA List";
                         ToolTip = 'Executes the Funding Announcements action.';
                     }
-                    action("Research Center Grants")
+                    action("Operations Center Grants")
                     {
                         ApplicationArea = Basic;
                         Caption = 'Grants Per Research Center';
                         RunObject = Report "Research Center Grants";
                         ToolTip = 'Executes the Grants Per Research Center action.';
                     }
-                    action("Research Center Projects")
+                    action("Operations Center Projects")
                     {
                         ApplicationArea = Basic;
                         Caption = 'Projects Per Research Center';
                         RunObject = Report "Research Center Projects";
                         ToolTip = 'Executes the Projects Per Research Center action.';
                     }
-                    action("Research Center Assets")
+                    action("Operations Center Assets")
                     {
                         ApplicationArea = Basic;
                         Caption = 'Projects Per Research Center';
@@ -349,31 +349,31 @@ Page 65135 "Grants  Role Center"
                     ToolTip = 'Set up Grants Management Module';
                     Caption = 'Grants Setup';
                 }
-                action("Research Centers")
+                action("Operation Centers")
                 {
                     ApplicationArea = Basic;
                     RunObject = Page "Research Center List";
 
                 }
-                action("Research Program")
+                action("Operations Program")
                 {
                     ApplicationArea = Basic;
                     RunObject = Page "Research Program List";
 
                 }
-                action("Research Output Categories")
+                action("Operations Output Categories")
                 {
                     ApplicationArea = Basic;
                     RunObject = Page "Research Output Categories";
 
                 }
-                action("Research Approval Committee")
+                action("Operations Approval Committee")
                 {
                     ApplicationArea = Basic;
                     RunObject = Page "Research Approval Comm List";
 
                 }
-                action("Research Team Roles")
+                action("Operations Team Roles")
                 {
                     ApplicationArea = Basic;
                     RunObject = Page "Research Team Roles List";
@@ -390,7 +390,7 @@ Page 65135 "Grants  Role Center"
 
 
 
-                action("Research Investigators")
+                action("Operations Investigators")
                 {
                     ApplicationArea = Basic;
                     RunObject = Page "Research Investigators";
@@ -405,11 +405,11 @@ Page 65135 "Grants  Role Center"
             }
             group("Pre-Award Phase Planning")
             {
-                action("Researchers")
+                action("Operations")
                 {
                     ApplicationArea = Basic;
                     RunObject = Page "Researcher List";
-                    Caption = 'Researchers';
+                    Caption = 'Operations';
 
                 }
                 action("Grant Administrators")
@@ -484,21 +484,21 @@ Page 65135 "Grants  Role Center"
                     Caption = 'GOpen Internal Calls';
 
                 }
-                action("External Research Proposals")
+                action("External Operations Proposals")
                 {
                     ApplicationArea = Basic;
                     RunObject = Page "External Research Proposals";
-                    Caption = 'External Research Proposals';
+                    Caption = 'External Operations Proposals';
 
                 }
-                action("Internal Research Proposals")
+                action("Internal Operations Proposals")
                 {
                     ApplicationArea = Basic;
                     RunObject = Page "Internal Research Proposals";
-                    Caption = 'Internal Research Proposals';
+                    Caption = 'Internal Operations Proposals';
 
                 }
-                action("My Research Proposals")
+                action("My Operations Proposals")
                 {
                     ApplicationArea = Basic;
                     RunObject = Page "My Research Proposals";
@@ -709,10 +709,10 @@ Page 65135 "Grants  Role Center"
                         Caption = 'Quoted Projects';
                         RunObject = Page "Quoted Projects";
                     }
-                    action("Research Projects")
+                    action("Operations Projects")
                     {
                         ApplicationArea = Basic;
-                        Caption = 'Research Projects';
+                        Caption = 'Operations Projects';
                         RunObject = Page "Projects";
                     }
                     action("Job Registers")
@@ -766,7 +766,7 @@ Page 65135 "Grants  Role Center"
                 }
                 group("Project Close Out")
                 {
-                    action("Research Output Registers")
+                    action("Operations Output Registers")
                     {
                         ApplicationArea = Basic;
                         RunObject = Page "Research Output Register List";

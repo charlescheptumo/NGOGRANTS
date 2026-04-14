@@ -148,7 +148,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Grid;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Grant Funding Application List";
 //                    // RunPageLink = "Primary Research Program ID" = field(Code);
 //                 }
@@ -157,7 +157,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Job;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Job List";
 //                     RunPageLink = "Research Program" = field(Code);
 //                 }
@@ -175,7 +175,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Statistics;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Research Program Statistics";
 //                 }
 //                 action("Research Centers")

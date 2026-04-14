@@ -101,7 +101,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = SendApprovalRequest;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Send Approval Request action.';
 //                 trigger OnAction()
@@ -114,7 +114,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = CancelApprovalRequest;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Cancel Approval Request action.';
 //                 trigger OnAction()
@@ -127,7 +127,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Approvals;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Approvals action.';
 //                 trigger OnAction()
@@ -140,7 +140,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = ReleaseDoc;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Release action.';
 //                 trigger OnAction()
@@ -156,7 +156,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = ReOpen;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Reopen action.';
 //                 trigger OnAction()
@@ -202,7 +202,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = AllLines;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 RunObject = Page "Inspection Voucher Categories";
 //                 RunPageLink = "Template ID" = field("Drill ID"),
 //                               "Inspection Type" = field("Inspection Type");
@@ -213,7 +213,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Suggest;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Suggest Inspection Checklist action.';
 //                 trigger OnAction()
@@ -262,7 +262,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = PostApplication;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Submit action.';
 //                 trigger OnAction()

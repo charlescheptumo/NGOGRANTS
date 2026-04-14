@@ -515,7 +515,7 @@ Page 80090 "Standard Perform Appraisal"
                 ApplicationArea = Basic;
                 Image = Approval;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 begin
@@ -527,7 +527,7 @@ Page 80090 "Standard Perform Appraisal"
                 ApplicationArea = Basic;
                 Image = SendApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
@@ -580,7 +580,7 @@ Page 80090 "Standard Perform Appraisal"
                 ApplicationArea = Basic;
                 Image = CancelApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 begin
@@ -624,9 +624,9 @@ Page 80090 "Standard Perform Appraisal"
         // ProEvaluation: Record "Proficiency Evaluation Result";
         SPMGeneralSetup: Record "SPM General Setup";
         AchievedTarget: Decimal;
-        // PlogLines: Record "Plog Lines";
-        // SecondaryPCObjective: Record "Secondary PC Objective";
-        // PCJobDescription: Record "PC Job Description";
+    // PlogLines: Record "Plog Lines";
+    // SecondaryPCObjective: Record "Secondary PC Objective";
+    // PCJobDescription: Record "PC Job Description";
 
     local procedure FnGetLastLineNo() LineNumber: Integer
     var

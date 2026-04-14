@@ -233,7 +233,7 @@ Page 80021 "Center Card"
                 Caption = 'Responsibility Centers';
                 Image = Position;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Responsibility Center List";
                 ToolTip = 'Set up responsibility centers to administer business operations that cover multiple locations, such as a sales offices or a purchasing departments.';
             }
@@ -245,7 +245,7 @@ Page 80021 "Center Card"
                 ApplicationArea = Basic;
                 Image = AccountingPeriods;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Annual Reporting Codes";
                 ToolTip = 'Executes the Annual Reporting Codes action.';
             }
@@ -297,7 +297,7 @@ Page 80021 "Center Card"
                     Promoted = true;
                     PromotedCategory = Process;
                     RunObject = Page "Grant Funding Application List";
-                   // RunPageLink = "Research Center" = field(Code);
+                    // RunPageLink = "Research Center" = field(Code);
                     ToolTip = 'Executes the Grants Profile action.';
                 }
                 action("Project profile")
@@ -305,7 +305,7 @@ Page 80021 "Center Card"
                     ApplicationArea = Basic;
                     Image = Job;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Job List";
                     RunPageLink = "Research Center" = field(Code);
                     ToolTip = 'Executes the Project profile action.';
@@ -315,7 +315,7 @@ Page 80021 "Center Card"
                 //     ApplicationArea = Basic;
                 //     Image = Skills;
                 //     Promoted = true;
-                //     PromotedCategory = Category4;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Research Sub-Center List";
                 //     RunPageLink = "Research Centre" = field(Code);
                 //     ToolTip = 'Executes the Sub Centers action.';
@@ -325,7 +325,7 @@ Page 80021 "Center Card"
                 //     ApplicationArea = Basic;
                 //     Image = Planning;
                 //     Promoted = true;
-                //     PromotedCategory = Category4;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Research Center Programs List";
                 //     RunPageLink = "Center Code" = field(Code);
                 //     ToolTip = 'Executes the Research Programs action.';
@@ -335,7 +335,7 @@ Page 80021 "Center Card"
                 //     ApplicationArea = Basic;
                 //     Image = FixedAssets;
                 //     Promoted = true;
-                //     PromotedCategory = Category5;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Research Infrastructure List";
                 //     RunPageLink = "Center Code" = field(Code);
                 //     ToolTip = 'Executes the Research Infrastructure action.';
@@ -345,7 +345,7 @@ Page 80021 "Center Card"
                     ApplicationArea = Basic;
                     Image = FixedAssets;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Fixed Asset List";
                     RunPageLink = "Research Center" = field(Code);
                     ToolTip = 'Executes the Fixed Assets action.';
@@ -355,7 +355,7 @@ Page 80021 "Center Card"
                     ApplicationArea = Basic;
                     Image = Statistics;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Research Center Statistics";
                     RunPageLink = Code = field(Code);
                     ToolTip = 'Executes the Statistics action.';

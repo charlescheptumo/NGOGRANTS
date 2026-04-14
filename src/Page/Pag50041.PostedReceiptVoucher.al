@@ -244,7 +244,7 @@ Page 50041 "Posted Receipt Voucher"
                 ApplicationArea = Basic;
                 Image = PostBatch;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
             }
         }
     }

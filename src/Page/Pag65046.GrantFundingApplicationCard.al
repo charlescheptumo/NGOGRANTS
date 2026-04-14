@@ -8,7 +8,7 @@ Page 65046 "Grant Funding Application Card"
     PromotedActionCategories = 'New,Process,Report,Approvals,Attachments';
     // Editable=false;
     // InsertAllowed=false;
-    DeleteAllowed=false;
+    DeleteAllowed = false;
 
     layout
     {
@@ -400,7 +400,7 @@ Page 65046 "Grant Funding Application Card"
                 ApplicationArea = Basic;
                 Image = Approval;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Approvals action.';
                 trigger OnAction()
                 begin
@@ -412,7 +412,7 @@ Page 65046 "Grant Funding Application Card"
                 ApplicationArea = Basic;
                 Image = SendApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Send Approval Request action.';
                 trigger OnAction()
                 var
@@ -429,7 +429,7 @@ Page 65046 "Grant Funding Application Card"
                 ApplicationArea = Basic;
                 Image = CancelApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Cancel Approval Request action.';
                 trigger OnAction()
                 begin

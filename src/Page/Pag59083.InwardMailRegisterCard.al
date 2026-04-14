@@ -235,7 +235,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = ViewDocumentLine;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 RunObject = Page "Internal Mail Issuance";
 //                 RunPageLink = "Document No" = field("Mail Register No");
 //                 ToolTip = 'Executes the View Dispatch Entries action.';

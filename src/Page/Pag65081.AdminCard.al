@@ -350,7 +350,7 @@ Page 65081 "Admin Card"
                     Caption = 'S&kills';
                     Image = Skills;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Resource Skills";
                     RunPageLink = Type = const(Resource),
                                   "No." = field("No.");

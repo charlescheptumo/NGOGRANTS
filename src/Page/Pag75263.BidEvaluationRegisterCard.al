@@ -217,7 +217,7 @@ Page 75263 "Bid Evaluation Register Card"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.';
 
                     trigger OnAction()
@@ -277,7 +277,7 @@ Page 75263 "Bid Evaluation Register Card"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     Visible = false;
@@ -297,7 +297,7 @@ Page 75263 "Bid Evaluation Register Card"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     Visible = false;
@@ -317,7 +317,7 @@ Page 75263 "Bid Evaluation Register Card"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     Visible = false;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
@@ -470,7 +470,7 @@ Page 75263 "Bid Evaluation Register Card"
                     Caption = 'Send A&pproval Request';
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     Visible = false;
                     ToolTip = 'Request approval of the document.';
@@ -491,7 +491,7 @@ Page 75263 "Bid Evaluation Register Card"
                     Image = CancelApprovalRequest;
                     Promoted = true;
                     Visible = false;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Cancel the approval request.';
 
                     trigger OnAction()

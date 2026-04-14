@@ -3,6 +3,7 @@ Page 65009 "Research Program Card"
 {
     DeleteAllowed = false;
     PageType = Card;
+    caption = 'Operations Program Card';
     SourceTable = "Research Program";
     ApplicationArea = All;
 
@@ -99,6 +100,7 @@ Page 65009 "Research Program Card"
         {
             part(Control30; "Research Program Factbox")
             {
+                caption = 'Operations Program Factbox';
                 SubPageLink = Code = field(Code);
             }
             systempart(Control29; Links)
@@ -148,7 +150,7 @@ Page 65009 "Research Program Card"
                     ApplicationArea = Basic;
                     Image = Grid;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Grant Funding Application List";
                     // RunPageLink = "Primary Research Program ID" = field(Code);
                 }
@@ -157,7 +159,7 @@ Page 65009 "Research Program Card"
                     ApplicationArea = Basic;
                     Image = Job;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Job List";
                     //   RunPageLink = "Research Program" = field(Code);
                 }
@@ -175,13 +177,13 @@ Page 65009 "Research Program Card"
                     ApplicationArea = Basic;
                     Image = Statistics;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     //RunObject = Page "Research Program Statistics";
                 }
-                action("Research Centers")
+                action("Operations Centers")
                 {
                     ApplicationArea = Basic;
-                    Caption = 'Research Centers';
+                    Caption = 'Operations Centers';
                     Image = Allocations;
                     Promoted = true;
                     PromotedCategory = Process;
@@ -198,7 +200,7 @@ Page 65009 "Research Program Card"
     end;
 
     var
-        Text0001: label 'Research Code %1 should not be blank';
+        Text0001: label 'Operations Code %1 should not be blank';
         Text0002: label 'Details updated successfully';
         CompInfo: Record "Company Information";
         WorkDescription: Text;

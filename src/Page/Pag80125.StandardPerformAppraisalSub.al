@@ -211,7 +211,7 @@ Page 80125 "Standard Perform Appraisal-Sub"
                 ApplicationArea = Basic;
                 Image = Approval;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 begin

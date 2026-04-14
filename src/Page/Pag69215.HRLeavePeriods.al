@@ -65,7 +65,7 @@ Page 69215 "HR Leave Periods"
                     Caption = 'Close Period';
                     Image = ClosePeriod;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Close Period action.';
                     trigger OnAction()
                     var
@@ -250,7 +250,7 @@ Page 69215 "HR Leave Periods"
                     Caption = 'Expire Carry Foward Days';
                     Image = Print;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Expire the Annual leave days carried forward after 6 months';
                     trigger OnAction()
                     var
@@ -330,7 +330,7 @@ Page 69215 "HR Leave Periods"
                     Caption = 'Print Leave Reimbursements Report';
                     Image = Print;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Print Leave Reimbursements Report action.';
                     trigger OnAction()
                     begin
@@ -346,7 +346,7 @@ Page 69215 "HR Leave Periods"
                     Caption = 'Re-Open Leave Period';
                     Image = ReopenPeriod;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Re-Open Leave Period action.';
                     trigger OnAction()
                     begin

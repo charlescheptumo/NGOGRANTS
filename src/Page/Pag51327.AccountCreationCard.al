@@ -236,7 +236,7 @@ Page 51327 "Account Creation Card"
                     ApplicationArea = Basic;
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                 }
                 // trigger OnAction()

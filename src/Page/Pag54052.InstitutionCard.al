@@ -1188,7 +1188,7 @@
 //                     Ellipsis = true;
 //                     Image = CustomerCode;
 //                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                     //PromotedCategory = Category5;
+//                     //PromotedCategory = Process;
 //                     //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
 //                     //PromotedIsBig = true;
 //                     RunObject = Page "Standard Customer Sales Codes";
@@ -1332,7 +1332,7 @@
 //                 Image = BlanketOrder;
 //                 Promoted = false;
 //                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                 //PromotedCategory = Category4;
+//                 //PromotedCategory = Process;
 //                 RunObject = Page "Blanket Sales Order";
 //                 RunPageLink = "Sell-to Customer No." = field("No.");
 //                 RunPageMode = Create;
@@ -1345,7 +1345,7 @@
 //                 Caption = 'Sales Quote';
 //                 Image = NewSalesQuote;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedOnly = true;
 //                 RunObject = Page "Sales Quote";
 //                 RunPageLink = "Sell-to Customer No." = field("No.");
@@ -1360,7 +1360,7 @@
 //                 Caption = 'Sales Invoice';
 //                 Image = NewSalesInvoice;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedOnly = true;
 //                 RunObject = Page "Sales Invoice";
 //                 RunPageLink = "Sell-to Customer No." = field("No.");
@@ -1375,7 +1375,7 @@
 //                 Caption = 'Sales Order';
 //                 Image = Document;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedOnly = true;
 //                 RunObject = Page "Sales Order";
 //                 RunPageLink = "Sell-to Customer No." = field("No.");
@@ -1390,7 +1390,7 @@
 //                 Caption = 'Sales Credit Memo';
 //                 Image = CreditMemo;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedOnly = true;
 //                 RunObject = Page "Sales Credit Memo";
 //                 RunPageLink = "Sell-to Customer No." = field("No.");
@@ -1405,7 +1405,7 @@
 //                 Caption = 'Sales Quote';
 //                 Image = NewSalesQuote;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedOnly = true;
 //                 ToolTip = 'Offer items or services to a customer.';
 //                 Visible = IsOfficeAddin;
@@ -1422,7 +1422,7 @@
 //                 Caption = 'Sales Invoice';
 //                 Image = NewSalesInvoice;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedOnly = true;
 //                 ToolTip = 'Create a sales invoice for the customer.';
 //                 Visible = IsOfficeAddin;
@@ -1439,7 +1439,7 @@
 //                 Caption = 'Sales Order';
 //                 Image = Document;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedOnly = true;
 //                 ToolTip = 'Create a sales order for the customer.';
 //                 Visible = IsOfficeAddin;
@@ -1456,7 +1456,7 @@
 //                 Caption = 'Sales Credit Memo';
 //                 Image = CreditMemo;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedOnly = true;
 //                 ToolTip = 'Create a new sales credit memo to revert a posted sales invoice.';
 //                 Visible = IsOfficeAddin;
@@ -1474,7 +1474,7 @@
 //                 Image = ReturnOrder;
 //                 Promoted = false;
 //                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                 //PromotedCategory = Category4;
+//                 //PromotedCategory = Process;
 //                 RunObject = Page "Sales Return Order";
 //                 RunPageLink = "Sell-to Customer No." = field("No.");
 //                 RunPageMode = Create;
@@ -1488,7 +1488,7 @@
 //                 Image = Quote;
 //                 Promoted = false;
 //                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                 //PromotedCategory = Category4;
+//                 //PromotedCategory = Process;
 //                 RunObject = Page "Service Quote";
 //                 RunPageLink = "Customer No." = field("No.");
 //                 RunPageMode = Create;
@@ -1502,7 +1502,7 @@
 //                 Image = Invoice;
 //                 Promoted = false;
 //                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                 //PromotedCategory = Category4;
+//                 //PromotedCategory = Process;
 //                 RunObject = Page "Service Invoice";
 //                 RunPageLink = "Customer No." = field("No.");
 //                 RunPageMode = Create;
@@ -1516,7 +1516,7 @@
 //                 Image = Document;
 //                 Promoted = false;
 //                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                 //PromotedCategory = Category4;
+//                 //PromotedCategory = Process;
 //                 RunObject = Page "Service Order";
 //                 RunPageLink = "Customer No." = field("No.");
 //                 RunPageMode = Create;
@@ -1530,7 +1530,7 @@
 //                 Image = CreditMemo;
 //                 Promoted = false;
 //                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                 //PromotedCategory = Category4;
+//                 //PromotedCategory = Process;
 //                 RunObject = Page "Service Credit Memo";
 //                 RunPageLink = "Customer No." = field("No.");
 //                 RunPageMode = Create;
@@ -1543,7 +1543,7 @@
 //                 Caption = 'Reminder';
 //                 Image = Reminder;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 RunObject = Page Reminder;
 //                 RunPageLink = "Customer No." = field("No.");
 //                 RunPageMode = Create;
@@ -1557,7 +1557,7 @@
 //                 Image = FinChargeMemo;
 //                 Promoted = false;
 //                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                 //PromotedCategory = Category4;
+//                 //PromotedCategory = Process;
 //                 RunObject = Page "Finance Charge Memo";
 //                 RunPageLink = "Customer No." = field("No.");
 //                 RunPageMode = Create;
@@ -1576,7 +1576,7 @@
 //                     Caption = 'Approve';
 //                     Image = Approve;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     ToolTip = 'Approve the requested changes.';
 //                     Visible = OpenApprovalEntriesExistCurrUser;
@@ -1594,7 +1594,7 @@
 //                     Caption = 'Reject';
 //                     Image = Reject;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     ToolTip = 'Reject the approval request.';
 //                     Visible = OpenApprovalEntriesExistCurrUser;
@@ -1612,7 +1612,7 @@
 //                     Caption = 'Delegate';
 //                     Image = Delegate;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Delegate the approval to a substitute approver.';
 //                     Visible = OpenApprovalEntriesExistCurrUser;
 
@@ -1629,7 +1629,7 @@
 //                     Caption = 'Comments';
 //                     Image = ViewComments;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'View or add comments for the record.';
 //                     Visible = OpenApprovalEntriesExistCurrUser;
 

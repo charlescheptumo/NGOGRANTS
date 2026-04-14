@@ -206,7 +206,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = project;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "Job Card";
 //                 RunPageLink = "Fund Opportunity Name" = field("Accreditation No.");
@@ -217,7 +217,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = document;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "Proposal Documents Comments";
 //                 RunPageLink = "Accreditation No." = field(upperlimit("Accreditation No."));
@@ -229,7 +229,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = complete;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 Visible = false;
 //                 ToolTip = 'Executes the Complete Proposal Document action.';

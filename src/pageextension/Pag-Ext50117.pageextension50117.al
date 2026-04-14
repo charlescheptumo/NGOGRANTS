@@ -1,5 +1,5 @@
 #pragma warning disable AA0005, AA0008, AA0018, AA0021, AA0072, AA0137, AA0201, AA0206, AA0218, AA0228, AL0254, AL0424, AS0011, AW0006 // ForNAV settings
-PageExtension 50117 "pageextension50117" extends "Accounting Manager Role Center" 
+PageExtension 50117 "pageextension50117" extends "Accounting Manager Role Center"
 {
     actions
     {
@@ -11,7 +11,7 @@ PageExtension 50117 "pageextension50117" extends "Accounting Manager Role Center
             action("Pending Imprests Surrender")
             {
                 ApplicationArea = Basic;
-             //   RunObject = Report "Pending Imprests Surrender";
+                //   RunObject = Report "Pending Imprests Surrender";
             }
         }
         addafter("Cost Accounting Analysis")
@@ -34,14 +34,14 @@ PageExtension 50117 "pageextension50117" extends "Accounting Manager Role Center
                         ApplicationArea = Suite;
                         Caption = 'Exam Transactions Report';
                         Image = "Report";
-                      //  RunObject = Report "Exam Transactions Report";
+                        //  RunObject = Report "Exam Transactions Report";
                     }
                     action("Transactions Summary Report")
                     {
                         ApplicationArea = Suite;
                         Caption = 'Transactions Summary Report';
                         Image = "Report";
-                       // RunObject = Report "Summary Transactions Report";
+                        // RunObject = Report "Summary Transactions Report";
                     }
                     // action("Page Import Worksheet")
                     // {
@@ -63,14 +63,14 @@ PageExtension 50117 "pageextension50117" extends "Accounting Manager Role Center
                         ApplicationArea = Suite;
                         Caption = 'Summary Per Transaction Type';
                         Image = "Report";
-                       // RunObject = Report "Summary Transaction Type";
+                        // RunObject = Report "Summary Transaction Type";
                     }
                     action("Transactions Per User")
                     {
                         ApplicationArea = Suite;
                         Caption = 'Transactions Per User';
                         Image = "Report";
-                       // RunObject = Report "User Transactions Report";
+                        // RunObject = Report "User Transactions Report";
                     }
                 }
                 group("ENTRIES REPORTS")
@@ -95,13 +95,13 @@ PageExtension 50117 "pageextension50117" extends "Accounting Manager Role Center
                         ApplicationArea = Suite;
                         Caption = 'Summary Per Payment Mode';
                         Image = "Report";
-                      //  RunObject = Report "Payment Mode Summary";
+                        //  RunObject = Report "Payment Mode Summary";
                     }
                     action("Booking Per Center Per Level")
                     {
                         ApplicationArea = Basic;
                         Image = "Report";
-                       // RunObject = Report "Booking Per Center Per Level";
+                        // RunObject = Report "Booking Per Center Per Level";
                     }
                     action("Summary Center Entries ")
                     {
@@ -114,12 +114,12 @@ PageExtension 50117 "pageextension50117" extends "Accounting Manager Role Center
                         ApplicationArea = Basic;
                         Caption = 'Booking Per Center Per Level';
                         Image = "Report";
-                       // RunObject = Report "Booking Per Center Per Level";
+                        // RunObject = Report "Booking Per Center Per Level";
                     }
                     action("Registration Reconciliation")
                     {
                         ApplicationArea = Basic;
-                       // RunObject = Report "Registration Reconciliation";
+                        // RunObject = Report "Registration Reconciliation";
                     }
                     // action("Exam Booking Report")
                     // {
@@ -146,37 +146,37 @@ PageExtension 50117 "pageextension50117" extends "Accounting Manager Role Center
                     action("Bank receipts Vs Revenue Summary")
                     {
                         ApplicationArea = Basic;
-                       // RunObject = Report "Bank Daily Report";
+                        // RunObject = Report "Bank Daily Report";
                         Visible = true;
                     }
                     action("MPESA Vs Revenue Summary")
                     {
                         ApplicationArea = Basic;
-                      //  RunObject = Report "Bank Daily Report-3";
+                        //  RunObject = Report "Bank Daily Report-3";
                     }
                     action("Processed Revenue Summary")
                     {
                         ApplicationArea = Basic;
-                       // RunObject = Report "Processed Revenue Summary";
+                        // RunObject = Report "Processed Revenue Summary";
                         Visible = false;
                     }
                     action("New Revenue Summary")
                     {
                         ApplicationArea = Basic;
-                       // RunObject = Report "Summary Transaction Types";
+                        // RunObject = Report "Summary Transaction Types";
                     }
                     action("Posted Summ Receipt Report")
                     {
                         ApplicationArea = Basic;
                         Caption = 'Posted Summ Receipt Report';
-                       // RunObject = Report "Posted Summ Receipt Report";
+                        // RunObject = Report "Posted Summ Receipt Report";
                     }
                     action("Posted Receipts Report")
                     {
                         ApplicationArea = Basic;
                         Caption = 'Posted Receipts Report';
                         Image = "Report";
-                      //  RunObject = Report "Posted Receipt Report";
+                        //  RunObject = Report "Posted Receipt Report";
                     }
                     action("Miscellaneous Transaction Summ")
                     {
@@ -193,7 +193,7 @@ PageExtension 50117 "pageextension50117" extends "Accounting Manager Role Center
                     action("Bank Import")
                     {
                         ApplicationArea = Basic;
-                       // RunObject = Report "Summ. Bank Utilization Report";
+                        // RunObject = Report "Summ. Bank Utilization Report";
                     }
                     action("Unaplied MPESA Amounts Report")
                     {
@@ -208,27 +208,27 @@ PageExtension 50117 "pageextension50117" extends "Accounting Manager Role Center
                         ApplicationArea = Basic;
                         Caption = 'Unaplied Bank Amounts Report';
                         Image = "Report";
-                       // RunObject = Report "Bank Unutilized Amounts Report";
+                        // RunObject = Report "Bank Unutilized Amounts Report";
                     }
                     action("Duplicate Invoices")
                     {
                         ApplicationArea = Basic;
-                       // RunObject = Report "Duplicate Invoices";
+                        // RunObject = Report "Duplicate Invoices";
                     }
                     action("Duplicate Receipts")
                     {
                         ApplicationArea = Basic;
-                       // RunObject = Report "Duplicate Receipts";
+                        // RunObject = Report "Duplicate Receipts";
                     }
                     action("Unaplied Mpesa Amount Report")
                     {
                         ApplicationArea = Basic;
-                       // RunObject = Report "Unaplied Amount Report";
+                        // RunObject = Report "Unaplied Amount Report";
                     }
                     action("Unutilized Mpesa Amounts")
                     {
                         ApplicationArea = Basic;
-                       // RunObject = Report "MPESAUnutilized Amounts Report";
+                        // RunObject = Report "MPESAUnutilized Amounts Report";
                     }
                     action("Customer - Summary Aging")
                     {
@@ -256,7 +256,7 @@ PageExtension 50117 "pageextension50117" extends "Accounting Manager Role Center
         {
             action(Employees)
             {
-                ApplicationArea = Basic,Suite;
+                ApplicationArea = Basic, Suite;
                 Caption = 'Employees';
                 Image = Customer;
                 RunObject = Page "Employee List";
@@ -289,14 +289,14 @@ PageExtension 50117 "pageextension50117" extends "Accounting Manager Role Center
         {
             action(Jobs)
             {
-                ApplicationArea = Basic,Suite;
+                ApplicationArea = Basic, Suite;
                 Caption = 'Jobs';
                 Image = "Order";
                 RunObject = Page "Job List";
             }
             action("Bank Import Entries")
             {
-                ApplicationArea = Basic,Suite;
+                ApplicationArea = Basic, Suite;
                 Caption = 'Bank Import Entries';
                 Image = "Order";
                 RunObject = Page "Bank Import Entries";
@@ -345,7 +345,7 @@ PageExtension 50117 "pageextension50117" extends "Accounting Manager Role Center
         {
             action(" Receipts and Payment Types")
             {
-                ApplicationArea = Basic,Suite;
+                ApplicationArea = Basic, Suite;
                 Caption = ' Receipts and Payment Types';
                 RunObject = Page "Receipts and Payment Types";
                 ToolTip = 'Set up posting groups, so that payments in and out of each bank account are posted to the specified general ledger account.';
@@ -486,7 +486,7 @@ PageExtension 50117 "pageextension50117" extends "Accounting Manager Role Center
             //     {
             //         ApplicationArea = Basic;
             //         Promoted = true;
-            //         PromotedCategory = Category4;
+            //         PromotedCategory = Process;
             //         PromotedIsBig = true;
             //         RunObject = Page "Center Re-Allocation Vouchers";
             //     }

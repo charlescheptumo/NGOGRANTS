@@ -132,7 +132,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Recalculate;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 
 //                 trigger OnAction()
@@ -154,7 +154,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Close;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 
 //                 trigger OnAction()
@@ -193,7 +193,7 @@
 //                     Enabled = true;
 //                     Image = SendApprovalRequest;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 
 //                     trigger OnAction()
 //                     var
@@ -210,7 +210,7 @@
 //                     Caption = 'Approvals';
 //                     Image = Approval;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 
 //                     trigger OnAction()
 //                     var
@@ -225,7 +225,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = approval;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Approval Entries";
 //                     RunPageLink = "Document No." = field("No. Series");
 //                     Visible = false;
@@ -237,7 +237,7 @@
 //                     Enabled = true;
 //                     Image = Cancel;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 
 //                     trigger OnAction()
 //                     begin

@@ -152,7 +152,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Recalculate;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 Visible = false;
 //                 ToolTip = 'Executes the Publish action.';
@@ -179,7 +179,7 @@
 //                     Enabled = true;
 //                     Image = SendApprovalRequest;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Executes the Send Approval Request action.';
 //                     trigger OnAction()
 //                     var
@@ -196,7 +196,7 @@
 //                     Caption = 'Approvals';
 //                     Image = Approval;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Executes the Approvals action.';
 //                     trigger OnAction()
 //                     var
@@ -211,7 +211,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = approval;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Approval Entries";
 //                     RunPageLink = "Document No." = field("No. Series");
 //                     Visible = false;
@@ -224,7 +224,7 @@
 //                     Enabled = true;
 //                     Image = Cancel;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Executes the Cancel Approval Request action.';
 //                     trigger OnAction()
 //                     begin

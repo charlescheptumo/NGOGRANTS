@@ -230,7 +230,7 @@ Page 80017 "Department Card"
                 Caption = 'Responsibility Centers';
                 Image = Position;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Responsibility Center List";
                 ToolTip = 'Set up responsibility centers to administer business operations that cover multiple locations, such as a sales offices or a purchasing departments.';
             }

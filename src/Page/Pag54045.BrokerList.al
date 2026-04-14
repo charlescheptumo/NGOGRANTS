@@ -357,7 +357,7 @@
 //                     // Caption = 'Cross Re&ferences';
 //                     // Image = Change;
 //                     // Promoted = true;
-//                     // PromotedCategory = Category5;
+//                     // PromotedCategory = Process;
 //                     // PromotedOnly = true;
 //                     // RunObject = Page "Cross References";
 //                     // RunPageLink = "Cross-Reference Type" = const(Vendor),
@@ -372,7 +372,7 @@
 //                     Caption = 'Approvals';
 //                     Image = Approvals;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     PromotedOnly = true;
 //                     ToolTip = 'View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.';
 
@@ -611,7 +611,7 @@
 //                 Caption = 'Purchase Invoice';
 //                 Image = NewPurchaseInvoice;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedOnly = true;
 //                 RunObject = Page "Purchase Invoice";
 //                 RunPageLink = "Buy-from Vendor No." = field("No.");
@@ -624,7 +624,7 @@
 //                 Caption = 'Purchase Order';
 //                 Image = Document;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedOnly = true;
 //                 RunObject = Page "Purchase Order";
 //                 RunPageLink = "Buy-from Vendor No." = field("No.");
@@ -637,7 +637,7 @@
 //                 Caption = 'Purchase Credit Memo';
 //                 Image = CreditMemo;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedOnly = true;
 //                 RunObject = Page "Purchase Credit Memo";
 //                 RunPageLink = "Buy-from Vendor No." = field("No.");

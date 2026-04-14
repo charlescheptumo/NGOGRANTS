@@ -113,6 +113,9 @@ report 65015 "Post Payroll"
                         GenJnline.Validate("Shortcut Dimension 1 Code", PayrollHeader."Global Dimension 1 Code");
                         GenJnline.Validate("Shortcut Dimension 2 Code", PayrollHeader."Global Dimension 2 Code");
                     end;
+                    //CC
+                    GenJnline."Job No." := 'FC25008';
+                    GenJnline."Job Task No." := '6120';
                     GenJnline.Amount := EarningsX."Total Amount";
                     GenJnline.Validate("Currency Code", PostingCurrency);
                     // AmountGen := GenJnline."Amount (LCY)";
@@ -305,6 +308,10 @@ report 65015 "Post Payroll"
                             GenJnline."Job Task No." := JobTask."Job Task No."
                         end;
                     end;
+                    //CC
+                    GenJnline."Job No." := 'FC25008';
+                    GenJnline."Job Task No." := '6120';
+                    GenJnline."Job Task No." := JobTask."Job Task No.";
                     GenJnline.Amount := Abs(PayrollRounding(Employer."Total Amount Employer"));
                     GenJnline.Validate("Currency Code", PostingCurrency);
                     // AmountGen := GenJnline."Amount (LCY)";
@@ -550,6 +557,9 @@ report 65015 "Post Payroll"
                         GenJnline.Validate("Shortcut Dimension 1 Code", PayrollHeader."Global Dimension 1 Code");
                         GenJnline.Validate("Shortcut Dimension 2 Code", PayrollHeader."Global Dimension 2 Code");
                     end;
+                    //CC
+                    GenJnline."Job No." := 'FC25008';
+                    GenJnline."Job Task No." := '6120';
                     // GenJnline."Shortcut Dimension 1 Code" := PayrollHeader."Global Dimension 1 Code";
                     // GenJnline."Shortcut Dimension 2 Code" := PayrollHeader."Global Dimension 2 Code";
                     GenJnline.Validate("Currency Code", PostingCurrency);
@@ -804,6 +814,9 @@ report 65015 "Post Payroll"
                         //         GenJnline.Amount := AmountGen;
                         //         GenJnline.Modify;
                         //     end;
+                        //CC
+                        GenJnline."Job No." := 'FC25008';
+                        GenJnline."Job Task No." := '6120';
                         GenJnline.Validate("Currency Code", PostingCurrency);
                         if AmountGen <> 0 then
                             // if PostingCurrency <> 'KES' then begin
@@ -907,6 +920,7 @@ report 65015 "Post Payroll"
                                         // end
                                         if PayrollHeader.Currency = 'KES' then begin
                                             GenJnline."Currency Code" := 'KES';
+
                                             GenJnline.Amount := AmountGen;
                                             //    GenJnline.Modify;
                                         end else begin
@@ -970,7 +984,9 @@ report 65015 "Post Payroll"
                 // GenJnline."Shortcut Dimension 1 Code" := PayrollHeader."Global Dimension 1 Code";
                 // GenJnline."Shortcut Dimension 2 Code" := PayrollHeader."Global Dimension 2 Code";
                 GenJnline.Amount := -PayrollRounding(TotalNetPay);
-
+                //CC
+                GenJnline."Job No." := 'FC25008';
+                GenJnline."Job Task No." := '6120';
                 // Pos := StrPos(JsonKey, '_');
                 //     GenJnline."Job No." := CopyStr(JsonKey, 1, Pos - 1);
                 //     GenJnline."Job Task No." := CopyStr(JsonKey, Pos + 1);

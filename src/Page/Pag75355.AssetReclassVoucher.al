@@ -111,7 +111,7 @@ Page 75355 "Asset Reclass Voucher"
                     Caption = '&Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Approvals action.';
                     trigger OnAction()
                     begin
@@ -124,7 +124,7 @@ Page 75355 "Asset Reclass Voucher"
                     Caption = 'Send A&pproval Request';
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Send A&pproval Request action.';
                     trigger OnAction()
                     begin
@@ -139,7 +139,7 @@ Page 75355 "Asset Reclass Voucher"
                     Caption = 'Cancel Approval Re&quest';
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Cancel Approval Re&quest action.';
                     trigger OnAction()
                     begin
@@ -155,7 +155,7 @@ Page 75355 "Asset Reclass Voucher"
                     Caption = 'Re-Open';
                     Image = ReopenCancelled;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
                     ToolTip = 'Executes the Re-Open action.';
                     trigger OnAction()

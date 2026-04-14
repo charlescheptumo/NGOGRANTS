@@ -2,6 +2,7 @@
 Page 65011 "Research Project Area Card"
 {
     PageType = Card;
+    caption = 'Operations Project Area';
     SourceTable = "Research Project Area";
     ApplicationArea = All;
 
@@ -11,7 +12,7 @@ Page 65011 "Research Project Area Card"
         {
             group(General)
             {
-                field(ResearchProgramID; Rec."Research Program ID")
+                field(ProgramID; Rec."Research Program ID")
                 {
                     ApplicationArea = Basic;
                     Editable = false;
@@ -51,7 +52,7 @@ Page 65011 "Research Project Area Card"
                 {
                     ApplicationArea = Basic;
                     RunObject = Page "Job List";
-                  //  RunPageLink = "Research Project Area" = field(Code);
+                    //  RunPageLink = "Research Project Area" = field(Code);
                 }
                 action(Statistics)
                 {

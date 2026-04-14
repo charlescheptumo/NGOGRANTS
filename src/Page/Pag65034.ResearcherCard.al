@@ -377,7 +377,7 @@ Page 65034 "Researcher Card"
                     Caption = 'S&kills';
                     Image = Skills;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Resource Skills";
                     RunPageLink = Type = const(Resource),
                                   "No." = field("No.");
@@ -533,7 +533,7 @@ Page 65034 "Researcher Card"
                     Promoted = true;
                     PromotedCategory = Process;
                     RunObject = Page "Grant Funding Application List";
-                   // RunPageLink = "Principal Investigator" = field("No.");
+                    // RunPageLink = "Principal Investigator" = field("No.");
                 }
                 action("Projects Profile")
                 {

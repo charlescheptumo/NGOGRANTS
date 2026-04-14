@@ -188,7 +188,7 @@ Page 75219 "EOI Response Card"
                     ApplicationArea = Basic;
                     Image = Filed;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "RFI Response Filed Document";
                     RunPageLink = "Document No" = field("Document No.");
                     ToolTip = 'Executes the Filed Documents action.';

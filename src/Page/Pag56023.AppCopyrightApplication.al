@@ -500,7 +500,7 @@
 //                     Caption = 'Approvals';
 //                     Image = Approval;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Executes the Approvals action.';
 //                     trigger OnAction()
 //                     var
@@ -518,7 +518,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = approval;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Approval Entries";
 //                     RunPageLink = "Document No." = field("No.");
 //                     Visible = false;

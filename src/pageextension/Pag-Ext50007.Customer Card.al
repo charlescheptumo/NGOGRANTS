@@ -177,7 +177,7 @@ PageExtension 50007 "pageextension50007" extends "Customer Card"
         //             Caption = 'Sales Invoice';
         //             Image = NewSalesInvoice;
         //             Promoted = true;
-        //             PromotedCategory = Category4;
+        //             PromotedCategory = Process;
         //             PromotedOnly = true;
         //             ToolTip = 'Create a sales invoice for the customer.';
         //             Visible = IsOfficeAddin;

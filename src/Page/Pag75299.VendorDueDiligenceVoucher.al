@@ -44,7 +44,7 @@ Page 75299 "Vendor Due Diligence Voucher"
                 field("Evaluation Venue"; Rec."Evaluation Venue")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                 }
                 field("Bid Scoring Document No."; Rec."Bid Scoring Document No.")
                 {
@@ -53,7 +53,7 @@ Page 75299 "Vendor Due Diligence Voucher"
                 field("Bid Opening Register No."; Rec."Bid Opening Register No.")
                 {
                     ApplicationArea = Basic;
-                     Visible=false;
+                    Visible = false;
                 }
                 field("Bid Opening Date"; Rec."Bid Opening Date")
                 {
@@ -62,7 +62,7 @@ Page 75299 "Vendor Due Diligence Voucher"
                 field("Tender Evaluation Deadline"; Rec."Tender Evaluation Deadline")
                 {
                     ApplicationArea = Basic;
-                    Caption='Bid Evaluation Deadline';
+                    Caption = 'Bid Evaluation Deadline';
                 }
                 field("Appointed Bid Evaluation Commi"; Rec."Appointed Bid Evaluation Commi")
                 {
@@ -72,12 +72,12 @@ Page 75299 "Vendor Due Diligence Voucher"
                 field("Primary Region"; Rec."Primary Region")
                 {
                     ApplicationArea = Basic;
-                     Visible=false;
+                    Visible = false;
                 }
                 field("Bid Envelop Type"; Rec."Bid Envelop Type")
                 {
                     ApplicationArea = Basic;
-                     Visible=false;
+                    Visible = false;
                 }
                 field("Purchaser Code"; Rec."Purchaser Code")
                 {
@@ -170,7 +170,7 @@ Page 75299 "Vendor Due Diligence Voucher"
                     Enabled = Rec."code" <> '';
                     Image = Dimensions;
                     Promoted = true;
-                    Visible=false;
+                    Visible = false;
                     PromotedCategory = Process;
                     PromotedIsBig = true;
                     ShortCutKey = 'Shift+Ctrl+D';
@@ -189,8 +189,8 @@ Page 75299 "Vendor Due Diligence Voucher"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    Visible=false;
-                    PromotedCategory = Category4;
+                    Visible = false;
+                    PromotedCategory = Process;
                     ToolTip = 'View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.';
 
                     trigger OnAction()
@@ -217,8 +217,8 @@ Page 75299 "Vendor Due Diligence Voucher"
                     Caption = 'Attachments';
                     Image = Attach;
                     Promoted = true;
-                    Visible=false;
-                    PromotedCategory = Category5;
+                    Visible = false;
+                    PromotedCategory = Process;
                     ToolTip = 'Add a file as an attachment. You can attach images as well as documents.';
 
                     trigger OnAction()
@@ -262,14 +262,14 @@ Page 75299 "Vendor Due Diligence Voucher"
             group(Approval)
             {
                 Caption = 'Approval';
-                Visible=false;
+                Visible = false;
                 action(Approve)
                 {
                     ApplicationArea = Suite;
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -277,7 +277,7 @@ Page 75299 "Vendor Due Diligence Voucher"
 
                     trigger OnAction()
                     var
-                    ApprovalsMgmt: Codeunit "Approvals Mgmt.";
+                        ApprovalsMgmt: Codeunit "Approvals Mgmt.";
                     begin
                         ApprovalsMgmt.ApproveRecordApprovalRequest(Rec.RecordId);
                     end;
@@ -288,7 +288,7 @@ Page 75299 "Vendor Due Diligence Voucher"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -296,7 +296,7 @@ Page 75299 "Vendor Due Diligence Voucher"
 
                     trigger OnAction()
                     var
-                    ApprovalsMgmt: Codeunit "Approvals Mgmt.";
+                        ApprovalsMgmt: Codeunit "Approvals Mgmt.";
                     begin
                         ApprovalsMgmt.RejectRecordApprovalRequest(Rec.RecordId);
                     end;
@@ -307,14 +307,14 @@ Page 75299 "Vendor Due Diligence Voucher"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
 
                     trigger OnAction()
                     var
-                    ApprovalsMgmt: Codeunit "Approvals Mgmt.";
+                        ApprovalsMgmt: Codeunit "Approvals Mgmt.";
                     begin
                         ApprovalsMgmt.DelegateRecordApprovalRequest(Rec.RecordId);
                     end;
@@ -332,7 +332,7 @@ Page 75299 "Vendor Due Diligence Voucher"
 
                     trigger OnAction()
                     var
-                    ApprovalsMgmt: Codeunit "Approvals Mgmt.";
+                        ApprovalsMgmt: Codeunit "Approvals Mgmt.";
                     begin
                         ApprovalsMgmt.GetApprovalComment(Rec);
                     end;
@@ -342,7 +342,7 @@ Page 75299 "Vendor Due Diligence Voucher"
             {
                 Caption = 'Release';
                 Image = ReleaseDoc;
-                Visible=false;
+                Visible = false;
                 action(Release)
                 {
                     ApplicationArea = Suite;
@@ -376,7 +376,7 @@ Page 75299 "Vendor Due Diligence Voucher"
 
                     trigger OnAction()
                     var
-                    ReleasePurchDoc: Codeunit "Release Approval Document";
+                        ReleasePurchDoc: Codeunit "Release Approval Document";
                     begin
                         //ReleasePurchDoc.ReopenVendDebarment(Rec);
                         /*IF Released=FALSE THEN
@@ -444,13 +444,13 @@ Page 75299 "Vendor Due Diligence Voucher"
                     Caption = 'Send A&pproval Request';
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Request approval of the document.';
 
                     trigger OnAction()
                     var
-                    ApprovalsMgmt: Codeunit "Approvals Mgmt.";
+                        ApprovalsMgmt: Codeunit "Approvals Mgmt.";
                     begin
                         //if //ApprovalsMgmt.CheckBidEvaluationApprovalPossible(Rec) then
                         //ApprovalsMgmt.OnSendBidEvaluationForApproval(Rec);
@@ -463,7 +463,7 @@ Page 75299 "Vendor Due Diligence Voucher"
                     Caption = 'Cancel Approval Re&quest';
                     Image = CancelApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Cancel the approval request.';
 
                     trigger OnAction()

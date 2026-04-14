@@ -77,7 +77,7 @@ Page 69260 "HR Medical Schemes Card"
                     ApplicationArea = Basic;
                     Image = SuggestCapacity;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Executes the Suggest Members action.';
                     trigger OnAction()
@@ -110,7 +110,7 @@ Page 69260 "HR Medical Schemes Card"
                     ApplicationArea = Basic;
                     Image = ItemRegisters;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     RunObject = Page "Medical Scheme Coverage";
                     RunPageLink = "Scheme No" = field("Scheme No");

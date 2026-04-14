@@ -60,7 +60,7 @@ Page 69231 "Leave Planner Card"
                 Caption = '&Approvals';
                 Image = Approvals;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Executes the &Approvals action.';
                 trigger OnAction()
@@ -77,7 +77,7 @@ Page 69231 "Leave Planner Card"
                 Caption = '&Send Approval Request';
                 Image = SendApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Executes the &Send Approval Request action.';
                 trigger OnAction()
@@ -95,7 +95,7 @@ Page 69231 "Leave Planner Card"
                 Caption = '&Cancel Approval Request';
                 Image = Cancel;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Executes the &Cancel Approval Request action.';
                 trigger OnAction()
@@ -109,7 +109,7 @@ Page 69231 "Leave Planner Card"
                 Caption = 'Print';
                 Image = PrintForm;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Print action.';
             }
         }

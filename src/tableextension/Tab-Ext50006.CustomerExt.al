@@ -245,6 +245,10 @@ TableExtension 50006 "tableextension50006" extends Customer
             DataClassification = ToBeClassified;
             Description = 'Investment Module';
         }
+        field(90088; isDonor; boolean)
+        {
+            DataClassification = ToBeClassified;
+        }
         field(50089; "Withholding Tax No"; Text[50])
         {
             DataClassification = ToBeClassified;

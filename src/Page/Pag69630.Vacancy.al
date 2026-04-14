@@ -278,7 +278,7 @@ Page 69630 "Vacancy"
                 Image = SendApprovalRequest;
                 Promoted = true;
                 Visible = false;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
@@ -297,7 +297,7 @@ Page 69630 "Vacancy"
                 Image = Approvals;
                 Promoted = true;
                 Visible = false;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = false;
 
                 trigger OnAction()
@@ -317,7 +317,7 @@ Page 69630 "Vacancy"
                 Image = Cancel;
                 Visible = false;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var

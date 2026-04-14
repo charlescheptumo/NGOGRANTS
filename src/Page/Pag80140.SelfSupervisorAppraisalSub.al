@@ -199,7 +199,7 @@ Page 80140 "Self-Supervisor Appraisal-Sub"
                 ApplicationArea = Basic;
                 Image = Approval;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 begin
@@ -298,8 +298,8 @@ Page 80140 "Self-Supervisor Appraisal-Sub"
         // PCObjective: Record "PC Objective";
         ObjectiveOutcome: Record "Objective Evaluation Result";
         CompetencyLines: Record "Competency Template Line";
-        // ProEvaluation: Record "Proficiency Evaluation Result";
-        // StrategicPlanning: Codeunit KasnebFunctions;
+    // ProEvaluation: Record "Proficiency Evaluation Result";
+    // StrategicPlanning: Codeunit KasnebFunctions;
 
     local procedure FnGetLastLineNo() LineNumber: Integer
     var

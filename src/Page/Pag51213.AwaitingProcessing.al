@@ -219,7 +219,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = NewBank;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "New Programmes";
 //                 //  RunPageLink = Field106 = field("Accreditation No.");
@@ -254,7 +254,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Versions;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "Institution Versions";
 //                 RunPageLink = "Accreditation No." = field("Accreditation No.");

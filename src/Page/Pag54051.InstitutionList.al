@@ -382,7 +382,7 @@
 //                     Caption = 'Online Map';
 //                     Image = Map;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     Scope = Repeater;
 //                     ToolTip = 'View the address on an online map.';
@@ -828,7 +828,7 @@
 //                 Caption = 'Sales Quote';
 //                 Image = NewSalesQuote;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 PromotedOnly = true;
 //                 RunObject = Page "Sales Quote";
@@ -842,7 +842,7 @@
 //                 Caption = 'Sales Invoice';
 //                 Image = NewSalesInvoice;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 PromotedOnly = true;
 //                 RunObject = Page "Sales Invoice";
@@ -856,7 +856,7 @@
 //                 Caption = 'Sales Order';
 //                 Image = Document;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 PromotedOnly = true;
 //                 RunObject = Page "Sales Order";
@@ -870,7 +870,7 @@
 //                 Caption = 'Sales Credit Memo';
 //                 Image = CreditMemo;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 PromotedOnly = true;
 //                 RunObject = Page "Sales Credit Memo";
@@ -934,7 +934,7 @@
 //                 Caption = 'Reminder';
 //                 Image = Reminder;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page Reminder;
 //                 RunPageLink = "Customer No." = field("No.");

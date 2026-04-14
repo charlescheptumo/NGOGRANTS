@@ -55,15 +55,15 @@ Page 95046 "Grant Funding Proposal Card"
                 {
                     ApplicationArea = Basic;
                 }
-                field(ResearchCenter; Rec."Research Center")
+                field("Operations Center"; Rec."Research Center")
                 {
                     ApplicationArea = Basic;
                 }
-                field(PrimaryResearchProgramID; Rec."Primary Research Program ID")
+                field(PrimaryOperationsProgramID; Rec."Primary Research Program ID")
                 {
                     ApplicationArea = Basic;
                 }
-                field(PrimaryResearchArea; Rec."Primary Research Area")
+                field(PrimaryOperationsArea; Rec."Primary Research Area")
                 {
                     ApplicationArea = Basic;
                 }
@@ -235,12 +235,12 @@ Page 95046 "Grant Funding Proposal Card"
                 field(FAResearchContactID; Rec."Grantor Research Contact ID")
                 {
                     ApplicationArea = Basic;
-                    Caption = 'FA Research Contact ID';
+                    Caption = 'FA Operations Contact ID';
                 }
                 field(FAResearchReviewer; Rec."Grantor Research Reviewer")
                 {
                     ApplicationArea = Basic;
-                    Caption = 'FA Research Reviewer';
+                    Caption = 'FA Operations Reviewer';
                     Editable = false;
                 }
                 field(FAAdminContactID; Rec."Grantor Admin Contact ID")
@@ -290,18 +290,18 @@ Page 95046 "Grant Funding Proposal Card"
                 ApplicationArea = Basic;
                 Image = Production;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Grant Research Objectives List";
-                RunPageLink = "Grant Application ID" = field("Application No");
+                // RunPageLink = "Grant Application ID" = field("Application No");
             }
             action("Proposed Grant Budget")
             {
                 ApplicationArea = Basic;
                 Image = CopyBudget;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Grant Budget Summary List";
-                RunPageLink = "Grant Application ID" = field("Application No");
+                //  RunPageLink = "Grant Application ID" = field("Application No");
             }
             separator(Action58)
             {
@@ -312,7 +312,7 @@ Page 95046 "Grant Funding Proposal Card"
                 Image = Task;
                 Promoted = false;
                 // The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                // PromotedCategory = Category4;
+                // PromotedCategory = Process;
                 RunObject = Page "Grant Research Team list";
                 RunPageLink = "Grant Opportunity ID" = field("Application No");
                 Visible = true;
@@ -323,9 +323,9 @@ Page 95046 "Grant Funding Proposal Card"
                 Image = Employee;
 
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                // PromotedCategory = Category4;
+                // PromotedCategory = Process;
                 RunObject = Page "Application Grant Teams";
                 RunPageLink = "Application Code" = field("Application No");
                 Visible = true;
@@ -336,7 +336,7 @@ Page 95046 "Grant Funding Proposal Card"
                 Enabled = true;
                 Image = Task;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Grant Admin Tasks List";
                 RunPageLink = "Source Document No." = field("Application No");
                 Visible = true;
@@ -346,7 +346,7 @@ Page 95046 "Grant Funding Proposal Card"
             //     ApplicationArea = Basic;
             //     Image = TeamSales;
             //     Promoted = true;
-            //     PromotedCategory = Category5;
+            //     PromotedCategory = Process;
             //     // RunObject = Page "Secondary Research Programs";
             //     // RunPageLink = "GFA No" = field("Application No"),
             //     //               "Research Center" = field("Research Center");
@@ -359,7 +359,7 @@ Page 95046 "Grant Funding Proposal Card"
                 ApplicationArea = Basic;
                 Image = Approval;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 begin
@@ -371,7 +371,7 @@ Page 95046 "Grant Funding Proposal Card"
                 ApplicationArea = Basic;
                 Image = SendApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
@@ -388,7 +388,7 @@ Page 95046 "Grant Funding Proposal Card"
                 ApplicationArea = Basic;
                 Image = CancelApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 begin
@@ -404,7 +404,7 @@ Page 95046 "Grant Funding Proposal Card"
             {
                 ApplicationArea = Basic;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page "GFO Approval Comm Entry List";
                 RunPageLink = "Grant Funding Application Id" = field("Application No");
@@ -462,7 +462,7 @@ Page 95046 "Grant Funding Proposal Card"
                 Caption = 'Payroll Effort & Payroll Matrix list';
                 Image = PayrollStatistics;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Effort & Payroll Matrix list";
                 RunPageLink = "Project No" = field("No. Series");
                 Visible = false;
@@ -472,7 +472,7 @@ Page 95046 "Grant Funding Proposal Card"
                 ApplicationArea = Basic;
                 Image = BreakpointsList;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 // RunObject = Page "Collaborators & Partners";
                 // RunPageLink = "GFA No." = field("Application No");

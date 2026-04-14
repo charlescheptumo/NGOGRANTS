@@ -123,7 +123,7 @@ Page 80196 "All CSP CARD"
                     ApplicationArea = Basic;
                     Image = Planning;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Strategic Theme";
                     RunPageLink = "Strategic Plan ID" = field(Code);
                     ToolTip = 'Executes the Strategic Theme action.';
@@ -133,7 +133,7 @@ Page 80196 "All CSP CARD"
                     ApplicationArea = Basic;
                     Image = Route;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Strategic Objectives";
                     RunPageLink = "Strategic Plan ID" = field(Code);
                     ToolTip = 'Executes the Strategic Objectives action.';
@@ -143,7 +143,7 @@ Page 80196 "All CSP CARD"
                     ApplicationArea = Basic;
                     Image = Planning;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page Strategies;
                     RunPageLink = "Strategic Plan ID" = field(Code);
                     ToolTip = 'Executes the Strategies action.';
@@ -154,7 +154,7 @@ Page 80196 "All CSP CARD"
                 //     Caption = 'Planned Years';
                 //     Image = Planning;
                 //     Promoted = true;
-                //     PromotedCategory = Category4;
+                //     PromotedCategory = Process;
                 //     PromotedIsBig = true;
                 //     RunObject = Page "CSP Planned Years";
                 //     RunPageLink = "CSP Code" = field(Code);
@@ -227,7 +227,7 @@ Page 80196 "All CSP CARD"
                     Caption = 'Attachments';
                     Image = Attach;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Add a file as an attachment. You can attach images as well as documents.';

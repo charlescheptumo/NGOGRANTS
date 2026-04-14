@@ -509,7 +509,7 @@ PageExtension 50092 "Employee Card Ext" extends "Employee Card"
                 ApplicationArea = Basic;
                 Image = Entries;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 PromotedOnly = true;
                 RunObject = Page "Clocking Entries";
@@ -592,7 +592,7 @@ PageExtension 50092 "Employee Card Ext" extends "Employee Card"
             //     ApplicationArea = Basic;
             //     Image = AllLines;
             //     Promoted = true;
-            //     PromotedCategory = Category4;
+            //     PromotedCategory = Process;
             //     RunObject = Page "ICT Inventory List";
             //     RunPageLink = "Current Assigned Employee" = field("No.");
             // }

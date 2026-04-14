@@ -266,7 +266,7 @@ Page 80161 "SPE Commitee Creation"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Approve the requested changes.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -285,7 +285,7 @@ Page 80161 "SPE Commitee Creation"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     Visible = OpenApprovalEntriesExistForCurrUser;
 
@@ -304,7 +304,7 @@ Page 80161 "SPE Commitee Creation"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = OpenApprovalEntriesExistForCurrUser;
 
                     trigger OnAction()
@@ -321,7 +321,7 @@ Page 80161 "SPE Commitee Creation"
                     Caption = 'Comments';
                     Image = ViewComments;
                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                    //PromotedCategory = Category4;
+                    //PromotedCategory = Process;
                     Visible = true;
 
                     trigger OnAction()

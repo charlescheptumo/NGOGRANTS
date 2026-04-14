@@ -168,7 +168,7 @@ Page 69165 "Training Needs Card p"
                     Caption = '&Update';
                     Image = StepInto;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
 
                     // trigger OnAction()
@@ -194,7 +194,7 @@ Page 69165 "Training Needs Card p"
                     Caption = 'Training Costs';
                     Image = TaskList;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Training Cost";
                     RunPageLink = "Training ID" = field(Code);
                     Visible = false;
@@ -212,7 +212,7 @@ Page 69165 "Training Needs Card p"
                     Caption = 'Training Bonding Conditions';
                     Image = BOM;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Training App Participants List";
                     RunPageLink = "Global Dimension 1 Code" = field(Code);
                     Visible = false;
@@ -227,7 +227,7 @@ Page 69165 "Training Needs Card p"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
 
                     trigger OnAction()
@@ -246,7 +246,7 @@ Page 69165 "Training Needs Card p"
                     Caption = 'Send Approval Request';
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
 
                     trigger OnAction()
@@ -261,7 +261,7 @@ Page 69165 "Training Needs Card p"
                     Caption = 'Cancel Approval Request';
                     Image = CancelAllLines;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
 
                     trigger OnAction()

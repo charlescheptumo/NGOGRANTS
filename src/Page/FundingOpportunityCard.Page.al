@@ -241,19 +241,19 @@ Page 65044 "Funding Opportunity Card"
                     Report.Run(65017, true, true, Rec)
                 end;
             }
-            action("Notify Scientist Via Email")
+            action("Notify Via Email")
             {
                 ApplicationArea = Basic;
                 Image = Email;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
 
                 trigger OnAction()
                 begin
                     CompanyInfo.Get();
-                 //   SMTPMailSet.Get;
-                 //   SenderAddress := SMTPMailSet."Email Sender Address";
+                    //   SMTPMailSet.Get;
+                    //   SenderAddress := SMTPMailSet."Email Sender Address";
                     SenderName := CompanyInfo.Name + ' GRANTS';
                     Subject := StrSubstNo('Funding Opportunity');
 
@@ -280,8 +280,8 @@ Page 65044 "Funding Opportunity Card"
                         begin
                             Counter := Counter + 1;
 
-                           // SMTPMailSet.Get;
-                          //  SenderAddress := SMTPMailSet."Email Sender Address";
+                            // SMTPMailSet.Get;
+                            //  SenderAddress := SMTPMailSet."Email Sender Address";
 
 
 
@@ -435,7 +435,7 @@ Page 65044 "Funding Opportunity Card"
         FileName: Text;
         FileMangement: Codeunit "File Management";
         ProgressWindow: Dialog;
-       // SMTPMailSet: Record "SMTP Mail Setup";
+        // SMTPMailSet: Record "SMTP Mail Setup";
         FileDirectory: Text[100];
         Window: Dialog;
         WindowisOpen: Boolean;

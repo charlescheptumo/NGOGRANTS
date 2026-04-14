@@ -266,16 +266,16 @@
 //                             pvLines.RESET;
 //                             pvLines.SETRANGE(pvLines.No,pvheader."No.");
 //                             IF pvLines.FIND('-') THEN
-                        
+
 //                               BEGIN
 //                                 REPEAT
 //                                   pvLines.TESTFIELD(pvLines."Applies to Doc. No");
 //                                   UNTIL pvLines.NEXT=0;
 //                                 END;
-                        
+
 //                             END;
-                        
-                        
+
+
 //                         //if //ApprovalsMgmt.CheckPaymentsApprovalsWorkflowEnabled(Rec) THEN
 //                           //ApprovalsMgmt.OnSendPaymentsForApproval(Rec);
 //                           */
@@ -408,7 +408,7 @@
 //                     Caption = 'Approve';
 //                     Image = Approve;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     PromotedOnly = true;
 //                     ToolTip = 'Approve the requested changes.';
@@ -426,7 +426,7 @@
 //                     Caption = 'Reject';
 //                     Image = Reject;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     PromotedOnly = true;
 //                     ToolTip = 'Reject the requested changes.';
@@ -444,7 +444,7 @@
 //                     Caption = 'Delegate';
 //                     Image = Delegate;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedOnly = true;
 //                     ToolTip = 'Delegate the requested changes to the substitute approver.';
 
@@ -461,7 +461,7 @@
 //                     Caption = 'Comments';
 //                     Image = ViewComments;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedOnly = true;
 //                     ToolTip = 'View or add comments for the record.';
 

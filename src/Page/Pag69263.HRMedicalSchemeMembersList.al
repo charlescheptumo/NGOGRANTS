@@ -97,7 +97,7 @@ Page 69263 "HR Medical Scheme Members List"
                     Caption = 'Dependants';
                     Image = Relatives;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     RunObject = Page "HR Employee Next of Kin";
                     RunPageLink = "Employee Code" = field("Employee No");

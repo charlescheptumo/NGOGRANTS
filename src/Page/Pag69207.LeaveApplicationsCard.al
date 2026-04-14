@@ -406,7 +406,7 @@ Page 69207 "Leave Applications Card"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -425,7 +425,7 @@ Page 69207 "Leave Applications Card"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -447,7 +447,7 @@ Page 69207 "Leave Applications Card"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -489,7 +489,7 @@ Page 69207 "Leave Applications Card"
                     Enabled = not OpenApprovalEntriesExist;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Send A&pproval Request action.';
                     trigger OnAction()
                     var
@@ -509,7 +509,7 @@ Page 69207 "Leave Applications Card"
                     Caption = 'Cancel Approval Re&quest';
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Cancel Approval Re&quest action.';
                     trigger OnAction()
                     var
@@ -530,7 +530,7 @@ Page 69207 "Leave Applications Card"
                     Image = Cancel;
                     Promoted = true;
                     Visible = false;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes Test.';
                     trigger OnAction()
                     var
@@ -547,7 +547,7 @@ Page 69207 "Leave Applications Card"
                     Caption = '&Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Approvals action.';
                     trigger OnAction()
                     var
@@ -568,7 +568,7 @@ Page 69207 "Leave Applications Card"
                     Caption = 'Re-Open';
                     Image = ReopenCancelled;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
                     ToolTip = 'Executes the Re-Open action.';
                     trigger OnAction()
@@ -583,7 +583,7 @@ Page 69207 "Leave Applications Card"
                     Caption = 'Print';
                     Image = PrintForm;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Print action.';
                     trigger OnAction()
                     begin
@@ -598,7 +598,7 @@ Page 69207 "Leave Applications Card"
                     ApplicationArea = Basic;
                     Image = Documents;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Opens attached documents from the portal.';
                     RunObject = Page "Portal Documents";
@@ -610,7 +610,7 @@ Page 69207 "Leave Applications Card"
                     Caption = 'Create Leave Ledger Entries';
                     Image = CreateLinesFromJob;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
                     ToolTip = 'Executes the Create Leave Ledger Entries action.';
                     trigger OnAction()

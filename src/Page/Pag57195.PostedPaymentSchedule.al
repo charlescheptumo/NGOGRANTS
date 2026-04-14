@@ -289,7 +289,7 @@ Page 57195 "Posted Payment Schedule"
                     ApplicationArea = Basic;
                     Image = ExportElectronicDocument;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
 
                     trigger OnAction()
@@ -474,7 +474,7 @@ Page 57195 "Posted Payment Schedule"
                     ApplicationArea = Basic;
                     Image = Export;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
 
                     trigger OnAction()
@@ -496,7 +496,7 @@ Page 57195 "Posted Payment Schedule"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -515,7 +515,7 @@ Page 57195 "Posted Payment Schedule"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the requested changes.';
@@ -534,7 +534,7 @@ Page 57195 "Posted Payment Schedule"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the requested changes to the substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -552,7 +552,7 @@ Page 57195 "Posted Payment Schedule"
                     Caption = 'Comments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'View or add comments for the record.';
                     Visible = not OpenApprovalEntriesExist;

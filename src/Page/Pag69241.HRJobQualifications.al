@@ -46,7 +46,7 @@ Page 69241 "HR Job Qualifications"
                     Caption = 'Q&ualification Overview';
                     Image = QualificationOverview;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Qualification Overview";
                     ToolTip = 'Executes the Q&ualification Overview action.';
                 }

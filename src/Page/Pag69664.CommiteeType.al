@@ -88,7 +88,7 @@ Page 69664 "Commitee Type"
             {
                 ApplicationArea = Basic;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page "Commitee Function";
                 RunPageLink = "Committee Type ID" = field(Code);
@@ -98,7 +98,7 @@ Page 69664 "Commitee Type"
             {
                 ApplicationArea = Basic;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page "Commitee Guidelines";
                 RunPageLink = "Committee Type ID" = field(Code);
@@ -108,7 +108,7 @@ Page 69664 "Commitee Type"
             {
                 ApplicationArea = Basic;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page "Commitee Composition";
                 RunPageLink = "Committee Type ID" = field(Code);

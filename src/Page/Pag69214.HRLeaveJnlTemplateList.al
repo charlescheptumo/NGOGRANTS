@@ -54,7 +54,7 @@ Page 69214 "HR Leave Jnl. Template List"
                     Caption = '&Batches';
                     Image = ChangeBatch;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "HR Leave Batches";
                     RunPageLink = "Journal Template Name" = field(Name);
                     ToolTip = 'Executes the &Batches action.';

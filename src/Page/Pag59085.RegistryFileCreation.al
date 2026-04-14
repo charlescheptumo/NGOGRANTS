@@ -84,7 +84,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Filed;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 RunObject = Page "File Movement Line";
 //                 RunPageLink = "File Number" = field("File No");
 //             }

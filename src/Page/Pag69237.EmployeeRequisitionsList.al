@@ -105,7 +105,7 @@ Page 69237 "Employee Requisitions List"
                     Caption = 'Requirements';
                     Image = JobListSetup;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Welfare Lines";
                     RunPageLink = "Welfare Header No." = field("Job ID");
                     ToolTip = 'Executes the Requirements action.';
@@ -116,7 +116,7 @@ Page 69237 "Employee Requisitions List"
                     Caption = 'Responsibilities';
                     Image = JobResponsibility;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Welfare Contribution Header";
                     RunPageLink = "Welfare No." = field("Job ID");
                     ToolTip = 'Executes the Responsibilities action.';
@@ -131,7 +131,7 @@ Page 69237 "Employee Requisitions List"
                     Caption = 'Advertise';
                     Image = Salutation;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Advertise action.';
                     trigger OnAction()
                     begin
@@ -172,7 +172,7 @@ Page 69237 "Employee Requisitions List"
                     Caption = 'Mark as Closed/Open';
                     Image = ReopenCancelled;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Mark as Closed/Open action.';
                     trigger OnAction()
                     begin
@@ -196,7 +196,7 @@ Page 69237 "Employee Requisitions List"
                     Caption = '&Print';
                     Image = PrintReport;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Print action.';
                     trigger OnAction()
                     begin
@@ -212,7 +212,7 @@ Page 69237 "Employee Requisitions List"
                     Caption = 'Re-Open';
                     Image = ReOpen;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     Visible = false;
                     ToolTip = 'Executes the Re-Open action.';
                     trigger OnAction()

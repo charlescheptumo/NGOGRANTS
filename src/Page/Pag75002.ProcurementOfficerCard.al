@@ -125,7 +125,7 @@ Page 75002 "Procurement Officer Card"
                     ApplicationArea = Basic;
                     Image = Info;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Request For Information";
                     RunPageLink = "Assigned Procurement Officer" = field(Code);
                 }
@@ -134,7 +134,7 @@ Page 75002 "Procurement Officer Card"
                     ApplicationArea = Basic;
                     Image = InwardEntry;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Draft Invitation For Supply";
                     RunPageLink = "Assigned Procurement Officer" = field(Code);
                 }
@@ -143,7 +143,7 @@ Page 75002 "Procurement Officer Card"
                     ApplicationArea = Basic;
                     Image = Quote;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Purchase Quotes";
                     RunPageLink = "Purchaser Code" = field(Code);
                 }
@@ -152,7 +152,7 @@ Page 75002 "Procurement Officer Card"
                     ApplicationArea = Basic;
                     Image = "Order";
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Purchase Order List";
                     RunPageLink = "Purchaser Code" = field(Code);
                 }
@@ -161,7 +161,7 @@ Page 75002 "Procurement Officer Card"
                     ApplicationArea = Basic;
                     Image = BlanketOrder;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Blanket Purchase Orders";
                     RunPageLink = "Purchaser Code" = field(Code);
                 }
@@ -171,7 +171,7 @@ Page 75002 "Procurement Officer Card"
                     Caption = 'Dimensions';
                     Image = Dimensions;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     RunObject = Page "Default Dimensions";
                     RunPageLink = "Table ID" = const(13),
@@ -185,7 +185,7 @@ Page 75002 "Procurement Officer Card"
                     Caption = 'Statistics';
                     Image = Statistics;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     RunObject = Page "Salesperson Statistics";
                     RunPageLink = Code = field(Code);

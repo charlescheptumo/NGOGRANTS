@@ -108,7 +108,7 @@
 //                 Caption = 'Survey Section';
 //                 Image = AbsenceCategory;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "BR Survey Section";
 //                 RunPageLink = "Survey ID" = field("Document No.");
@@ -187,7 +187,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Approval;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 ToolTip = 'Executes the Approvals action.';
 //                 trigger OnAction()
 //                 begin
@@ -199,7 +199,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = SendApprovalRequest;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 ToolTip = 'Executes the Send Approval Request action.';
 //                 trigger OnAction()
 //                 var
@@ -217,7 +217,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = CancelApprovalRequest;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 ToolTip = 'Executes the Cancel Approval Request action.';
 //                 trigger OnAction()
 //                 begin
@@ -273,7 +273,7 @@
 //                     Caption = 'Copy';
 //                     Image = Copy;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     ToolTip = 'Executes the Copy action.';
 //                 }

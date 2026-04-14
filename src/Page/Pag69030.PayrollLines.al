@@ -33,6 +33,8 @@ Page 69030 "Payroll Lines"
                     ApplicationArea = Basic;
                     ToolTip = 'Specifies the value of the Payroll Period field.';
                 }
+                field("Project No"; Rec."Job No") { ApplicationArea = ALL; }
+                field("Project Task No"; Rec."Job Task No") { ApplicationArea = ALL; }
                 field("Basic Salary"; Rec."Basic Salary")
                 {
                     ApplicationArea = Basic;

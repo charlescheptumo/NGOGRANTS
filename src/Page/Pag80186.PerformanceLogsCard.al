@@ -151,7 +151,7 @@ Page 80186 "Performance Logs Card"
                 ApplicationArea = Basic;
                 Image = Approval;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 begin
@@ -163,7 +163,7 @@ Page 80186 "Performance Logs Card"
                 ApplicationArea = Basic;
                 Image = SendApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
@@ -195,7 +195,7 @@ Page 80186 "Performance Logs Card"
                     GrantsSetup: Record "Grants Setup";
                     PerfomanceContractHeader: Record "Perfomance Contract Header";
                     Employee: Record Employee;
-                    // PlogLines: Record "Plog Lines";
+                // PlogLines: Record "Plog Lines";
                 begin
                     // Rec.TestField("Approval Status", Rec."approval status"::Open);
 
@@ -280,7 +280,7 @@ Page 80186 "Performance Logs Card"
                 ApplicationArea = Basic;
                 Image = CancelApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 begin
@@ -323,7 +323,7 @@ Page 80186 "Performance Logs Card"
 
                 trigger OnAction()
                 var
-                    // PlogLines: Record "Plog Lines";
+                // PlogLines: Record "Plog Lines";
                 begin
                     // if not Confirm('Are you sure you want to Post', true) then
                     //     Error('Perforamnce Log not Posted');

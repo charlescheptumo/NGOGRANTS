@@ -108,7 +108,7 @@ Page 69340 "Advertisement Voucher"
                 ApplicationArea = Basic;
                 Image = Alerts;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Executes the Advertise action.';
                 // trigger OnAction()

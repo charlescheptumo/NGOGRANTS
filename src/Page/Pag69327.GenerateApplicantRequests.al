@@ -160,7 +160,7 @@ Page 69327 "Generate Applicant Requests"
                     Caption = 'Co&mments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Rlshp. Mgt. Comment Sheet";
                     RunPageLink = "Table Name" = const(Contact), "No." = field("No."), "Sub No." = const(0);
                     ToolTip = 'View or add comments for the record.';
@@ -452,7 +452,7 @@ Page 69327 "Generate Applicant Requests"
                     Caption = 'Statistics';
                     Image = Statistics;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     RunObject = Page "Contact Statistics";
                     RunPageLink = "No." = field("No.");

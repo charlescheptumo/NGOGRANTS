@@ -146,25 +146,25 @@ Page 75253 "Bid Response Card"
                 field("Bidder Type"; Rec."Bidder Type")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Bidder Type field.';
                 }
                 field("Joint Venture Partner"; Rec."Joint Venture Partner")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Joint Venture Partner field.';
                 }
                 field("Invitation Notice Type"; Rec."Invitation Notice Type")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Invitation Notice Type field.';
                 }
                 field("Bid Envelope Type"; Rec."Bid Envelope Type")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Bid Envelope Type field.';
                 }
                 field("Tender Description"; Rec."Tender Description")
@@ -175,85 +175,85 @@ Page 75253 "Bid Response Card"
                 field("Responsibility Center"; Rec."Responsibility Center")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the code of the responsibility center, such as a distribution hub, that is associated with the involved user, company, customer, or vendor.';
                 }
                 field("Location Code"; Rec."Location Code")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies a code for the location where you want the items to be placed when they are received.';
                 }
                 field("Bidder Representative Name"; Rec."Bidder Representative Name")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Bidder Representative Name field.';
                 }
                 field("Bidder Representative Desgn"; Rec."Bidder Representative Desgn")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Bidder Representative Designation field.';
                 }
                 field("Bidder Representative Address"; Rec."Bidder Representative Address")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Bidder Representative Address field.';
                 }
                 field("Bidder Witness Name"; Rec."Bidder Witness Name")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Bidder Witness Name field.';
                 }
                 field("Bidder Witness Designation"; Rec."Bidder Witness Designation")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Bidder Witness Designation field.';
                 }
                 field("Bidder Witness Address"; Rec."Bidder Witness Address")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Bidder Witness Address field.';
                 }
                 field("Tender Document Source"; Rec."Tender Document Source")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Tender Document Source field.';
                 }
                 field("Bid Charge Code"; Rec."Bid Charge Code")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Bid Charge Code field.';
                 }
                 field("Bid Charge (LCY)"; Rec."Bid Charge (LCY)")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Bid Charge (LCY) field.';
                 }
                 field("Payment Reference No."; Rec."Payment Reference No.")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Payment Reference No. field.';
                 }
                 field("Posted Direct Income Voucher"; Rec."Posted Direct Income Voucher")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Posted Direct Income Voucher field.';
                 }
                 field("Language Code"; Rec."Language Code")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Language Code field.';
                 }
                 field("Purchaser Code"; Rec."Purchaser Code")
@@ -279,13 +279,13 @@ Page 75253 "Bid Response Card"
                 field("No. of Addendum Notices issued"; Rec."No. of Addendum Notices issued")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the No. of Addendum Notices issued field.';
                 }
                 field("Last Addendum Notice No."; Rec."Last Addendum Notice No.")
                 {
                     ApplicationArea = Basic;
-                    Visible=false;
+                    Visible = false;
                     ToolTip = 'Specifies the value of the Last Addendum Notice No. field.';
                 }
                 field("Document Status"; Rec."Document Status")
@@ -311,7 +311,7 @@ Page 75253 "Bid Response Card"
             group("Confidential Business Questionnaire")
             {
                 Caption = 'Confidential Business Questionnaire';
-                Visible=false;
+                Visible = false;
                 field("Building/House No"; Rec."Building/House No")
                 {
                     ApplicationArea = Basic;
@@ -386,7 +386,7 @@ Page 75253 "Bid Response Card"
             group("Project Terms & Conditions")
             {
                 Caption = 'Project Terms & Conditions';
-                Visible=false;
+                Visible = false;
                 // field("Works Category"; Rec."Works Category")
                 // {
                 //     ApplicationArea = Basic;
@@ -466,7 +466,7 @@ Page 75253 "Bid Response Card"
             group("Sourcing History")
             {
                 Caption = 'Sourcing History';
-                Visible=false;
+                Visible = false;
                 field("Pre-bid Register No."; Rec."Pre-bid Register No.")
                 {
                     ApplicationArea = Basic;
@@ -853,7 +853,7 @@ Page 75253 "Bid Response Card"
                     ApplicationArea = Basic;
                     Image = SalesPerson;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Bid Key Staff";
                     RunPageLink = "No." = field("No.");
                     ToolTip = 'Executes the Proposed Personnel Specification action.';
@@ -863,7 +863,7 @@ Page 75253 "Bid Response Card"
                     ApplicationArea = Basic;
                     Image = CheckList;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Bid Personnel Compliance";
                     RunPageLink = "Document No." = field("No.");
                     ToolTip = 'Executes the Personnel Compliance Checklist action.';
@@ -873,7 +873,7 @@ Page 75253 "Bid Response Card"
                 //     ApplicationArea = Basic;
                 //     Image = MachineCenterLoad;
                 //     Promoted = true;
-                //     PromotedCategory = Category4;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Bid Equipment Specification";
                 //     RunPageLink = "No." = field("No.");
                 //     ToolTip = 'Executes the Proposed Equipment Specification action.';
@@ -883,7 +883,7 @@ Page 75253 "Bid Response Card"
                 //     ApplicationArea = Basic;
                 //     Image = CheckList;
                 //     Promoted = true;
-                //     PromotedCategory = Category4;
+                //     PromotedCategory = Process;
                 //     RunObject = Page "Bid Equipment Compliance";
                 //     RunPageLink = "No." = field("No.");
                 //     ToolTip = 'Executes the Equipment Compliance Checklist action.';
@@ -893,7 +893,7 @@ Page 75253 "Bid Response Card"
                     ApplicationArea = Basic;
                     Image = Filed;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Bid Filed Document";
                     RunPageLink = "No." = field("No."),
                                   "Vendor No" = field("Vendor No.");
@@ -912,7 +912,7 @@ Page 75253 "Bid Response Card"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -931,7 +931,7 @@ Page 75253 "Bid Response Card"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject to approve the incoming document. Note that this is not related to approval workflows.';
@@ -950,7 +950,7 @@ Page 75253 "Bid Response Card"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the approval to a substitute approver.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -968,7 +968,7 @@ Page 75253 "Bid Response Card"
                     Caption = 'Comments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'View or add comments for the record.';
                     Visible = OpenApprovalEntriesExistForCurrUser;
@@ -1221,7 +1221,7 @@ Page 75253 "Bid Response Card"
                     Enabled = not OpenApprovalEntriesExist;
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Request approval of the document.';
 
@@ -1240,7 +1240,7 @@ Page 75253 "Bid Response Card"
                     Enabled = CanCancelApprovalForRecord;
                     Image = CancelApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Cancel the approval request.';
 
                     trigger OnAction()

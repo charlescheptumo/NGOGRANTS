@@ -293,7 +293,7 @@ Page 75021 "Debarred Vendors"
                         Caption = 'Dimensions-Single';
                         Image = Dimensions;
                         Promoted = true;
-                        PromotedCategory = Category5;
+                        PromotedCategory = Process;
                         RunObject = Page "Default Dimensions";
                         RunPageLink = "Table ID" = const(23),
                                       "No." = field("No.");
@@ -307,7 +307,7 @@ Page 75021 "Debarred Vendors"
                         Caption = 'Dimensions-&Multiple';
                         Image = DimensionSets;
                         Promoted = true;
-                        PromotedCategory = Category5;
+                        PromotedCategory = Process;
                         ToolTip = 'View or edit dimensions for a group of records. You can assign dimension codes to transactions to distribute costs and analyze historical information.';
 
                         trigger OnAction()
@@ -363,7 +363,7 @@ Page 75021 "Debarred Vendors"
                     Caption = 'Co&mments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     RunObject = Page "Comment Sheet";
                     RunPageLink = "Table Name" = const(Vendor),
                                   "No." = field("No.");
@@ -375,7 +375,7 @@ Page 75021 "Debarred Vendors"
                     Caption = 'Cross Re&ferences';
                     Image = Change;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     // RunObject = Page "Cross References";
                     // RunPageLink = "Cross-Reference Type" = const(Vendor),
                     //               "Cross-Reference Type No." = field("No.");
@@ -389,7 +389,7 @@ Page 75021 "Debarred Vendors"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.';
 
                     trigger OnAction()
@@ -531,7 +531,7 @@ Page 75021 "Debarred Vendors"
                     Caption = 'Ledger E&ntries';
                     Image = VendorLedger;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     RunObject = Page "Vendor Ledger Entries";
                     RunPageLink = "Vendor No." = field("No.");
@@ -546,7 +546,7 @@ Page 75021 "Debarred Vendors"
                     Caption = 'Statistics';
                     Image = Statistics;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     RunObject = Page "Vendor Statistics";
                     RunPageLink = "No." = field("No."),
@@ -635,7 +635,7 @@ Page 75021 "Debarred Vendors"
                 Caption = 'Purchase Invoice';
                 Image = NewPurchaseInvoice;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Purchase Invoice";
                 RunPageLink = "Buy-from Vendor No." = field("No.");
                 RunPageMode = Create;
@@ -647,7 +647,7 @@ Page 75021 "Debarred Vendors"
                 Caption = 'Purchase Order';
                 Image = Document;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Purchase Order";
                 RunPageLink = "Buy-from Vendor No." = field("No.");
                 RunPageMode = Create;
@@ -659,7 +659,7 @@ Page 75021 "Debarred Vendors"
                 Caption = 'Purchase Credit Memo';
                 Image = CreditMemo;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Purchase Credit Memo";
                 RunPageLink = "Buy-from Vendor No." = field("No.");
                 RunPageMode = Create;

@@ -132,7 +132,7 @@ Page 75001 "Procurement Officers"
                         Caption = 'Dimensions-Single';
                         Image = Dimensions;
                         Promoted = true;
-                        PromotedCategory = Category4;
+                        PromotedCategory = Process;
                         RunObject = Page "Default Dimensions";
                         RunPageLink = "Table ID" = const(13),
                                       "No." = field(Code);
@@ -146,7 +146,7 @@ Page 75001 "Procurement Officers"
                         Caption = 'Dimensions-&Multiple';
                         Image = DimensionSets;
                         Promoted = true;
-                        PromotedCategory = Category4;
+                        PromotedCategory = Process;
                         ToolTip = 'View or edit dimensions for a group of records. You can assign dimension codes to transactions to distribute costs and analyze historical information.';
 
                         trigger OnAction()
@@ -166,7 +166,7 @@ Page 75001 "Procurement Officers"
                     Caption = 'Statistics';
                     Image = Statistics;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     RunObject = Page "Salesperson Statistics";
                     RunPageLink = Code = field(Code);

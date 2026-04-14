@@ -88,7 +88,7 @@
 //                 Caption = 'Approvals';
 //                 Image = Approvals;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 
 //                 trigger OnAction()
 //                 begin

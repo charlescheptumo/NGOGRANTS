@@ -208,7 +208,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Opportunity;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "Audit Objectives";
 //                 // RunPageLink = "Audit Item No." = field("Audit Plan Item"),
@@ -220,7 +220,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Lock;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "Audit Plan Locations";
 //                 RunPageLink = "Audit Plan No." = field(Code),
@@ -232,7 +232,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Production;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "Audit Plan Procedure";
 //                 RunPageLink = "Audit Item No." = field("Audit Plan Item"),
@@ -244,7 +244,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = AvailableToPromise;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "Audit Plan Scope";
 //                 RunPageLink = "Audit Item No." = field("Audit Plan Item"),
@@ -282,7 +282,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = SendApprovalRequest;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Send Approval Request action.';
 //                 trigger OnAction()
@@ -295,7 +295,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = CancelApprovalRequest;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Cancel Approval Request action.';
 //                 trigger OnAction()
@@ -308,7 +308,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = Approvals;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = false;
 //                 ToolTip = 'Executes the Approvals action.';
 //                 trigger OnAction()
@@ -321,7 +321,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = ReleaseDoc;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = false;
 //                 ToolTip = 'Executes the Release action.';
 //                 trigger OnAction()
@@ -336,7 +336,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = ReOpen;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = false;
 //                 ToolTip = 'Executes the Reopen action.';
 //                 trigger OnAction()

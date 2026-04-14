@@ -123,7 +123,7 @@
 //                     Caption = 'Audit Plan Objectives';
 //                     Image = Absence;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "QA Audit Plan Objectives";
 //                     RunPageLink = Description = field(Code);
@@ -134,7 +134,7 @@
 //                     Caption = 'Proposed Team/Resources';
 //                     Image = Agreement;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "QA Plan Resources";
 //                     // RunPageLink = "Document Type" = field(Code);
@@ -145,7 +145,7 @@
 //                     Caption = 'Budget Estimates';
 //                     Image = Balance;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "QA Budget Estimates";
 //                     RunPageLink = "Quality Response No." = field(Code);
 //                 }
@@ -225,7 +225,7 @@
 //                     /*
 //                     Rec.RESET;
 //                     Rec.SETRANGE(Rec."Insitution No", "Insitution No");
-                    
+
 //                     SMTPMailSet.GET;
 //                     Cust.RESET;
 //                     Cust.GET("Insitution No.");
@@ -234,7 +234,7 @@
 //                     Notification1.CreateMessage('Commission for University Education',SMTPMailSet."Email Sender Address",Cust."E-Mail",'Receipt',
 //                                     'Dear '+ Cust.Name + ',<BR><BR>'+
 //                                     ' Your payment for' +' '+' '+UPPERCASE(FORMAT("Accreditation Type")+'accreditation') + ' '+'has been successfully processed.<BR>Find attached the Receipt<BR>'+'<BR>',TRUE);
-                    
+
 //                     Notification1.AppendToBody(
 //                     '<BR><BR>Kind Regards,'+
 //                     '<BR><BR>For any Information, Please Contact'+'<BR>Finance Department<BR>'+
@@ -256,10 +256,10 @@
 //                             Notification1.AddAttachment(FileDirectory+FileName,FileName);
 //                             Notification1.Send;
 //                             MESSAGE('The Receipt was successfully sent');
-                    
+
 //                             IF FILE.EXISTS(FileDirectory+FileName) THEN
 //                             FILE.ERASE(FileDirectory+FileName);
-                    
+
 //                             END ELSE BEGIN
 //                               MESSAGE('not found');
 //                             END

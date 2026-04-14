@@ -8,8 +8,8 @@ Page 65086 "Closed Internal Calls"
     Editable = false;
     PageType = List;
     SourceTable = "Funding Opportunity";
-    SourceTableView = where("Donor Type" = const(Internal),
-                            Status = const(Closed));
+    SourceTableView = where("Grant Type" = filter('Internal'),
+                             Status = const(Closed));
     UsageCategory = Lists;
 
     layout

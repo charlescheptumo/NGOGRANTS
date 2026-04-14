@@ -348,7 +348,7 @@ Page 57031 "Posted Imprest Surrender"
                     Caption = 'Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = false;
 
                     trigger OnAction()
@@ -431,7 +431,7 @@ Page 57031 "Posted Imprest Surrender"
                     Image = SendApprovalRequest;
                     Promoted = true;
                     Visible = false;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     begin
@@ -447,7 +447,7 @@ Page 57031 "Posted Imprest Surrender"
                     Image = Cancel;
                     Promoted = true;
                     Visible = false;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     begin

@@ -78,7 +78,7 @@ Page 69559 "Succession Template Card"
                 ApplicationArea = Basic;
                 Image = ApplyEntries;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Succession Template Category";
             }
         }

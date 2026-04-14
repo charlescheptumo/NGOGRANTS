@@ -157,7 +157,7 @@
 //                 Caption = 'Post';
 //                 Image = PostApplication;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Post action.';
 //                 trigger OnAction()

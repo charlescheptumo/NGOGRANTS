@@ -268,7 +268,7 @@ Page 65078 "Project Contract Card"
                 ApplicationArea = Basic;
                 Image = Approval;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
 
                 trigger OnAction()
@@ -281,7 +281,7 @@ Page 65078 "Project Contract Card"
                 ApplicationArea = Basic;
                 Image = SendApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
 
                 trigger OnAction()
@@ -304,7 +304,7 @@ Page 65078 "Project Contract Card"
                 ApplicationArea = Basic;
                 Image = CancelApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
 
                 trigger OnAction()

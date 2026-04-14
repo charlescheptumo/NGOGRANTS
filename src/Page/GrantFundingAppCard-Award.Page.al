@@ -49,15 +49,15 @@ Page 65063 "Grant Funding App Card-Award"
                 {
                     ApplicationArea = Basic;
                 }
-                field(ResearchCenter; Rec."Research Center")
+                field(OperationCenter; Rec."Research Center")
                 {
                     ApplicationArea = Basic;
                 }
-                field(PrimaryResearchProgramID; Rec."Primary Research Program ID")
+                field(PrimaryOperationProgramID; Rec."Primary Research Program ID")
                 {
                     ApplicationArea = Basic;
                 }
-                field(PrimaryResearchArea; Rec."Primary Research Area")
+                field(PrimaryOperationArea; Rec."Primary Research Area")
                 {
                     ApplicationArea = Basic;
                 }
@@ -250,12 +250,12 @@ Page 65063 "Grant Funding App Card-Award"
             {
                 ApplicationArea = Basic;
             }
-            action("Grant Research Objectives")
+            action("Grant Operation Objectives")
             {
                 ApplicationArea = Basic;
                 Image = Production;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Grant Research Objectives List";
                 RunPageLink = "Grant Application ID" = field("Application No");
             }
@@ -264,7 +264,7 @@ Page 65063 "Grant Funding App Card-Award"
                 ApplicationArea = Basic;
                 Image = CopyBudget;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Grant Budget Summary List";
                 RunPageLink = "Grant Application ID" = field("Application No");
             }
@@ -276,7 +276,7 @@ Page 65063 "Grant Funding App Card-Award"
             //     ApplicationArea = Basic;
             //     Image = Task;
             //     Promoted = true;
-            //     PromotedCategory = Category4;
+            //     PromotedCategory = Process;
             //     RunObject = Page "Grant Admin Tasks List";
             //     RunPageLink = "Source Document No." = field("Application No");
             // }
@@ -285,7 +285,7 @@ Page 65063 "Grant Funding App Card-Award"
             //     ApplicationArea = Basic;
             //     Image = TeamSales;
             //     Promoted = true;
-            //     PromotedCategory = Category5;
+            //     PromotedCategory = Process;
             //     RunObject = Page "Secondary Research Programs";
             //     RunPageLink = "GFA No" = field("Application No"),
             //                   "Research Center" = field("Research Center");
@@ -350,7 +350,7 @@ Page 65063 "Grant Funding App Card-Award"
                 Caption = 'Payroll Effort & Payroll Matrix list';
                 Image = PayrollStatistics;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Effort & Payroll Matrix list";
                 RunPageLink = "Project No" = field("No. Series");
             }
@@ -363,9 +363,9 @@ Page 65063 "Grant Funding App Card-Award"
                 Image = Task;
                 Promoted = false;
                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                //PromotedCategory = Category4;
-                // RunObject = Page "Grant Research Team list";
-                // RunPageLink = "Grant Opportunity ID" = field("Application No");
+                //PromotedCategory = Process;
+                RunObject = Page "Grant Research Team list";
+                RunPageLink = "Grant Opportunity ID" = field("Application No");
                 Visible = true;
             }
             action(AttachDocuments)

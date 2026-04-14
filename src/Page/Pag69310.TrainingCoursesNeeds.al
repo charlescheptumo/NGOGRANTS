@@ -44,7 +44,7 @@ Page 69310 "Training Courses Needs"
                     Caption = '&Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
 
                     trigger OnAction()
                     var
@@ -60,7 +60,7 @@ Page 69310 "Training Courses Needs"
                     Caption = '&Send Approval &Request';
                     Image = SendApprovalRequest;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                 }
                 action("&Cancel Approval request")
                 {
@@ -68,7 +68,7 @@ Page 69310 "Training Courses Needs"
                     Caption = '&Cancel Approval request';
                     Image = Cancel;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                 }
                 action("&Print")
                 {
@@ -76,7 +76,7 @@ Page 69310 "Training Courses Needs"
                     Caption = '&Print';
                     Image = PrintForm;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                 }
                 separator(Action14)
                 {

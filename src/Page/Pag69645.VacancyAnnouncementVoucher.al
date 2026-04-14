@@ -203,7 +203,7 @@ Page 69645 "Vacancy Announcement Voucher"
                 Caption = 'Send A&pproval Request';
                 Image = SendApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
@@ -224,7 +224,7 @@ Page 69645 "Vacancy Announcement Voucher"
                 Enabled = true;
                 Image = Cancel;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var

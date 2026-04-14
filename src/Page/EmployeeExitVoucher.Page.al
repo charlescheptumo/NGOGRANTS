@@ -10,7 +10,7 @@ page 50094 "Employee Exit Voucher"
 
         area(content)
         {
-            
+
             group(General)
             {
                 field("Document No."; Rec."Document No.")
@@ -114,7 +114,7 @@ page 50094 "Employee Exit Voucher"
                 Caption = '&Approvals';
                 Image = Approvals;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
             }
             action("&Send Approval Request")
@@ -122,7 +122,7 @@ page 50094 "Employee Exit Voucher"
                 Caption = '&Send Approval Request';
                 Image = SendApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
             }
             action("&Cancel Approval Request")
@@ -130,7 +130,7 @@ page 50094 "Employee Exit Voucher"
                 Caption = '&Cancel Approval Request';
                 Image = Cancel;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 Visible = false;
 
@@ -144,7 +144,7 @@ page 50094 "Employee Exit Voucher"
                 Caption = 'Print';
                 Image = PrintForm;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
             }
         }
     }

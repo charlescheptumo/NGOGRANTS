@@ -137,7 +137,7 @@ Page 75028 "Procurement Categories"
                 ApplicationArea = Basic;
                 Image = Info;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 RunObject = Page "Request For Information";
             }
             action("Invitation For Supply")
@@ -145,7 +145,7 @@ Page 75028 "Procurement Categories"
                 ApplicationArea = Basic;
                 Image = InwardEntry;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 RunObject = Page "Draft Invitation For Supply";
             }
         }

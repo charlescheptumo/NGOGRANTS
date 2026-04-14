@@ -176,7 +176,7 @@ Page 69812 "Candidate Interview Record"
                 ApplicationArea = Basic;
                 Image = SelectEntries;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page "Question Categories";
                 RunPageLink = "Document No." = field("Document No.");

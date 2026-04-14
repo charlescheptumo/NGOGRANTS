@@ -129,7 +129,7 @@ Page 69173 "Overtime Header Page"
                 Caption = 'Approvals';
                 Image = Approval;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Approvals action.';
                 trigger OnAction()
                 var
@@ -147,7 +147,7 @@ Page 69173 "Overtime Header Page"
                 Caption = 'Send A&pproval Request';
                 Image = SendApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Send A&pproval Request action.';
                 trigger OnAction()
                 var
@@ -211,7 +211,7 @@ Page 69173 "Overtime Header Page"
                 Caption = 'Cancel Approval Re&quest';
                 Image = Cancel;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Cancel Approval Re&quest action.';
                 trigger OnAction()
                 var

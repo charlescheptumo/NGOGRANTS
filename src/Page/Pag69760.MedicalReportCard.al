@@ -185,7 +185,7 @@ Page 69760 "Medical Report Card"
                 ApplicationArea = Basic;
                 Image = Print;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 ToolTip = 'Executes the Print action.';
                 trigger OnAction()

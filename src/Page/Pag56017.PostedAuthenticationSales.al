@@ -535,7 +535,7 @@
 //                     Caption = 'Statistics';
 //                     Image = Statistics;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Sales Invoice Statistics";
 //                     RunPageLink = "No." = field("No.");
@@ -547,7 +547,7 @@
 //                     Caption = 'Co&mments';
 //                     Image = ViewComments;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     RunObject = Page "Sales Comment Sheet";
 //                     RunPageLink = "Document Type" = const("Posted Invoice"),
@@ -561,7 +561,7 @@
 //                     Caption = 'Dimensions';
 //                     Image = Dimensions;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     PromotedOnly = true;
 //                     ShortCutKey = 'Shift+Ctrl+D';
@@ -579,7 +579,7 @@
 //                     Caption = 'Approvals';
 //                     Image = Approvals;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     PromotedOnly = true;
 //                     ToolTip = 'View a list of the records that are waiting to be approved. For example, you can see who requested the record to be approved, when it was sent, and when it is due to be approved.';
@@ -600,7 +600,7 @@
 //                     Caption = 'Change Payment Service';
 //                     Image = ElectronicPayment;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     PromotedOnly = true;
 //                     ToolTip = 'Change or add the payment service, such as PayPal Standard, that will be included on the sales document so the customer can quickly access the payment site.';
@@ -659,7 +659,7 @@
 //                 Ellipsis = true;
 //                 Image = SendToMultiple;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 PromotedOnly = true;
 //                 ToolTip = 'Prepare to send the document according to the customer''s sending profile, such as attached to an email. The Send document to window opens first so you can confirm or select a sending profile.';
@@ -713,7 +713,7 @@
 //                 Caption = '&Navigate';
 //                 Image = Navigate;
 //                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                 //PromotedCategory = Category4;
+//                 //PromotedCategory = Process;
 //                 ToolTip = 'Find all entries and documents that exist for the document number and posting date on the selected entry or document.';
 //                 Visible = not IsOfficeAddin;
 
@@ -798,7 +798,7 @@
 //                     Caption = 'Correct';
 //                     Image = Undo;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     PromotedOnly = true;
 //                     ToolTip = 'Reverse this posted invoice and automatically create a new invoice with the same information that you can correct before posting. This posted invoice will automatically be canceled.';
@@ -817,7 +817,7 @@
 //                     Caption = 'Cancel';
 //                     Image = Cancel;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     PromotedOnly = true;
 //                     ToolTip = 'Create and post a sales credit memo that reverses this posted sales invoice. This posted sales invoice will be canceled.';
@@ -836,7 +836,7 @@
 //                     Caption = 'Create Corrective Credit Memo';
 //                     Image = CreateCreditMemo;
 //                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                     //PromotedCategory = Category5;
+//                     //PromotedCategory = Process;
 //                     ToolTip = 'Create a credit memo for this posted invoice that you complete and post manually to reverse the posted invoice.';
 
 //                     trigger OnAction()
@@ -860,7 +860,7 @@
 //                     Caption = 'Customer';
 //                     Image = Customer;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     PromotedIsBig = true;
 //                     PromotedOnly = true;
 //                     RunObject = Page "Customer Card";
@@ -875,7 +875,7 @@
 //                     Enabled = Rec.Cancelled or Rec.Corrective;
 //                     Image = CreditMemo;
 //                     //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-//                     //PromotedCategory = Category4;
+//                     //PromotedCategory = Process;
 //                     ToolTip = 'Open the posted sales credit memo that was created when you canceled the posted sales invoice. If the posted sales invoice is the result of a canceled sales credit memo, then canceled sales credit memo will open.';
 
 //                     trigger OnAction()

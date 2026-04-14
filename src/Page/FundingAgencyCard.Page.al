@@ -911,7 +911,7 @@ Page 65042 "Funding Agency Card"
                     ApplicationArea = Basic;
                     Image = Opportunity;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Funding Opportunity List";
                     RunPageLink = "Grantor No" = field("No.");
                 }
@@ -920,7 +920,7 @@ Page 65042 "Funding Agency Card"
                     ApplicationArea = Basic;
                     Image = GiroPlus;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     RunObject = Page "Grant Funding Application List";
                     //  RunPageLink = "Grantor No." = field("No.");
                 }

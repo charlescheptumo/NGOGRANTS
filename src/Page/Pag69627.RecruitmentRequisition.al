@@ -318,7 +318,7 @@ Page 69627 "Recruitment Requisition"
                 Caption = 'Approvals';
                 Image = Approvals;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = false;
 
                 trigger OnAction()
@@ -336,7 +336,7 @@ Page 69627 "Recruitment Requisition"
                 Caption = 'Send A&pproval Request';
                 Image = SendApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
@@ -360,7 +360,7 @@ Page 69627 "Recruitment Requisition"
                 Enabled = true;
                 Image = Cancel;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var

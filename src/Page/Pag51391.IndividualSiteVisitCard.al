@@ -128,7 +128,7 @@
 //                     Caption = 'Send A&pproval Request';
 //                     Image = SendApprovalRequest;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Executes the Send A&pproval Request action.';
 //                     trigger OnAction()
 //                     begin
@@ -144,7 +144,7 @@
 //                     Caption = 'Cancel Approval Re&quest';
 //                     Image = Cancel;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     ToolTip = 'Executes the Cancel Approval Re&quest action.';
 //                     trigger OnAction()
 //                     begin

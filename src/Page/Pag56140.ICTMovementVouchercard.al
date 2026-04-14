@@ -138,7 +138,7 @@
 //                 Caption = 'Move';
 //                 Image = PostApplication;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 ToolTip = 'Executes the Move action.';
 //                 trigger OnAction()

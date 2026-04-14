@@ -70,7 +70,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = SNInfo;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "BR Template Section";
 //                 RunPageLink = "Template ID" = field("Template ID");

@@ -112,7 +112,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Job;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Job List";
 //                     RunPageLink = "Research Center" = field(Code);
 //                 }
@@ -121,7 +121,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Skills;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Research Sub-Center List";
 //                     RunPageLink = "Research Centre" = field(Code);
 //                 }
@@ -130,7 +130,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Planning;
 //                     Promoted = true;
-//                     PromotedCategory = Category4;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Research Center Programs List";
 //                     RunPageLink = "Center Code" = field(Code);
 //                 }
@@ -139,7 +139,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = FixedAssets;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Research Infrastructure List";
 //                     RunPageLink = "Center Code" = field(Code);
 //                 }
@@ -148,7 +148,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = FixedAssets;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Fixed Asset List";
 //                     RunPageLink = "Research Center" = field(Code);
 //                 }
@@ -157,7 +157,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Statistics;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 //                     RunObject = Page "Research Center Statistics";
 //                     RunPageLink = Code = field(Code);
 //                 }

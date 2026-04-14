@@ -245,7 +245,7 @@ Page 80153 "Group Appraisal-Sub"
                 ApplicationArea = Basic;
                 Image = Approval;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Approvals action.';
                 trigger OnAction()
                 begin

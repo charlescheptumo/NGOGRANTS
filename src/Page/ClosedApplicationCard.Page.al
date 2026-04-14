@@ -294,7 +294,7 @@ Page 65158 "Closed Application Card"
                 ApplicationArea = Basic;
                 Image = Production;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Grant Research Objectives List";
                 RunPageLink = "Grant Application ID" = field("Application No");
             }
@@ -303,7 +303,7 @@ Page 65158 "Closed Application Card"
                 ApplicationArea = Basic;
                 Image = CopyBudget;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Grant Budget Summary List";
                 RunPageLink = "Grant Application ID" = field("Application No");
             }
@@ -316,7 +316,7 @@ Page 65158 "Closed Application Card"
                 Image = Task;
                 Promoted = false;
                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                //PromotedCategory = Category4;
+                //PromotedCategory = Process;
                 RunObject = Page "Grant Research Team list";
                 RunPageLink = "Grant Opportunity ID" = field("Application No");
                 Visible = true;
@@ -327,7 +327,7 @@ Page 65158 "Closed Application Card"
                 Image = Employee;
                 Promoted = false;
                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                //PromotedCategory = Category4;
+                //PromotedCategory = Process;
                 RunObject = Page "Application Grant Teams";
                 RunPageLink = "Application Code" = field("Application No");
                 Visible = true;
@@ -338,7 +338,7 @@ Page 65158 "Closed Application Card"
                 Enabled = true;
                 Image = Task;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Grant Admin Tasks List";
                 RunPageLink = "Source Document No." = field("Application No");
                 Visible = true;
@@ -348,7 +348,7 @@ Page 65158 "Closed Application Card"
                 ApplicationArea = Basic;
                 Image = TeamSales;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 // RunObject = Page "Secondary Research Programs";
                 // RunPageLink = "GFA No" = field("Application No"),
                 //               "Research Center" = field("Research Center");
@@ -361,7 +361,7 @@ Page 65158 "Closed Application Card"
                 ApplicationArea = Basic;
                 Image = Approval;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 begin
@@ -373,7 +373,7 @@ Page 65158 "Closed Application Card"
                 ApplicationArea = Basic;
                 Image = SendApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 var
@@ -390,7 +390,7 @@ Page 65158 "Closed Application Card"
                 ApplicationArea = Basic;
                 Image = CancelApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
 
                 trigger OnAction()
                 begin
@@ -459,7 +459,7 @@ Page 65158 "Closed Application Card"
                 Caption = 'Payroll Effort & Payroll Matrix list';
                 Image = PayrollStatistics;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 RunObject = Page "Effort & Payroll Matrix list";
                 RunPageLink = "Project No" = field("No. Series");
                 Visible = false;
@@ -469,7 +469,7 @@ Page 65158 "Closed Application Card"
                 ApplicationArea = Basic;
                 Image = BreakpointsList;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 // RunObject = Page "Collaborators & Partners";
                 // RunPageLink = "GFA No." = field("Application No");

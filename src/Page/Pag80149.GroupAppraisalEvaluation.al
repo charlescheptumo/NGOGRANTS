@@ -246,7 +246,7 @@ Page 80149 "Group Appraisal-Evaluation"
                 ApplicationArea = Basic;
                 Image = Approval;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Approvals action.';
                 trigger OnAction()
                 begin
@@ -286,7 +286,7 @@ Page 80149 "Group Appraisal-Evaluation"
         // PCObjective: Record "PC Objective";
         ObjectiveOutcome: Record "Objective Evaluation Result";
         CompetencyLines: Record "Competency Template Line";
-        // ProEvaluation: Record "Proficiency Evaluation Result";
+    // ProEvaluation: Record "Proficiency Evaluation Result";
 
     local procedure FnGetLastLineNo() LineNumber: Integer
     var

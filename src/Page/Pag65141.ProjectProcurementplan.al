@@ -95,7 +95,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = Approval;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 
 //                     trigger OnAction()
 //                     begin
@@ -107,7 +107,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = SendApprovalRequest;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 
 //                     trigger OnAction()
 //                     var
@@ -125,7 +125,7 @@
 //                     ApplicationArea = Basic;
 //                     Image = CancelApprovalRequest;
 //                     Promoted = true;
-//                     PromotedCategory = Category5;
+//                     PromotedCategory = Process;
 
 //                     trigger OnAction()
 //                     begin

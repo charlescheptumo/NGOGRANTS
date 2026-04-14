@@ -109,7 +109,7 @@ Page 69343 "Completed Staff Requisition"
                     ApplicationArea = Basic;
                     Image = Alerts;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Executes the Create Vacancies action.';
                     trigger OnAction()
@@ -134,7 +134,7 @@ Page 69343 "Completed Staff Requisition"
                     Caption = 'Approve';
                     Image = Approve;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Approve the requested changes.';
@@ -152,7 +152,7 @@ Page 69343 "Completed Staff Requisition"
                     Caption = 'Reject';
                     Image = Reject;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
                     ToolTip = 'Reject the approval request.';
@@ -170,7 +170,7 @@ Page 69343 "Completed Staff Requisition"
                     Caption = 'Delegate';
                     Image = Delegate;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'Delegate the approval to a substitute approver.';
 
@@ -187,7 +187,7 @@ Page 69343 "Completed Staff Requisition"
                     Caption = 'Comments';
                     Image = ViewComments;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedOnly = true;
                     ToolTip = 'View or add comments for the record.';
 

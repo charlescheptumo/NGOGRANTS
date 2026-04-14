@@ -133,7 +133,7 @@ Page 69219 "Approved Leave Applications"
                     Caption = '&Approvals';
                     Image = Approvals;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the &Approvals action.';
                     trigger OnAction()
                     begin
@@ -148,7 +148,7 @@ Page 69219 "Approved Leave Applications"
                     Caption = 'Re-Open';
                     Image = ReopenCancelled;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     Visible = false;
                     ToolTip = 'Executes the Re-Open action.';
                     trigger OnAction()

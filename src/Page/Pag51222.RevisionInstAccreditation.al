@@ -167,7 +167,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = project;
 //                 Promoted = true;
-//                 PromotedCategory = Category5;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "Job Card";
 //                 RunPageLink = "Fund Opportunity Name" = field("Accreditation No.");

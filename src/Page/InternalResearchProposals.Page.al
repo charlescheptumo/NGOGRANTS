@@ -2,6 +2,7 @@
 Page 65088 "Internal Research Proposals"
 {
     ApplicationArea = Basic;
+    Caption = 'Internal Operations Proposals';
     CardPageID = "Grant Funding Proposal Card";
     Editable = false;
     PageType = List;

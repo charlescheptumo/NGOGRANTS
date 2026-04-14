@@ -107,7 +107,7 @@
 //                 ApplicationArea = Basic;
 //                 Image = AddWatch;
 //                 Promoted = true;
-//                 PromotedCategory = Category4;
+//                 PromotedCategory = Process;
 //                 PromotedIsBig = true;
 //                 RunObject = Page "BR Template Line Branch Logic";
 //                 RunPageLink = "Template ID" = field("Template ID"),

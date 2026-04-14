@@ -442,7 +442,7 @@ Page 69121 "Achived Purchase Order List"
                     Ellipsis = true;
                     Image = Print;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     ToolTip = 'Prepare to print the document. The report request window for the document opens where you can specify what to include on the print-out.';
                     Visible = false;
 
@@ -462,7 +462,7 @@ Page 69121 "Achived Purchase Order List"
                     Ellipsis = true;
                     Image = SendToMultiple;
                     Promoted = true;
-                    PromotedCategory = Category5;
+                    PromotedCategory = Process;
                     PromotedIsBig = true;
                     ToolTip = 'Prepare to send the document according to the vendor''s sending profile, such as attached to an email. The Send document to window opens first so you can confirm or select a sending profile.';
 

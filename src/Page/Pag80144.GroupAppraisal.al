@@ -298,7 +298,7 @@ Page 80144 "Group Appraisal"
                 ApplicationArea = Basic;
                 Image = Approval;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Approvals action.';
                 trigger OnAction()
                 begin
@@ -310,7 +310,7 @@ Page 80144 "Group Appraisal"
             //     ApplicationArea = Basic;
             //     Image = SendApprovalRequest;
             //     Promoted = true;
-            //     PromotedCategory = Category5;
+            //     PromotedCategory = Process;
             //     ToolTip = 'Executes the Send Approval Request action.';
             //     trigger OnAction()
             //     var
@@ -363,7 +363,7 @@ Page 80144 "Group Appraisal"
                 ApplicationArea = Basic;
                 Image = CancelApprovalRequest;
                 Promoted = true;
-                PromotedCategory = Category5;
+                PromotedCategory = Process;
                 ToolTip = 'Executes the Cancel Approval Request action.';
                 trigger OnAction()
                 begin
@@ -395,7 +395,7 @@ Page 80144 "Group Appraisal"
         // PCObjective: Record "PC Objective";
         ObjectiveOutcome: Record "Objective Evaluation Result";
         CompetencyLines: Record "Competency Template Line";
-        // ProEvaluation: Record "Proficiency Evaluation Result";
+    // ProEvaluation: Record "Proficiency Evaluation Result";
 
     local procedure FnGetLastLineNo() LineNumber: Integer
     var

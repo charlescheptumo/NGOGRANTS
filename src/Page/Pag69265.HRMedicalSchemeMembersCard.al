@@ -104,7 +104,7 @@ Page 69265 "HR Medical Scheme Members Card"
                     Caption = 'Medical Claims';
                     Image = PersonInCharge;
                     Promoted = true;
-                    PromotedCategory = Category4;
+                    PromotedCategory = Process;
                     ToolTip = 'Executes the Medical Claims action.';
                 }
             }

@@ -159,7 +159,7 @@ Page 69821 "Resource Position Card"
                 ApplicationArea = Basic;
                 Image = Certificate;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page "Academic Qualifications";
                 RunPageLink = "Position ID" = field("Position ID");
@@ -169,7 +169,7 @@ Page 69821 "Resource Position Card"
                 ApplicationArea = Basic;
                 Image = QualificationOverview;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page "Professional Qualificationss";
                 RunPageLink = "Position ID" = field("Position ID");
@@ -179,7 +179,7 @@ Page 69821 "Resource Position Card"
                 ApplicationArea = Basic;
                 Image = Skills;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page "Skills & Competencies";
                 RunPageLink = "Position ID" = field("Position ID");
@@ -189,7 +189,7 @@ Page 69821 "Resource Position Card"
                 ApplicationArea = Basic;
                 Image = UserCertificate;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page Experience;
                 RunPageLink = "Position ID" = field("Position ID");
@@ -199,7 +199,7 @@ Page 69821 "Resource Position Card"
                 ApplicationArea = Basic;
                 Image = InteractionLog;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page "Ethics & Integrity";
                 RunPageLink = "Position ID" = field("Position ID");
@@ -209,7 +209,7 @@ Page 69821 "Resource Position Card"
                 ApplicationArea = Basic;
                 Image = PhysicalInventory;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page "Physical Attributes";
                 RunPageLink = "Position ID" = field("Position ID");
@@ -219,7 +219,7 @@ Page 69821 "Resource Position Card"
                 ApplicationArea = Basic;
                 Image = WorkCenter;
                 Promoted = true;
-                PromotedCategory = Category4;
+                PromotedCategory = Process;
                 PromotedIsBig = true;
                 RunObject = Page "General Work Conditions";
                 RunPageLink = "Position ID" = field("Position ID");
@@ -248,7 +248,7 @@ Page 69821 "Resource Position Card"
                 Caption = 'Dimensions';
                 Image = Dimensions;
                 //The property 'PromotedCategory' can only be set if the property 'Promoted' is set to 'true'
-                //PromotedCategory = Category4;
+                //PromotedCategory = Process;
                 //The property 'PromotedIsBig' can only be set if the property 'Promoted' is set to 'true'
                 //PromotedIsBig = true;
                 RunObject = Page "Default Dimensions";
