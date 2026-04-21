@@ -448,6 +448,7 @@ Table 69619 "Recruitment Requisition Header"
         HumanResourcesSetup: Record "Human Resources Setup";
         NoSeriesMgt: Codeunit "No. Series";
         Job: Record "Job Task";
+        ergber :page "Budget";
         EPL: Record "Establishment Planning Line";
 }
 

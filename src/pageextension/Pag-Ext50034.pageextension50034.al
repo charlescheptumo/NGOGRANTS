@@ -57,9 +57,14 @@ PageExtension 50034 "pageextension50034" extends "G/L Budget Names"
                 Visible = true;
 
                 trigger OnAction()
+                var
+                    TEXT001: LABEL 'An Approval request has been sent.';
                 begin
                     //if //ApprovalsMgmt.OnSendICTIssuanceForApproval(Rec) then
                     //ApprovalsMgmt.OnSendBudgetForApproval(Rec);
+                    Rec.TestField("Approval Status", Rec."approval status"::Open);
+                    rec."Approval Status" := rec."Approval Status"::"Pending Approval";
+                    Message(TEXT001);
                 end;
             }
             action(CancelApprovalRequest)
@@ -72,8 +77,12 @@ PageExtension 50034 "pageextension50034" extends "G/L Budget Names"
                 Visible = true;
 
                 trigger OnAction()
+                var
+                    TEXT002: LABEL 'An Approval request has been cancelled.';
                 begin
                     Rec.TestField("Approval Status", Rec."approval status"::"Pending Approval");
+                    rec."Approval Status" := rec."Approval Status"::Open;
+                    Message(TEXT002);
                     //ApprovalsMgmt.CheckInspectionWorkflowEnabled(Rec);
                 end;
             }

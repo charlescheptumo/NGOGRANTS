@@ -2,8 +2,8 @@
 Page 69043 "Payroll Admin Role Center"
 {
     ApplicationArea = Basic;
-    // Caption = 'Payroll Administrator';
-    // PageType = RoleCenter;
+    Caption = 'Payroll Administrator';
+    PageType = RoleCenter;
 
     // layout
     // {
